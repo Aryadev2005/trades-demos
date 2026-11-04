@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Loading…</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+<!--
+  ┌──────────────────────────────────────────────────────────────┐
+  │  EDIT ONLY THE CONFIG BELOW. Everything on the page is built  │
+  │  from it. build.py replaces it automatically from leads.json. │
+  └──────────────────────────────────────────────────────────────┘
+-->
+<script id="config" type="application/json">
+/*CONFIG*/{
+  "demo_banner": true,
+  "business": "Garden Gusto",
+  "trade": "Gardener",
+  "trade_plural": "Garden",
+  "town": "Limerick",
+  "county": "Co. Limerick",
+  "phone": "+353 85 197 2577",
+  "whatsapp": "353851972577",
+  "email": "",
+  "rating": 5.0,
+  "review_count": 18,
+  "google_url": "",
+  "hours": "Open 7 days",
+  "accent": "#2E9E5B",
+  "hero_image": "",
+  "headline": "Overgrown garden in Limerick? We'll bring it back.",
+  "subline": "Garden clearances, hedge and ivy work, power washing and makeovers. On time, done in a day where we can, and left spotless.",
+  "promises": [
+    "On time, every time",
+    "Most clearances done in a day",
+    "Left clean and tidy",
+    "Friendly, honest advice"
+  ],
+  "services": [
+    {
+      "icon": "leaf",
+      "name": "Garden clearance",
+      "text": "Years of overgrowth cleared, roots and all."
+    },
+    {
+      "icon": "tree",
+      "name": "Hedges & ivy",
+      "text": "Cut back, shaped and kept under control."
+    },
+    {
+      "icon": "drop",
+      "name": "Power washing",
+      "text": "Patios, paths and side passages brought back to clean."
+    },
+    {
+      "icon": "brush",
+      "name": "Garden makeovers",
+      "text": "Tired spaces turned into gardens you'll use."
+    },
+    {
+      "icon": "sparkle",
+      "name": "Edging & tidy-ups",
+      "text": "Sharp lawn edges and a proper tidy finish."
+    },
+    {
+      "icon": "clock",
+      "name": "Regular upkeep",
+      "text": "Keep it easy to maintain, season after season."
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Lorraine",
+      "text": "Steve and Paul were fantastic and did a great job on the impossible. They arrived on time, did the job in one day and left the place very tidy and clean."
+    },
+    {
+      "name": "Google review",
+      "text": "Service and communication were excellent; Steve was helpful and friendly with good advice on what we were looking for."
+    },
+    {
+      "name": "Google review",
+      "text": "Communication from Steve and the Garden Gusto team was great."
+    }
+  ],
+  "areas": [
+    "Limerick City",
+    "Corbally",
+    "Castletroy",
+    "Annacotty",
+    "Raheen",
+    "Dooradoyle",
+    "Ennis Road",
+    "Mungret"
+  ],
+  "built_by": "Aryadev Chatterjee"
+}/*END*/
+</script>
+
+<style>
+:root{
+  --accent:#FF6A13;
+  --ink:#121A22; --ink-2:#2A3540; --slate:#5B6873;
+  --paper:#F5F2EC; --card:#FFFFFF; --line:#E2DDD3;
+  --display:'Barlow Condensed',Impact,sans-serif;
+  --body:'Manrope',system-ui,sans-serif;
+  --r:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+svg{display:block}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--display);text-transform:uppercase;letter-spacing:.005em;line-height:.95}
+h1{font-size:clamp(52px,8.4vw,108px);font-weight:800}
+h2{font-size:clamp(40px,5.6vw,68px);font-weight:800}
+h3{font-size:26px;font-weight:700}
+.kicker{font-weight:800;font-size:14px;color:var(--accent);letter-spacing:.02em;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.kicker::before{content:"";width:28px;height:3px;background:var(--accent)}
+.lead{font-size:clamp(17px,1.6vw,20px);color:var(--slate);max-width:560px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--body);font-weight:800;font-size:17px;padding:17px 26px;border-radius:12px;border:0;cursor:pointer;transition:transform .15s,box-shadow .15s,background .15s;white-space:nowrap}
+.btn svg{width:20px;height:20px}
+.btn:hover{transform:translateY(-2px)}
+.btn.primary{background:var(--accent);color:#fff;box-shadow:0 10px 24px -10px var(--accent)}
+.btn.dark{background:var(--ink);color:#fff}
+.btn.ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 2px var(--ink)}
+.btn.wa{background:#1FAF55;color:#fff}
+
+/* demo ribbon */
+.demo{background:var(--ink);color:#fff;font-size:13px;text-align:center;padding:8px 16px}
+.demo b{color:var(--accent)}
+
+/* top bar + nav */
+.topbar{background:var(--ink-2);color:#cfd6dc;font-size:14px}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:9px;padding-bottom:9px}
+.topbar span{display:inline-flex;align-items:center;gap:8px}
+.topbar svg{width:16px;height:16px;color:var(--accent)}
+nav{position:sticky;top:0;z-index:40;background:rgba(245,242,236,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px;gap:16px}
+.logo{display:flex;align-items:center;gap:12px;font-family:var(--display);font-weight:800;font-size:26px;text-transform:uppercase;letter-spacing:.01em}
+.mark{width:40px;height:40px;border-radius:10px;background:var(--accent);display:grid;place-items:center;color:#fff;flex:0 0 40px}
+.mark svg{width:24px;height:24px}
+.links{display:flex;gap:28px;font-weight:700;font-size:15px}
+.links a:hover{color:var(--accent)}
+nav .btn{padding:12px 18px;font-size:15px}
+@media(max-width:900px){.links,.topbar .hide-m{display:none}}
+@media(max-width:700px){
+  .topbar .wrap{justify-content:center}.topbar a{display:none}
+  nav .wrap{height:64px}nav .btn{display:none}
+  .logo{font-size:22px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .mark{width:34px;height:34px;flex-basis:34px}
+  .demo{font-size:12px}
+}
+
+/* hero */
+.hero{position:relative;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;padding-top:64px;padding-bottom:72px}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero .lead{margin:22px 0 32px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.rating{display:inline-flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;margin-bottom:26px}
+.rating .g{width:26px;height:26px}
+.rating b{font-size:26px;font-family:var(--display);font-weight:800;line-height:1}
+.stars{display:flex;gap:2px;color:#F5B301}
+.stars svg{width:18px;height:18px}
+.rating small{display:block;font-size:13px;color:var(--slate);font-weight:600}
+.visual{position:relative;aspect-ratio:4/5;border-radius:26px;overflow:hidden;background:var(--ink)}
+.visual img{width:100%;height:100%;object-fit:cover}
+.visual svg.scene{position:absolute;inset:0;width:100%;height:100%}
+.badge{position:absolute;left:-14px;bottom:28px;background:var(--card);border-radius:16px;padding:16px 18px;box-shadow:0 20px 40px -18px rgba(18,26,34,.45);display:flex;gap:12px;align-items:center;max-width:260px}
+.badge i{width:42px;height:42px;border-radius:50%;background:color-mix(in srgb,var(--accent) 16%,#fff);color:var(--accent);display:grid;place-items:center;flex:0 0 42px}
+.badge i svg{width:22px;height:22px}
+.badge b{display:block;font-size:15px}
+.badge span{font-size:13px;color:var(--slate)}
+.vwrap{position:relative}
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr;padding-top:36px}.visual{aspect-ratio:5/4}.badge{left:12px}}
+
+/* promise strip */
+.promise{background:var(--ink);color:#fff}
+.promise .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.promise div{display:flex;align-items:center;gap:12px;padding:22px 18px;font-weight:700;border-left:1px solid rgba(255,255,255,.08)}
+.promise div:first-child{border-left:0}
+.promise svg{width:22px;height:22px;color:var(--accent);flex:0 0 22px}
+@media(max-width:900px){.promise .wrap{grid-template-columns:1fr 1fr}.promise div{border-left:0;padding:16px 8px;font-size:14px}}
+
+section{padding:96px 0}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:44px;flex-wrap:wrap}
+.head .lead{max-width:440px}
+
+/* services */
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.s{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:28px;transition:transform .2s,box-shadow .2s,border-color .2s;position:relative;overflow:hidden}
+.s:hover{transform:translateY(-4px);box-shadow:0 22px 40px -24px rgba(18,26,34,.4);border-color:transparent}
+.s i{width:54px;height:54px;border-radius:14px;background:var(--paper);display:grid;place-items:center;color:var(--ink);margin-bottom:22px;transition:background .2s,color .2s}
+.s:hover i{background:var(--accent);color:#fff}
+.s i svg{width:28px;height:28px}
+.s p{color:var(--slate);margin-top:8px}
+@media(max-width:900px){.svc{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.svc{grid-template-columns:1fr}}
+
+/* steps */
+.steps{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stp{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;counter-reset:s}
+.stp div{counter-increment:s;padding-top:20px;border-top:3px solid var(--ink)}
+.stp div::before{content:counter(s,decimal-leading-zero);font-family:var(--display);font-weight:800;font-size:56px;color:var(--accent);line-height:1;display:block;margin-bottom:12px}
+.stp p{color:var(--slate);margin-top:8px}
+@media(max-width:800px){.stp{grid-template-columns:1fr}}
+
+/* reviews */
+.rev{display:grid;grid-template-columns:.8fr 1.6fr;gap:40px;align-items:start}
+.score{background:var(--ink);color:#fff;border-radius:24px;padding:34px;position:sticky;top:96px}
+.score b{font-family:var(--display);font-size:110px;font-weight:800;line-height:.85;display:block}
+.score .stars{margin:14px 0 8px}
+.score .stars svg{width:24px;height:24px}
+.score p{color:#aab4bd}
+.score .btn{margin-top:24px;width:100%}
+.cards{display:grid;gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px 28px}
+.card .stars svg{width:16px;height:16px}
+.card q{display:block;font-size:18px;font-weight:500;margin:12px 0 14px;quotes:none}
+.card span{font-weight:800;font-size:14px;display:flex;align-items:center;gap:8px}
+.card span svg{width:18px;height:18px}
+@media(max-width:900px){.rev{grid-template-columns:1fr}.score{position:static}}
+
+/* areas */
+.areas{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.chips span{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:10px 16px;font-weight:700;font-size:15px;display:inline-flex;gap:8px;align-items:center}
+.chips svg{width:16px;height:16px;color:var(--accent)}
+.map{border-radius:24px;overflow:hidden;border:1px solid var(--line);aspect-ratio:4/3;background:#dde3e6}
+.map iframe{width:100%;height:100%;border:0;filter:grayscale(.35)}
+@media(max-width:900px){.areas{grid-template-columns:1fr}}
+
+/* quote */
+.quote{background:var(--ink);color:#fff;border-radius:30px;padding:clamp(28px,5vw,64px);display:grid;grid-template-columns:1fr 1fr;gap:48px;position:relative;overflow:hidden}
+.quote::after{content:"";position:absolute;width:420px;height:420px;border-radius:50%;background:var(--accent);opacity:.12;left:-180px;bottom:-220px}
+.quote .lead{color:#aab4bd;margin:18px 0 28px}
+.quote .direct{display:grid;gap:12px;position:relative}
+.quote .direct a{display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:14px;background:rgba(255,255,255,.06);font-weight:800;font-size:18px}
+.quote .direct a:hover{background:rgba(255,255,255,.11)}
+.quote .direct svg{width:22px;height:22px;color:var(--accent)}
+form{display:grid;gap:12px;position:relative;z-index:1}
+label{font-size:13px;font-weight:700;color:#aab4bd;display:grid;gap:6px}
+input,select,textarea{font-family:var(--body);font-size:16px;padding:15px 16px;border-radius:12px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06);color:#fff;outline:none;width:100%}
+select option{color:var(--ink)}
+input:focus,select:focus,textarea:focus{border-color:var(--accent)}
+textarea{min-height:110px;resize:vertical}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+form .btn{margin-top:6px}
+.fine{font-size:13px;color:#8995a0}
+@media(max-width:900px){.quote{grid-template-columns:1fr}.two{grid-template-columns:1fr}}
+
+footer{padding:56px 0 110px;color:var(--slate);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}
+footer .logo{color:var(--ink)}
+
+/* sticky mobile bar */
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;gap:10px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(245,242,236,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line)}
+.mbar .btn{flex:1;padding:15px 10px}
+@media(max-width:700px){.mbar{display:flex}}
+
+.rv{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<script>
+const C = JSON.parse(document.getElementById('config').textContent.replace('/*CONFIG*/','').replace('/*END*/',''));
+document.documentElement.style.setProperty('--accent', C.accent || '#FF6A13');
+document.title = `${C.business} | ${C.trade} in ${C.town}`;
+
+const I = {
+  roof:'<path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/><path d="M9 20v-6h6v6"/>',
+  layers:'<path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 13 9 5 9-5"/>',
+  drop:'<path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11Z"/>',
+  home:'<path d="M4 20V9l8-5 8 5v11"/><path d="M4 20h16"/><path d="M10 20v-5h4v5"/>',
+  bolt:'<path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/>',
+  search:'<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>',
+  leaf:'<path d="M5 19c0-9 6-14 15-14 0 9-5 15-14 15"/><path d="M5 19 14 10"/>',
+  wrench:'<path d="M14.7 6.3a4 4 0 0 0 5 5L22 9a6 6 0 0 1-8.5 6.8L7 22.3 1.7 17l6.5-6.5A6 6 0 0 1 15 2l-2.3 2.3a4 4 0 0 0 2 2Z"/>',
+  brush:'<path d="M14 4 20 10l-8 8H6v-6l8-8Z"/><path d="M4 22h6"/>',
+  tree:'<path d="M12 22v-6"/><path d="M12 2 5 12h4l-3 4h12l-3-4h4L12 2Z"/>',
+  sparkle:'<path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/>',
+  tap:'<path d="M4 10h10v4"/><path d="M8 10V6h4"/><path d="M14 14c0 2 2 3 2 5a2 2 0 0 1-4 0c0-2 2-3 2-5Z"/>',
+  sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M5 19l1.5-1.5M17.5 6.5 19 5"/>',
+  check:'<path d="m5 12 4.5 4.5L19 7"/>',
+  phone:'<path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z"/>',
+  clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  pin:'<path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12Z"/><circle cx="12" cy="9" r="2.5"/>',
+  shield:'<path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/>',
+  mail:'<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>',
+  arrow:'<path d="M5 12h14M13 6l6 6-6 6"/>'
+};
+const ic = (k, extra='') => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ${extra}>${I[k]||I.check}</svg>`;
+const star = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7.2.8-5.4 4.9 1.5 7.1L12 17.8 5.7 21.4l1.5-7.1L1.8 9.4 9 8.6 12 2Z"/></svg>';
+const stars = n => `<span class="stars">${star.repeat(5)}</span>`;
+const wa = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.7-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.6.3.1.2.1.8-.1 1.5Z"/></svg>';
+const gLogo = '<svg class="g" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.6 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5Z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7Z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2A12 12 0 0 1 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44Z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3a12 12 0 0 1-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5Z"/></svg>';
+
+const tel = 'tel:' + C.phone.replace(/\s/g,'');
+const waLink = msg => `https://wa.me/${C.whatsapp}?text=${encodeURIComponent(msg)}`;
+const hasWA = !!C.whatsapp;
+const hl = C.headline.replace(C.town, `<em>${C.town}</em>`);
+
+// Default hero art: a dusk rooftop scene in the accent colour (replaced by hero_image when set)
+const scene = `<svg class="scene" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1C2833"/><stop offset=".7" stop-color="#3A4652"/><stop offset="1" stop-color="var(--accent)"/></linearGradient></defs>
+  <rect width="400" height="500" fill="url(#sky)"/>
+  <circle cx="300" cy="300" r="70" fill="var(--accent)" opacity=".85"/>
+  <path d="M0 330 L70 270 L140 330 Z" fill="#0F161D"/><rect x="10" y="328" width="120" height="180" fill="#0F161D"/>
+  <path d="M110 360 L230 240 L350 360 Z" fill="#17212A"/><rect x="130" y="358" width="200" height="150" fill="#17212A"/>
+  <g stroke="#2C3A47" stroke-width="2">${Array.from({length:9},(_,i)=>`<line x1="${130+i*12}" y1="${360-i*12}" x2="${330-i*12}" y2="${360-i*12}"/>`).join('')}</g>
+  <rect x="210" y="200" width="18" height="44" fill="#17212A"/>
+  <path d="M300 380 L360 330 L420 380 Z" fill="#0B1117"/><rect x="310" y="378" width="100" height="130" fill="#0B1117"/>
+  <rect x="160" y="400" width="26" height="30" fill="var(--accent)" opacity=".9"/><rect x="270" y="400" width="26" height="30" fill="#F5B301" opacity=".7"/>
+  <rect x="40" y="370" width="20" height="24" fill="#F5B301" opacity=".6"/>
+</svg>`;
+
+const app = document.getElementById('app');
+app.innerHTML = `
+${C.demo_banner ? `<div class="demo">Preview built for <b>${C.business}</b> by ${C.built_by}. Not live, just a sample of what your site could look like.</div>` : ''}
+<div class="topbar"><div class="wrap">
+  <span>${ic('pin')} ${C.trade} serving ${C.town} & ${C.county}</span>
+  <span class="hide-m">${ic('clock')} ${C.hours}</span>
+  <a href="${tel}"><span>${ic('phone')} ${C.phone}</span></a>
+</div></div>
+<nav><div class="wrap">
+  <a href="#top" class="logo"><span class="mark">${ic(C.services[0]?.icon||'home')}</span>${C.business}</a>
+  <div class="links"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#areas">Areas</a><a href="#quote">Free quote</a></div>
+  <a href="${tel}" class="btn primary">${ic('phone')} Call now</a>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap">
+  <div>
+    <a class="rating rv" ${C.google_url?`href="${C.google_url}" target="_blank" rel="noopener"`:''}>${gLogo}<b>${C.rating.toFixed(1)}</b><div>${stars()}<small>from ${C.review_count} Google reviews</small></div></a>
+    <h1 class="rv">${hl}</h1>
+    <p class="lead rv">${C.subline}</p>
+    <div class="cta rv">
+      <a href="#quote" class="btn primary">Get a free quote ${ic('arrow')}</a>
+      ${hasWA ? `<a href="${waLink(`Hi ${C.business}, I'd like a quote please.`)}" class="btn wa" target="_blank" rel="noopener">${wa} WhatsApp us</a>` : `<a href="${tel}" class="btn ghost">${ic('phone')} ${C.phone}</a>`}
+    </div>
+  </div>
+  <div class="vwrap rv">
+    <div class="visual">${C.hero_image ? `<img src="${C.hero_image}" alt="${C.business} at work">` : scene}</div>
+    <div class="badge"><i>${ic('shield')}</i><div><b>${C.rating.toFixed(1)} stars locally</b><span>${C.review_count} neighbours in ${C.town} rate us on Google</span></div></div>
+  </div>
+</div></header>
+
+<div class="promise"><div class="wrap">${C.promises.slice(0,4).map(p=>`<div>${ic('check')}${p}</div>`).join('')}</div></div>
+
+<section id="services"><div class="wrap">
+  <div class="head rv"><div><div class="kicker">What we do</div><h2>${C.trade_plural} services<br>across ${C.town}</h2></div><p class="lead">One call covers it. We tell you what's wrong, what it costs, and when it'll be done.</p></div>
+  <div class="svc">${C.services.map(s=>`<div class="s rv"><i>${ic(s.icon)}</i><h3>${s.name}</h3><p>${s.text}</p></div>`).join('')}</div>
+</div></section>
+
+<section class="steps"><div class="wrap">
+  <div class="head rv"><div><div class="kicker">How it works</div><h2>Simple from<br>first call to finish</h2></div></div>
+  <div class="stp">
+    <div class="rv"><h3>Tell us the problem</h3><p>Call, WhatsApp or send the form. Photos help if you have them.</p></div>
+    <div class="rv"><h3>Get a clear quote</h3><p>We take a look and give you a price up front, with no surprises later.</p></div>
+    <div class="rv"><h3>Job done, site tidy</h3><p>We turn up when we say, do the work right, and clean up after.</p></div>
+  </div>
+</div></section>
+
+<section id="reviews"><div class="wrap">
+  <div class="rev">
+    <div class="score rv"><div class="kicker" style="color:var(--accent)">Google rating</div><b>${C.rating.toFixed(1)}</b>${stars()}<p>Based on ${C.review_count} reviews from customers around ${C.town}.</p>
+      ${C.google_url?`<a class="btn primary" href="${C.google_url}" target="_blank" rel="noopener">Read them on Google ${ic('arrow')}</a>`:''}</div>
+    <div class="cards">${C.reviews.map(r=>`<div class="card rv">${stars()}<q>${r.text}</q><span>${gLogo.replace('class="g"','')} ${r.name}</span></div>`).join('')}</div>
+  </div>
+</div></section>
+
+<section id="areas" style="padding-top:0"><div class="wrap">
+  <div class="areas">
+    <div class="rv"><div class="kicker">Where we work</div><h2>Local to ${C.town}</h2><p class="lead" style="margin-top:16px">Based in ${C.town} and working across ${C.county}. Not sure if we cover you? Just ask.</p>
+      <div class="chips">${C.areas.map(a=>`<span>${ic('pin')}${a}</span>`).join('')}</div></div>
+    <div class="map rv"><iframe loading="lazy" title="Map of ${C.town}" src="https://www.google.com/maps?q=${encodeURIComponent(C.business+' '+C.town)}&output=embed"></iframe></div>
+  </div>
+</div></section>
+
+<section id="quote" style="padding-top:0"><div class="wrap">
+  <div class="quote rv">
+    <div>
+      <div class="kicker">Free quote</div><h2>Tell us what<br>needs doing</h2>
+      <p class="lead">Send the details and we'll come back to you quickly. Prefer to talk? Call or WhatsApp.</p>
+      <div class="direct">
+        <a href="${tel}">${ic('phone')} ${C.phone}</a>
+        ${hasWA?`<a href="${waLink(`Hi ${C.business}, I'd like a quote please.`)}" target="_blank" rel="noopener">${wa.replace('<svg','<svg style="color:#1FAF55"')} WhatsApp us</a>`:''}
+        ${C.email?`<a href="mailto:${C.email}">${ic('mail')} ${C.email}</a>`:''}
+      </div>
+    </div>
+    <form id="qf">
+      <div class="two"><label>Your name<input name="n" required></label><label>Phone<input name="p" type="tel" required></label></div>
+      <div class="two"><label>Type of job<select name="j">${C.services.map(s=>`<option>${s.name}</option>`).join('')}<option>Something else</option></select></label><label>Area<input name="a" placeholder="${C.areas[0]||C.town}"></label></div>
+      <label>What's going on?<textarea name="d" placeholder="A short description helps us quote faster"></textarea></label>
+      <button class="btn primary" type="submit">${hasWA?'Send via WhatsApp':'Send request'} ${ic('arrow')}</button>
+      <p class="fine">${hasWA?'Opens WhatsApp with your details filled in. Nothing is sent until you press send.':'We will call you back.'}</p>
+    </form>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <div><a href="#top" class="logo"><span class="mark">${ic(C.services[0]?.icon||'home')}</span>${C.business}</a><p style="margin-top:10px">${C.trade} · ${C.town}, ${C.county} · ${C.phone}</p></div>
+  <p>© ${new Date().getFullYear()} ${C.business}</p>
+</div></footer>
+
+<div class="mbar"><a href="${tel}" class="btn dark">${ic('phone')} Call</a>${hasWA?`<a href="${waLink(`Hi ${C.business}, I'd like a quote please.`)}" class="btn wa" target="_blank" rel="noopener">${wa} WhatsApp</a>`:`<a href="#quote" class="btn primary">Free quote</a>`}</div>
+`;
+
+document.getElementById('qf').addEventListener('submit', e => {
+  e.preventDefault();
+  const f = new FormData(e.target);
+  const msg = `Hi ${C.business}, quote request:\nName: ${f.get('n')}\nPhone: ${f.get('p')}\nJob: ${f.get('j')}\nArea: ${f.get('a')||'-'}\n${f.get('d')||''}`;
+  if (hasWA) window.open(waLink(msg), '_blank');
+  else window.location.href = tel;
+});
+
+const io = new IntersectionObserver(es => es.forEach(x => { if (x.isIntersecting) { x.target.classList.add('in'); io.unobserve(x.target); } }), {threshold:.12});
+document.querySelectorAll('.rv').forEach((el,i) => { el.style.transitionDelay = (i%3)*80+'ms'; io.observe(el); });
+</script>
+</body>
+</html>

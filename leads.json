@@ -1,0 +1,87 @@
+[
+  {
+    "slug": "cork-roofers",
+    "business": "Cork Roofers",
+    "trade": "Roofer",
+    "trade_plural": "Roofing",
+    "town": "Cork",
+    "county": "Co. Cork",
+    "phone": "+353 85 738 8411",
+    "whatsapp": "353857388411",
+    "rating": 4.9,
+    "review_count": 92,
+    "hours": "Open 24 hours, 7 days",
+    "accent": "#FF6A13",
+    "headline": "Roof trouble in Cork? Sorted, properly.",
+    "subline": "Flat roofs, repairs, gutters and full replacements. Plain-English advice, photos of every issue, and the work done when we said.",
+    "promises": ["Free, no-pressure quotes", "Photos of every issue found", "Punctual and reliable", "Emergency call-outs"],
+    "reviews": [
+      {"name": "Google review", "text": "James and his team did an excellent job in renewing our flat roof. The team were punctual, reliable and arrived when they said they would."},
+      {"name": "Google review", "text": "He explained in simple language what was required, materials needed and a timeframe."},
+      {"name": "Google review", "text": "Great service from start to finish. The team was professional, punctual, and the quality of the roofing work was excellent."}
+    ],
+    "areas": ["Cork City", "Sunday's Well", "Blarney", "Douglas", "Ballincollig", "Glanmire", "Carrigaline", "Cobh"]
+  },
+  {
+    "slug": "jamie-king-electrical",
+    "business": "Jamie King Electrical",
+    "trade": "Electrician",
+    "trade_plural": "Electrical",
+    "town": "Galway",
+    "county": "Co. Galway",
+    "phone": "+353 87 222 4230",
+    "whatsapp": "353872224230",
+    "rating": 5.0,
+    "review_count": 26,
+    "hours": "Mon to Fri 8am to 5pm, Sat 9am to 12pm",
+    "accent": "#F5B301",
+    "headline": "A Galway electrician who actually turns up.",
+    "subline": "Repairs, rewiring, lighting and emergency call-outs across Galway. Prompt replies, honest advice and fair pricing.",
+    "promises": ["Prompt replies", "Cost-effective options explained", "Neat, high-standard work", "Emergency jobs welcome"],
+    "services": [
+      {"icon": "bolt", "name": "Electrical repairs", "text": "Faults, tripping and dead sockets found and fixed."},
+      {"icon": "home", "name": "Rewiring", "text": "Full and partial rewires done neatly, room by room."},
+      {"icon": "sun", "name": "Lighting", "text": "Indoor, outdoor and estate lighting fitted right."},
+      {"icon": "shield", "name": "Safety checks", "text": "Inspections and certs for landlords and buyers."},
+      {"icon": "wrench", "name": "Apartment upgrades", "text": "New circuits, fittings and upgrades for apartments."},
+      {"icon": "clock", "name": "Emergency call-outs", "text": "Lost power? Call and we'll get you back on."}
+    ],
+    "reviews": [
+      {"name": "Google review", "text": "I contacted Jamie for an emergency small job and got a polite professional response promptly with a follow up visit at the agreed time."},
+      {"name": "Google review", "text": "He took the time to explain the most cost-effective options, which I really appreciated. Very reliable, trustworthy, and professional."},
+      {"name": "Google review", "text": "They carried out a range of electrical work in my apartment to a very high standard and everything was completed neatly and efficiently."}
+    ],
+    "areas": ["Galway City", "Doughiska", "Oranmore", "Salthill", "Knocknacarra", "Claregalway", "Athenry", "Moycullen"]
+  },
+  {
+    "slug": "garden-gusto",
+    "business": "Garden Gusto",
+    "trade": "Gardener",
+    "trade_plural": "Garden",
+    "town": "Limerick",
+    "county": "Co. Limerick",
+    "phone": "+353 85 197 2577",
+    "whatsapp": "353851972577",
+    "rating": 5.0,
+    "review_count": 18,
+    "hours": "Open 7 days",
+    "accent": "#2E9E5B",
+    "headline": "Overgrown garden in Limerick? We'll bring it back.",
+    "subline": "Garden clearances, hedge and ivy work, power washing and makeovers. On time, done in a day where we can, and left spotless.",
+    "promises": ["On time, every time", "Most clearances done in a day", "Left clean and tidy", "Friendly, honest advice"],
+    "services": [
+      {"icon": "leaf", "name": "Garden clearance", "text": "Years of overgrowth cleared, roots and all."},
+      {"icon": "tree", "name": "Hedges & ivy", "text": "Cut back, shaped and kept under control."},
+      {"icon": "drop", "name": "Power washing", "text": "Patios, paths and side passages brought back to clean."},
+      {"icon": "brush", "name": "Garden makeovers", "text": "Tired spaces turned into gardens you'll use."},
+      {"icon": "sparkle", "name": "Edging & tidy-ups", "text": "Sharp lawn edges and a proper tidy finish."},
+      {"icon": "clock", "name": "Regular upkeep", "text": "Keep it easy to maintain, season after season."}
+    ],
+    "reviews": [
+      {"name": "Lorraine", "text": "Steve and Paul were fantastic and did a great job on the impossible. They arrived on time, did the job in one day and left the place very tidy and clean."},
+      {"name": "Google review", "text": "Service and communication were excellent; Steve was helpful and friendly with good advice on what we were looking for."},
+      {"name": "Google review", "text": "Communication from Steve and the Garden Gusto team was great."}
+    ],
+    "areas": ["Limerick City", "Corbally", "Castletroy", "Annacotty", "Raheen", "Dooradoyle", "Ennis Road", "Mungret"]
+  }
+]
