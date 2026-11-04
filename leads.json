@@ -202,5 +202,84 @@
       "Ennis Road",
       "Mungret"
     ]
+  },
+  {
+    "slug": "carj-plumbing",
+    "business": "CARJ Plumbing and Heating",
+    "trade": "Plumber",
+    "trade_plural": "Plumbing & heating",
+    "town": "Meath",
+    "county": "Co. Meath",
+    "where": "Plumbing, heating & bathrooms · Rathfeigh, Co. Meath",
+    "coverage": "Meath and the surrounding area",
+    "phone": "+353 86 777 0650",
+    "whatsapp": "353867770650",
+    "rating": 5.0,
+    "review_count": 119,
+    "google_url": "https://www.google.com/maps/place/?q=place_id:ChIJf-OfTOhBZ0gRyenOrG1ICR8",
+    "hours": "Open 24 hours, 7 days",
+    "accent": "#8C6A3F",
+    "photos": [
+      "img/hero.jpg",
+      "img/w1.jpg",
+      "img/w2.jpg",
+      "img/w3.jpg",
+      "img/w4.jpg",
+      "img/w5.jpg"
+    ],
+    "headline": "Bathrooms and plumbing in Meath, finished properly.",
+    "subline": "Bathroom renovations, plumbing and heating from Ben and the team. On time, clearly explained, left clean and tidy, and looked after once the job is done.",
+    "promises": [
+      "Arrives when he says",
+      "Everything explained clearly",
+      "Left clean and tidy",
+      "Real aftercare"
+    ],
+    "services": [
+      {
+        "name": "Bathroom renovations",
+        "text": "Full bathroom refits, from strip-out to the final finish."
+      },
+      {
+        "name": "Showers & en-suites",
+        "text": "Walk-in showers, enclosures and en-suites fitted neatly."
+      },
+      {
+        "name": "Cloakrooms & downstairs toilets",
+        "text": "Small rooms turned into something people notice."
+      },
+      {
+        "name": "Plumbing repairs",
+        "text": "Leaks, taps, toilets and pipework sorted quickly."
+      },
+      {
+        "name": "Heating & radiators",
+        "text": "Radiators and heating systems installed and repaired."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Ben did a fantastic job renovating our bathrooms to an exceptionally high standard. From start to finish, he was professional, reliable and a pleasure to deal with."
+      },
+      {
+        "name": "Google review",
+        "text": "He was extremely professional and very knowledgeable. He arrived on time. The work was completed quickly and to a high standard, with everything left clean and tidy afterwards."
+      },
+      {
+        "name": "Google review",
+        "text": "I've used these lads multiple times now and they are absolutely brilliant. They're always reliable, very friendly to deal with, and the quality of their work is top-notch every single time."
+      }
+    ],
+    "areas": [
+      "Navan",
+      "Ashbourne",
+      "Ratoath",
+      "Duleek",
+      "Drogheda",
+      "Dunshaughlin",
+      "Slane",
+      "Skryne"
+    ]
   }
 ]

@@ -153,8 +153,9 @@ section{padding:120px 0}
 /* gallery (only with photos) */
 .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 .gallery div{aspect-ratio:4/5;border-radius:18px;background-size:cover;background-position:center}
-.gallery div:nth-child(3n+1){grid-row:span 1}
-@media(max-width:760px){.gallery{grid-template-columns:1fr 1fr}}
+.gallery.n5{grid-template-columns:repeat(4,1fr)}
+.gallery.n5 div:first-child{grid-column:span 2;grid-row:span 2;aspect-ratio:auto}
+@media(max-width:760px){.gallery,.gallery.n5{grid-template-columns:1fr 1fr}.gallery.n5 div:first-child{grid-row:span 1;aspect-ratio:4/3}.hero.photo .bg::after{background:linear-gradient(180deg,rgba(14,16,18,.6),rgba(14,16,18,.88))}.hero.photo .wrap{min-height:0;padding-top:72px;padding-bottom:64px}}
 
 /* reviews */
 .reviews{background:var(--bone)}
@@ -264,7 +265,7 @@ ${C.demo_banner ? `<div class="demo">A preview built for <b>${C.business}</b> by
   ${hasPhoto ? `<div class="bg" style="background-image:url('${photos[0]}')"></div>` : ''}
   <div class="wrap">
     <div>
-      <div class="where rv"><i></i>${C.trade} · ${C.town}, ${C.county}</div>
+      <div class="where rv"><i></i>${C.where || `${C.trade} · ${C.town}, ${C.county}`}</div>
       <h1 class="rv">${C.headline}</h1>
       <p class="lead rv">${C.subline}</p>
       <div class="cta rv">
@@ -286,7 +287,7 @@ ${C.demo_banner ? `<div class="demo">A preview built for <b>${C.business}</b> by
 
 ${photos.length > 1 ? `<section style="padding-top:0"><div class="wrap">
   <div class="sh rv"><h2>Recent work</h2><p>A few jobs from around ${C.town}.</p></div>
-  <div class="gallery">${photos.slice(1,7).map(p=>`<div class="rv" style="background-image:url('${p}')"></div>`).join('')}</div>
+  <div class="gallery n${Math.min(photos.length-1,6)}">${photos.slice(1,7).map(p=>`<div class="rv" style="background-image:url('${p}')"></div>`).join('')}</div>
 </div></section>` : ''}
 
 <section class="reviews" id="reviews"><div class="wrap">
@@ -305,7 +306,7 @@ ${photos.length > 1 ? `<section style="padding-top:0"><div class="wrap">
 </div></section>
 
 <section id="areas" style="padding-top:0"><div class="wrap areas">
-  <div class="rv"><h2>Based in ${C.town}</h2><p class="muted" style="margin-top:18px;max-width:420px">Working across ${C.county}. If you're not on the list, ask anyway.</p>
+  <div class="rv"><h2>Based in ${C.town}</h2><p class="muted" style="margin-top:18px;max-width:420px">Working across ${C.coverage || C.county}. If you're not on the list, ask anyway.</p>
     <div class="area-list">${C.areas.map(a=>`<span>${a}</span>`).join('')}</div></div>
   <div class="map rv"><iframe loading="lazy" title="Map of ${C.town}" src="https://www.google.com/maps?q=${encodeURIComponent(C.business+' '+C.town)}&output=embed"></iframe></div>
 </div></section>
