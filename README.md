@@ -10,16 +10,14 @@ One template, one config per business, one demo site each. Built for local trade
    - `phone`, `whatsapp` (digits only with country code, e.g. `353857388411`), `hours`
    - `rating`, `review_count`, `google_url` (their Maps link)
    - `reviews`: 3 real Google reviews, copied word for word. Short ones that mention punctuality, tidiness or price work best.
-   - `services`, `areas`, `headline`, `subline`, `promises`, `accent` (brand colour)
+   - `services` (name + one line each, 4 to 5 works best), `areas`, `headline`, `subline`, `promises`
+   - `accent`: one muted brand colour (copper, deep blue, forest green). Avoid bright neon tones; they cheapen the look.
+   - `photos` (optional, the biggest upgrade): paths to 3 to 7 photos of their own work, e.g. `["img/1.jpg", ...]` saved in `demos/<slug>/img/`. The first becomes a full-width hero, the rest a "Recent work" gallery. Take them from the photos the owner posted on their Google listing or Facebook page.
 3. **Build:** `python3 build.py cork-roofers` (or `python3 build.py` for all). Output: `demos/<slug>/index.html`.
 4. **Open the file in a browser and check it** on desktop and phone width.
 5. **Push.** The demo is live at `<your-domain>/<slug>/` once the repo is deployed (Vercel or Cloudflare Pages, with `demos/` as the output directory).
 
 Any field you leave out falls back to the defaults in `template.html`.
-
-## Icons available for services
-
-`roof` `layers` `drop` `home` `bolt` `search` `leaf` `wrench` `brush` `tree` `sparkle` `tap` `sun` `check` `phone` `clock` `pin` `shield` `mail`
 
 ## Rules (keep these, they protect the pitch)
 
