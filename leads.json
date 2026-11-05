@@ -281,5 +281,285 @@
       "Slane",
       "Skryne"
     ]
+  },
+  {
+    "slug": "plumbing-ireland",
+    "business": "Plumbing Ireland",
+    "trade": "Plumber",
+    "trade_plural": "Plumbing & heating",
+    "town": "Kilkenny",
+    "county": "Co. Kilkenny",
+    "where": "Plumbing & heating · Dunmore, Kilkenny",
+    "coverage": "Kilkenny and the surrounding area",
+    "phone": "+353 87 357 5184",
+    "whatsapp": "353873575184",
+    "rating": 5.0,
+    "review_count": 104,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Plumbing%20Ireland%2C%20Bleach%20Road%2C%20Dunmore%2C%20Kilkenny",
+    "hours": "Open 24 hours",
+    "accent": "#2E6670",
+    "headline": "Plumbing and heating in Kilkenny, sorted fast.",
+    "subline": "Leaks, heating, radiators and repairs from Richie. Quick to answer, often there within hours, and the whole system explained before he goes.",
+    "promises": [
+      "Answers the call, even late",
+      "Often there within hours",
+      "Explains the whole system",
+      "Clean, tidy and fair prices"
+    ],
+    "services": [
+      {
+        "name": "Heating repairs",
+        "text": "No heat? Circulation pumps, heating systems and oil burners fixed."
+      },
+      {
+        "name": "Radiators",
+        "text": "New radiators fitted, and every rad checked hot before he leaves."
+      },
+      {
+        "name": "Leaks & emergencies",
+        "text": "Leaks, damaged pipes and seized valves, day or night."
+      },
+      {
+        "name": "Sinks, taps & toilets",
+        "text": "Kitchen sinks, taps and toilets repaired properly."
+      },
+      {
+        "name": "Well water filters",
+        "text": "Water filters for wells replaced and checked."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Got a text at 8am Saturday morning saying he'd be at the house before 1 and he was. Fitted new circulation pump and waited to make sure all rads were hot and explained the whole system to us. Can't recommend him enough."
+      },
+      {
+        "name": "Google review",
+        "text": "Richie was excellent. I rang him due to a big issue with my kitchen sink and he was there within hours, had the issue fixed no problem. Also helped me with another tap in a bathroom at the same time. Very clean, tidy, genuine and honest man. Great work done and no delays. Will be using Richie going forward. 10 out of 10.."
+      },
+      {
+        "name": "Google review",
+        "text": "Richie came and replaced the water filter of our well. He was quick to answer the call and really good to call out to us on a weekend. He identified the issue quickly and fixed it. Will definitely recommend him to anyone looking for a good plumber. Really good at his job.Excellent service. Thank you Richie."
+      }
+    ],
+    "areas": [
+      "Kilkenny City",
+      "Dunmore",
+      "Castlecomer",
+      "Ballyragget",
+      "Freshford",
+      "Bennettsbridge",
+      "Thomastown",
+      "Callan"
+    ]
+  },
+  {
+    "slug": "gmc-carpentry-services",
+    "business": "GMC Carpentry Services",
+    "trade": "Carpenter",
+    "trade_plural": "Carpentry & attic",
+    "town": "Ballincollig",
+    "county": "Co. Cork",
+    "where": "Attic conversions & carpentry · Ballincollig, Co. Cork",
+    "coverage": "Cork and the surrounding area",
+    "phone": "+353 86 203 0827",
+    "whatsapp": "353862030827",
+    "rating": 5.0,
+    "review_count": 26,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=GMC%20Carpentry%20Services%2C%2029%20Leslie's%20Arch%2C%20Ballincollig%2C%20Cork",
+    "hours": "Open until 5pm",
+    "accent": "#6E4B32",
+    "headline": "Attic conversions in Cork, finished to a high standard.",
+    "subline": "Garret and his team turn attics into proper rooms. Clear communication from the first call, as little disruption as possible, and the house left clean every day.",
+    "promises": [
+      "Clear communication throughout",
+      "Minimal disruption to your home",
+      "Cleaned up every evening",
+      "Reasonable prices"
+    ],
+    "services": [
+      {
+        "name": "Attic conversions",
+        "text": "Full attic conversions, from the first call to the final finish."
+      },
+      {
+        "name": "Attic stairs",
+        "text": "New stairs up to the attic, built and finished neatly."
+      },
+      {
+        "name": "Roof windows",
+        "text": "Roof windows fitted to bring daylight into the new room."
+      },
+      {
+        "name": "Changes along the way",
+        "text": "Plans change mid-build? The team works the change in."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Garret and his team at GMC Carpentry are the best tradesmen we have ever worked with. Their communication, professionalism and attention to detail is exceptional. The standard of finish on our attic conversion is top class. If you're thinking about an attic conversion GMC Carpentry are outstanding. Highly recommended"
+      },
+      {
+        "name": "Google review",
+        "text": "Garret and his team were an absolute pleasure to deal with from start to finish. They recently completed our attic conversion. Nothing was too much trouble and they went out of their way to keep the disruption to our home to a minimum. The quality of work is very impressive. They are by far the best group of trades people that we have ever dealt with. We would highly recommend GMC Carpentry Services."
+      },
+      {
+        "name": "Google review",
+        "text": "We used GMC Carpentry for our attic conversion in summer 2025 and had a very positive experience from start to finish. Communication with Garret was clear and straightforward, prices were reasonable, and the whole process was made easy for us. Every tradesperson who came to the house was polite, friendly, professional, and efficient. The standard of finish is excellent and we're genuinely delighted with our attic. Would totally recommend them"
+      }
+    ],
+    "areas": [
+      "Ballincollig",
+      "Cork City",
+      "Bishopstown",
+      "Wilton",
+      "Douglas",
+      "Blarney",
+      "Ovens",
+      "Carrigaline"
+    ]
+  },
+  {
+    "slug": "brendan-radford-landscaping",
+    "business": "Brendan Radford Landscaping",
+    "trade": "Landscaper",
+    "trade_plural": "Landscaping",
+    "town": "Wexford",
+    "county": "Co. Wexford",
+    "where": "Garden design & landscaping · Co. Wexford",
+    "coverage": "Wexford and the surrounding area",
+    "phone": "+353 87 655 7384",
+    "whatsapp": "353876557384",
+    "rating": 4.8,
+    "review_count": 22,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Brendan%20Radford%20Landscaping%2C%20Bargy%20Commons%2C%20Co.%20Wexford",
+    "hours": "Open until 6pm",
+    "accent": "#5E6B47",
+    "headline": "Gardens, patios and paths in Wexford, beautifully done.",
+    "subline": "Brendan designs and builds gardens, patios, paths and raised beds with great attention to detail. On time, on budget, and the place left clean when he's finished.",
+    "promises": [
+      "On time and on budget",
+      "Kept informed throughout",
+      "Expert design advice",
+      "Left clean and tidy"
+    ],
+    "services": [
+      {
+        "name": "Garden design",
+        "text": "Ideas and a design for your garden, worked out with you."
+      },
+      {
+        "name": "Patios & paving",
+        "text": "Patios and paving laid neatly, with proper drainage underneath."
+      },
+      {
+        "name": "Paths",
+        "text": "Garden paths built to suit the space."
+      },
+      {
+        "name": "Retaining walls & steps",
+        "text": "Walls and paved steps for sloping gardens."
+      },
+      {
+        "name": "Raised beds & planting",
+        "text": "Raised beds, hedges and planting, with advice on keeping them thriving."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Brendan did an absolutely brilliant job for  us and we are extremely happy that we waited to book him. Nothing was an issue for him and he is a real perfectionist and he left our place very clean when he was finished. I can honestly say I would recommend Brendan 100%."
+      },
+      {
+        "name": "Google review",
+        "text": "We were thrilled with Brendan's work, he has transformed our garden and we look forward to see it mature over the coming years. Brendan's work is high quality and precise. He's on-time and works to budget, keeping you informed along the way and exceeding expectations. Very happy to recommend Brendan."
+      },
+      {
+        "name": "Google review",
+        "text": "We are absolutely delighted with the work Brendan did for us from the garden design to building paths, a patio, raised beds and fantastic features. Brendan's work is very high standard with great attention to detail. We would highly recommend using Brendan for any landscaping."
+      }
+    ],
+    "areas": [
+      "Wexford Town",
+      "Barntown",
+      "Taghmon",
+      "Bridgetown",
+      "Murrintown",
+      "Piercestown",
+      "Killinick",
+      "Rosslare"
+    ]
+  },
+  {
+    "slug": "nk-carpenter",
+    "business": "NK Carpenter",
+    "trade": "Carpenter",
+    "trade_plural": "Carpentry",
+    "town": "Cork",
+    "county": "Co. Cork",
+    "where": "Carpentry & flooring · Wilton, Cork",
+    "coverage": "Cork and the surrounding area",
+    "phone": "+353 87 139 0036",
+    "whatsapp": "353871390036",
+    "rating": 5.0,
+    "review_count": 12,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=NK%20Carpenter%2C%2036%20Sarsfield%20Heights%2C%20Wilton%2C%20Cork",
+    "hours": "Open until 5:15pm",
+    "accent": "#46586B",
+    "headline": "Carpentry in Cork, done with precision.",
+    "subline": "Floors, kitchens, wardrobes, shelving and sheds from Nehat. Easy to deal with, good value, and happy to take on the small jobs too.",
+    "promises": [
+      "Small jobs welcome",
+      "Precise, careful work",
+      "Good value",
+      "Easy to deal with"
+    ],
+    "services": [
+      {
+        "name": "Flooring",
+        "text": "Floors laid with precision, and repairs to existing ones."
+      },
+      {
+        "name": "Kitchen fitting",
+        "text": "Kitchens and integrated bins fitted properly."
+      },
+      {
+        "name": "Wardrobes & shelving",
+        "text": "Wardrobe drawers and shelving measured and fitted."
+      },
+      {
+        "name": "Garden sheds",
+        "text": "Sturdy sheds built from good wood."
+      },
+      {
+        "name": "Small jobs",
+        "text": "The job others say isn't worth it? Call anyway."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Nehat was great to deal with. It was only a small job, I called 6 other local carpenters and they all turned me down because the job ‘wasn’t worth it’. I called Nehat and he accepted straight away. Was very professional the whole time, and did the job perfectly. I will be using Nehat for any future carpentry needs, and I would highly recommend that you do too!"
+      },
+      {
+        "name": "Google review",
+        "text": "Nehat did a great job for us fitting drawers in our wardrobes and fitting our kitchen. He was easy to deal with from start to finish, good value and we’re delighted with the results!"
+      },
+      {
+        "name": "Google review",
+        "text": "We couldn’t be more thrilled with the flooring work that Nehat did for us! From start to finish, he was professional, incredibly skilled, and a true pleasure to work with. He laid the floors down with perfect precision. Not only does our home look amazing, but he went above and beyond, offering advice and helping out in ways we didn’t expect. His attention to detail and work ethic were top-notch. Highly recommend him to anyone looking for quality craftsmanship and a great experience all around!"
+      }
+    ],
+    "areas": [
+      "Cork City",
+      "Wilton",
+      "Bishopstown",
+      "Togher",
+      "Glasheen",
+      "Frankfield",
+      "Douglas",
+      "Ballincollig"
+    ]
   }
 ]
