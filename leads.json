@@ -352,5 +352,72 @@
       "Thomastown",
       "Callan"
     ]
+  },
+  {
+    "slug": "gmc-carpentry-services",
+    "business": "GMC Carpentry Services",
+    "trade": "Carpenter",
+    "trade_plural": "Carpentry & attic",
+    "town": "Ballincollig",
+    "county": "Co. Cork",
+    "where": "Attic conversions & carpentry · Ballincollig, Co. Cork",
+    "coverage": "Cork and the surrounding area",
+    "phone": "+353 86 203 0827",
+    "whatsapp": "353862030827",
+    "rating": 5.0,
+    "review_count": 26,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=GMC%20Carpentry%20Services%2C%2029%20Leslie's%20Arch%2C%20Ballincollig%2C%20Cork",
+    "hours": "Open until 5pm",
+    "accent": "#6E4B32",
+    "headline": "Attic conversions in Cork, finished to a high standard.",
+    "subline": "Garret and his team turn attics into proper rooms. Clear communication from the first call, as little disruption as possible, and the house left clean every day.",
+    "promises": [
+      "Clear communication throughout",
+      "Minimal disruption to your home",
+      "Cleaned up every evening",
+      "Reasonable prices"
+    ],
+    "services": [
+      {
+        "name": "Attic conversions",
+        "text": "Full attic conversions, from the first call to the final finish."
+      },
+      {
+        "name": "Attic stairs",
+        "text": "New stairs up to the attic, built and finished neatly."
+      },
+      {
+        "name": "Roof windows",
+        "text": "Roof windows fitted to bring daylight into the new room."
+      },
+      {
+        "name": "Changes along the way",
+        "text": "Plans change mid-build? The team works the change in."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Garret and his team at GMC Carpentry are the best tradesmen we have ever worked with. Their communication, professionalism and attention to detail is exceptional. The standard of finish on our attic conversion is top class. If you're thinking about an attic conversion GMC Carpentry are outstanding. Highly recommended"
+      },
+      {
+        "name": "Google review",
+        "text": "Garret and his team were an absolute pleasure to deal with from start to finish. They recently completed our attic conversion. Nothing was too much trouble and they went out of their way to keep the disruption to our home to a minimum. The quality of work is very impressive. They are by far the best group of trades people that we have ever dealt with. We would highly recommend GMC Carpentry Services."
+      },
+      {
+        "name": "Google review",
+        "text": "We used GMC Carpentry for our attic conversion in summer 2025 and had a very positive experience from start to finish. Communication with Garret was clear and straightforward, prices were reasonable, and the whole process was made easy for us. Every tradesperson who came to the house was polite, friendly, professional, and efficient. The standard of finish is excellent and we're genuinely delighted with our attic. Would totally recommend them"
+      }
+    ],
+    "areas": [
+      "Ballincollig",
+      "Cork City",
+      "Bishopstown",
+      "Wilton",
+      "Douglas",
+      "Blarney",
+      "Ovens",
+      "Carrigaline"
+    ]
   }
 ]
