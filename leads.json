@@ -419,5 +419,76 @@
       "Ovens",
       "Carrigaline"
     ]
+  },
+  {
+    "slug": "brendan-radford-landscaping",
+    "business": "Brendan Radford Landscaping",
+    "trade": "Landscaper",
+    "trade_plural": "Landscaping",
+    "town": "Wexford",
+    "county": "Co. Wexford",
+    "where": "Garden design & landscaping · Co. Wexford",
+    "coverage": "Wexford and the surrounding area",
+    "phone": "+353 87 655 7384",
+    "whatsapp": "353876557384",
+    "rating": 4.8,
+    "review_count": 22,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Brendan%20Radford%20Landscaping%2C%20Bargy%20Commons%2C%20Co.%20Wexford",
+    "hours": "Open until 6pm",
+    "accent": "#5E6B47",
+    "headline": "Gardens, patios and paths in Wexford, beautifully done.",
+    "subline": "Brendan designs and builds gardens, patios, paths and raised beds with great attention to detail. On time, on budget, and the place left clean when he's finished.",
+    "promises": [
+      "On time and on budget",
+      "Kept informed throughout",
+      "Expert design advice",
+      "Left clean and tidy"
+    ],
+    "services": [
+      {
+        "name": "Garden design",
+        "text": "Ideas and a design for your garden, worked out with you."
+      },
+      {
+        "name": "Patios & paving",
+        "text": "Patios and paving laid neatly, with proper drainage underneath."
+      },
+      {
+        "name": "Paths",
+        "text": "Garden paths built to suit the space."
+      },
+      {
+        "name": "Retaining walls & steps",
+        "text": "Walls and paved steps for sloping gardens."
+      },
+      {
+        "name": "Raised beds & planting",
+        "text": "Raised beds, hedges and planting, with advice on keeping them thriving."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Brendan did an absolutely brilliant job for  us and we are extremely happy that we waited to book him. Nothing was an issue for him and he is a real perfectionist and he left our place very clean when he was finished. I can honestly say I would recommend Brendan 100%."
+      },
+      {
+        "name": "Google review",
+        "text": "We were thrilled with Brendan's work, he has transformed our garden and we look forward to see it mature over the coming years. Brendan's work is high quality and precise. He's on-time and works to budget, keeping you informed along the way and exceeding expectations. Very happy to recommend Brendan."
+      },
+      {
+        "name": "Google review",
+        "text": "We are absolutely delighted with the work Brendan did for us from the garden design to building paths, a patio, raised beds and fantastic features. Brendan's work is very high standard with great attention to detail. We would highly recommend using Brendan for any landscaping."
+      }
+    ],
+    "areas": [
+      "Wexford Town",
+      "Barntown",
+      "Taghmon",
+      "Bridgetown",
+      "Murrintown",
+      "Piercestown",
+      "Killinick",
+      "Rosslare"
+    ]
   }
 ]
