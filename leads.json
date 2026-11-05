@@ -281,5 +281,76 @@
       "Slane",
       "Skryne"
     ]
+  },
+  {
+    "slug": "plumbing-ireland",
+    "business": "Plumbing Ireland",
+    "trade": "Plumber",
+    "trade_plural": "Plumbing & heating",
+    "town": "Kilkenny",
+    "county": "Co. Kilkenny",
+    "where": "Plumbing & heating · Dunmore, Kilkenny",
+    "coverage": "Kilkenny and the surrounding area",
+    "phone": "+353 87 357 5184",
+    "whatsapp": "353873575184",
+    "rating": 5.0,
+    "review_count": 104,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Plumbing%20Ireland%2C%20Bleach%20Road%2C%20Dunmore%2C%20Kilkenny",
+    "hours": "Open 24 hours",
+    "accent": "#2E6670",
+    "headline": "Plumbing and heating in Kilkenny, sorted fast.",
+    "subline": "Leaks, heating, radiators and repairs from Richie. Quick to answer, often there within hours, and the whole system explained before he goes.",
+    "promises": [
+      "Answers the call, even late",
+      "Often there within hours",
+      "Explains the whole system",
+      "Clean, tidy and fair prices"
+    ],
+    "services": [
+      {
+        "name": "Heating repairs",
+        "text": "No heat? Circulation pumps, heating systems and oil burners fixed."
+      },
+      {
+        "name": "Radiators",
+        "text": "New radiators fitted, and every rad checked hot before he leaves."
+      },
+      {
+        "name": "Leaks & emergencies",
+        "text": "Leaks, damaged pipes and seized valves, day or night."
+      },
+      {
+        "name": "Sinks, taps & toilets",
+        "text": "Kitchen sinks, taps and toilets repaired properly."
+      },
+      {
+        "name": "Well water filters",
+        "text": "Water filters for wells replaced and checked."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Got a text at 8am Saturday morning saying he'd be at the house before 1 and he was. Fitted new circulation pump and waited to make sure all rads were hot and explained the whole system to us. Can't recommend him enough."
+      },
+      {
+        "name": "Google review",
+        "text": "Richie was excellent. I rang him due to a big issue with my kitchen sink and he was there within hours, had the issue fixed no problem. Also helped me with another tap in a bathroom at the same time. Very clean, tidy, genuine and honest man. Great work done and no delays. Will be using Richie going forward. 10 out of 10.."
+      },
+      {
+        "name": "Google review",
+        "text": "Richie came and replaced the water filter of our well. He was quick to answer the call and really good to call out to us on a weekend. He identified the issue quickly and fixed it. Will definitely recommend him to anyone looking for a good plumber. Really good at his job.Excellent service. Thank you Richie."
+      }
+    ],
+    "areas": [
+      "Kilkenny City",
+      "Dunmore",
+      "Castlecomer",
+      "Ballyragget",
+      "Freshford",
+      "Bennettsbridge",
+      "Thomastown",
+      "Callan"
+    ]
   }
 ]
