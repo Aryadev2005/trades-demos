@@ -490,5 +490,76 @@
       "Killinick",
       "Rosslare"
     ]
+  },
+  {
+    "slug": "nk-carpenter",
+    "business": "NK Carpenter",
+    "trade": "Carpenter",
+    "trade_plural": "Carpentry",
+    "town": "Cork",
+    "county": "Co. Cork",
+    "where": "Carpentry & flooring · Wilton, Cork",
+    "coverage": "Cork and the surrounding area",
+    "phone": "+353 87 139 0036",
+    "whatsapp": "353871390036",
+    "rating": 5.0,
+    "review_count": 12,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=NK%20Carpenter%2C%2036%20Sarsfield%20Heights%2C%20Wilton%2C%20Cork",
+    "hours": "Open until 5:15pm",
+    "accent": "#46586B",
+    "headline": "Carpentry in Cork, done with precision.",
+    "subline": "Floors, kitchens, wardrobes, shelving and sheds from Nehat. Easy to deal with, good value, and happy to take on the small jobs too.",
+    "promises": [
+      "Small jobs welcome",
+      "Precise, careful work",
+      "Good value",
+      "Easy to deal with"
+    ],
+    "services": [
+      {
+        "name": "Flooring",
+        "text": "Floors laid with precision, and repairs to existing ones."
+      },
+      {
+        "name": "Kitchen fitting",
+        "text": "Kitchens and integrated bins fitted properly."
+      },
+      {
+        "name": "Wardrobes & shelving",
+        "text": "Wardrobe drawers and shelving measured and fitted."
+      },
+      {
+        "name": "Garden sheds",
+        "text": "Sturdy sheds built from good wood."
+      },
+      {
+        "name": "Small jobs",
+        "text": "The job others say isn't worth it? Call anyway."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Nehat was great to deal with. It was only a small job, I called 6 other local carpenters and they all turned me down because the job ‘wasn’t worth it’. I called Nehat and he accepted straight away. Was very professional the whole time, and did the job perfectly. I will be using Nehat for any future carpentry needs, and I would highly recommend that you do too!"
+      },
+      {
+        "name": "Google review",
+        "text": "Nehat did a great job for us fitting drawers in our wardrobes and fitting our kitchen. He was easy to deal with from start to finish, good value and we’re delighted with the results!"
+      },
+      {
+        "name": "Google review",
+        "text": "We couldn’t be more thrilled with the flooring work that Nehat did for us! From start to finish, he was professional, incredibly skilled, and a true pleasure to work with. He laid the floors down with perfect precision. Not only does our home look amazing, but he went above and beyond, offering advice and helping out in ways we didn’t expect. His attention to detail and work ethic were top-notch. Highly recommend him to anyone looking for quality craftsmanship and a great experience all around!"
+      }
+    ],
+    "areas": [
+      "Cork City",
+      "Wilton",
+      "Bishopstown",
+      "Togher",
+      "Glasheen",
+      "Frankfield",
+      "Douglas",
+      "Ballincollig"
+    ]
   }
 ]
