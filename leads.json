@@ -628,5 +628,76 @@
       "Gleichen",
       "Nörten-Hardenberg"
     ]
+  },
+  {
+    "slug": "gaertnerei-nico-delaporte",
+    "business": "Gärtnerei Nico Delaporte",
+    "trade": "Plant nursery",
+    "trade_plural": "Nursery",
+    "town": "Großschwabhausen",
+    "county": "Thüringen",
+    "where": "Plant nursery & flowers · Großschwabhausen",
+    "coverage": "Großschwabhausen and the surrounding area",
+    "phone": "+49 36454 51373",
+    "whatsapp": "493645451373",
+    "rating": 4.9,
+    "review_count": 62,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=G%C3%A4rtnerei%20Nico%20Delaporte%2C%20Am%20Hohlstedter%20Weg%207%2C%2099441%20Gro%C3%9Fschwabhausen",
+    "hours": "Mon–Fri 9am–6pm, Sat 8am–12:30pm",
+    "accent": "#6E4F68",
+    "headline": "Fresh plants and flowers, straight from the grower.",
+    "subline": "Ornamental and vegetable plants, cut flowers, bouquets and gardening supplies in Großschwabhausen. Friendly service, expert advice and affordable prices.",
+    "promises": [
+      "Straight from the grower",
+      "Friendly, expert advice",
+      "Affordable prices",
+      "Family-run"
+    ],
+    "services": [
+      {
+        "name": "Ornamental plants",
+        "text": "A wide selection of ornamental plants of high quality."
+      },
+      {
+        "name": "Vegetable plants",
+        "text": "Vegetable plants for your garden."
+      },
+      {
+        "name": "Cut flowers & bouquets",
+        "text": "Beautiful, long-lasting bouquets and fresh cut flowers."
+      },
+      {
+        "name": "Floral decoration",
+        "text": "Flowers and arrangements for decorating."
+      },
+      {
+        "name": "Gardening supplies",
+        "text": "Everything else you need for the garden."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "We are thrilled with this garden center; the service is friendly and the advice is expert. They offer a wide selection of various ornamental and vegetable plants of the highest quality at affordable prices. The bouquets are also beautiful and long-lasting. We highly recommend this garden center and will definitely be back. There should be more family-run specialty shops like this."
+      },
+      {
+        "name": "Google review",
+        "text": "Spring is here! I like to shop at stores and markets with knowledgeable staff and high-quality goods! And produce directly from the grower is simply the best! What I'm trying to say is: If you need and want fresh plants, cut flowers, and gardening supplies, then head to Delaporte Nursery in Großschwabhausen!"
+      },
+      {
+        "name": "Google review",
+        "text": "Super Service"
+      }
+    ],
+    "areas": [
+      "Großschwabhausen",
+      "Jena",
+      "Weimar",
+      "Isserstedt",
+      "Hohlstedt",
+      "Magdala",
+      "Kötschau",
+      "Mellingen"
+    ]
   }
 ]
