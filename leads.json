@@ -841,5 +841,64 @@
       "Herford",
       "Oerlinghausen"
     ]
+  },
+  {
+    "slug": "edix-facility-management-gmbh",
+    "business": "EDIX Facility Management",
+    "trade": "Facility management",
+    "trade_plural": "Facility",
+    "town": "Halle",
+    "county": "Sachsen-Anhalt",
+    "where": "Facility management & caretaking · Halle (Saale)",
+    "coverage": "Halle (Saale) and the surrounding area",
+    "phone": "+49 15678 123030",
+    "whatsapp": "4915678123030",
+    "rating": 5.0,
+    "review_count": 33,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=EDIX%20Facility%20Management%20GmbH%2C%20Gro%C3%9Fe%20Brunnenstra%C3%9Fe%2072%2C%2006114%20Halle%20(Saale)",
+    "hours": "Open until 6pm",
+    "accent": "#3E4C63",
+    "headline": "Facility management in Halle, done exactly as agreed.",
+    "subline": "A friendly, professional team that works on time, keeps you involved, and communicates clearly from the very first step.",
+    "promises": [
+      "Done exactly as requested",
+      "On time and reliable",
+      "Clear, straightforward communication",
+      "Friendly, professional team"
+    ],
+    "services": [
+      {
+        "name": "Facility management",
+        "text": "Looking after your property, carried out exactly as agreed."
+      },
+      {
+        "name": "Caretaker services",
+        "text": "Janitorial work for homes and buildings in Halle."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "I had a very positive experience with Edix Facility Management. The work was done exactly as I had requested, and everything was completed on time and reliably. Furthermore, everyone was very friendly and pleasant. I would definitely recommend Edix to anyone who needs such services!"
+      },
+      {
+        "name": "Google review",
+        "text": "Excellent work! Very reliable, professional, and meticulously executed. Communication was straightforward, and the result exceeded my expectations. Highly recommended – I would use them again anytime!"
+      },
+      {
+        "name": "Google review",
+        "text": "A very friendly and professional team/company. Everything runs smoothly and you are involved as a customer. I can wholeheartedly recommend them."
+      }
+    ],
+    "areas": [
+      "Halle-Neustadt",
+      "Giebichenstein",
+      "Kröllwitz",
+      "Petersberg",
+      "Landsberg",
+      "Teutschenthal",
+      "Merseburg",
+      "Wettin-Löbejün"
+    ]
   }
 ]
