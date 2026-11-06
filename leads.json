@@ -1113,5 +1113,76 @@
       "Kasel",
       "Waldrach"
     ]
+  },
+  {
+    "slug": "sandner-kaelte-klima-gmbh",
+    "business": "Sandner Kälte Klima",
+    "trade": "Air conditioning",
+    "trade_plural": "Air conditioning",
+    "town": "Chemnitz",
+    "county": "Sachsen",
+    "where": "Air conditioning & heat pumps · Chemnitz-Altchemnitz",
+    "coverage": "Chemnitz and the surrounding area",
+    "phone": "+49 371 2732115",
+    "whatsapp": "493712732115",
+    "rating": 4.6,
+    "review_count": 16,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Sandner%20K%C3%A4lte%20Klima%20GmbH%2C%20Comeniusstra%C3%9Fe%208A%2C%2009120%20Chemnitz",
+    "hours": "Call to arrange a time",
+    "accent": "#3F5F6E",
+    "headline": "Air conditioning in Chemnitz, installed on time.",
+    "subline": "Split air conditioning, heat pumps and annual maintenance for homes and businesses. Fair, transparent prices, deadlines kept, and clean, tidy installs.",
+    "promises": [
+      "Fair, transparent prices",
+      "Deadlines kept",
+      "Punctual for every service",
+      "Clean and tidy"
+    ],
+    "services": [
+      {
+        "name": "Air conditioning installation",
+        "text": "Split systems with one or more indoor units, fitted as agreed."
+      },
+      {
+        "name": "Heat pumps",
+        "text": "Units that heat in winter and cool in summer."
+      },
+      {
+        "name": "Annual maintenance",
+        "text": "Systems serviced every year, on time."
+      },
+      {
+        "name": "Business premises",
+        "text": "Air conditioning for shops and branches, maintained long-term."
+      },
+      {
+        "name": "Help by phone",
+        "text": "Competent support outside scheduled appointments too."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "We've been customers of our air conditioning systems and maintenance services for 10 years and are very satisfied. This summer we installed three new units in our branch. Uncomplicated, friendly, punctual, clean, and tidy. Thank you very much."
+      },
+      {
+        "name": "Google review",
+        "text": "+++ HIGHLY RECOMMENDED +++ We had Mr. Sandner install a split air conditioning system with two indoor units. The installation went smoothly and exactly as agreed beforehand. Mr. Sandner always arrives punctually for the annual maintenance. He is also available by phone outside of scheduled appointments and provides competent and friendly assistance with any problems."
+      },
+      {
+        "name": "Google review",
+        "text": "We are absolutely satisfied with the work of Sandner Kälte Klima GmbH. We would particularly like to emphasize their fair and transparent pricing as well as their reliable adherence to deadlines. Despite a very short timeframe, Mr. Sander managed to have our air conditioning system installed before the start of summer. Communication was always friendly, professional, and solution-oriented. Highly recommended!"
+      }
+    ],
+    "areas": [
+      "Chemnitz",
+      "Altchemnitz",
+      "Einsiedel",
+      "Neukirchen",
+      "Limbach-Oberfrohna",
+      "Hohenstein-Ernstthal",
+      "Stollberg",
+      "Flöha"
+    ]
   }
 ]
