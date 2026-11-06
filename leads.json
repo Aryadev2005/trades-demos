@@ -1042,5 +1042,76 @@
       "Hagen a.T.W.",
       "Bramsche"
     ]
+  },
+  {
+    "slug": "gruenform-gartengestaltung",
+    "business": "Grünform Gartengestaltung",
+    "trade": "Garden designer",
+    "trade_plural": "Garden design",
+    "town": "Trier",
+    "county": "Rheinland-Pfalz",
+    "where": "Garden design & landscaping · Trier-Kürenz",
+    "coverage": "Trier and the surrounding area",
+    "phone": "+49 651 9983430",
+    "whatsapp": "496519983430",
+    "rating": 4.8,
+    "review_count": 17,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Gr%C3%BCnform%20Gartengestaltung%2C%20Ober%20Kleeburg%201%2C%2054296%20Trier",
+    "hours": "Call to arrange a time",
+    "accent": "#4F6357",
+    "headline": "Gardens in Trier, designed and built with care.",
+    "subline": "Garden design, terraces, planting, trees and decking. Competent advice, good ideas, quick answers to your questions, and helpful tips for looking after it all afterwards.",
+    "promises": [
+      "Competent, friendly advice",
+      "Good ideas, even unusual ones",
+      "Quick answers to questions",
+      "Helpful maintenance tips"
+    ],
+    "services": [
+      {
+        "name": "Garden design",
+        "text": "Gardens designed around how you want to use them."
+      },
+      {
+        "name": "Terraces & paving",
+        "text": "Terraces and paved areas laid cleanly."
+      },
+      {
+        "name": "Plants & trees",
+        "text": "Plants, flowers and trees chosen and planted."
+      },
+      {
+        "name": "Decking",
+        "text": "Timber decking built as part of the garden."
+      },
+      {
+        "name": "Garden renovation",
+        "text": "Existing gardens reworked and brought back to life."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "We were very satisfied with Grünform. Cornelius knows his craft. Competent advice and execution of the work. Helpful maintenance tips and good ideas on top of that. Highly recommended and would use them again anytime."
+      },
+      {
+        "name": "Google review",
+        "text": "We have known and worked with Fred at Grunform for over 10 years and have always been delighted with his service.  He has designed 2 very different gardens for us including plants, flowers, trees and decking.  He is extremely professional and friendly (as are all his team) and knows his product very well.  He is an excellent communicator and always responds quickly to any questions I have.  He comes highly recommended!"
+      },
+      {
+        "name": "Google review",
+        "text": "We had our garden designed and landscaped by the company Grünform a long time ago (about 20 years)."
+      }
+    ],
+    "areas": [
+      "Trier",
+      "Kürenz",
+      "Tarforst",
+      "Konz",
+      "Schweich",
+      "Trierweiler",
+      "Kasel",
+      "Waldrach"
+    ]
   }
 ]
