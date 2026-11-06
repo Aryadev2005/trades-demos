@@ -900,5 +900,76 @@
       "Merseburg",
       "Wettin-Löbejün"
     ]
+  },
+  {
+    "slug": "finn-matthies-roepke",
+    "business": "Finn Matthies Röpke",
+    "trade": "Heating engineer",
+    "trade_plural": "Heating",
+    "town": "Laboe",
+    "county": "Schleswig-Holstein",
+    "where": "Heating & bathrooms · Laboe, near Kiel",
+    "coverage": "Laboe and the surrounding area",
+    "phone": "+49 4343 1505",
+    "whatsapp": "4943431505",
+    "rating": 4.7,
+    "review_count": 26,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Finn%20Matthies%20R%C3%B6pke%2C%20Steiner%20Weg%2024b%2C%2024235%20Laboe",
+    "hours": "Call to arrange a time",
+    "accent": "#7A4A3A",
+    "headline": "Heating and hot water in Laboe, back up and running fast.",
+    "subline": "Heating repairs, maintenance, new systems and bathrooms. Spare parts sourced at short notice, friendly advice, and help you can rely on, even in the middle of winter.",
+    "promises": [
+      "Fast, reliable help",
+      "Spare parts sourced quickly",
+      "Friendly, expert advice",
+      "There at short notice"
+    ],
+    "services": [
+      {
+        "name": "Heating repairs",
+        "text": "Broken heaters fixed, with spare parts found at short notice."
+      },
+      {
+        "name": "Heating maintenance",
+        "text": "Thorough servicing, with friendly advice along the way."
+      },
+      {
+        "name": "New heating systems",
+        "text": "Systems installed quickly and properly commissioned."
+      },
+      {
+        "name": "Bathroom renovation",
+        "text": "Bathrooms renovated, with a trusted tiler brought in."
+      },
+      {
+        "name": "Water damage",
+        "text": "The cause of a leak found quickly and accurately."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Thank you so much for the quick help! As always, super fast and reliable. A needed spare part for our broken heater was even procured at very short notice. We had hot water again in no time. Such courteous and excellent service is not something to be taken for granted and deserves appreciation and thanks."
+      },
+      {
+        "name": "Google review",
+        "text": "Unreserved recommendation! We've been customers of Mr. Röpke for years, and he even spontaneously repaired our broken gas heater on a Sunday using a spare part we sourced ourselves – all for a price in the double digits! Heating maintenance is very professional and comprehensive, including a friendly and helpful consultation. When we had water damage in the shower area, the cause was quickly and accurately analyzed, and we weren't charged anything."
+      },
+      {
+        "name": "Google review",
+        "text": "A huge THANK YOU again! :-) Hooray for the \"small\" craft businesses. Even if you're stuck in the mud in the middle of winter, you can rely on Matthies. Thank you so much!"
+      }
+    ],
+    "areas": [
+      "Laboe",
+      "Stein",
+      "Wendtorf",
+      "Heikendorf",
+      "Mönkeberg",
+      "Schönberg",
+      "Probsteierhagen",
+      "Kiel"
+    ]
   }
 ]
