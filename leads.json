@@ -971,5 +971,76 @@
       "Probsteierhagen",
       "Kiel"
     ]
+  },
+  {
+    "slug": "ad-design-malermeister-heinemann",
+    "business": "AD Design Heinemann",
+    "trade": "Painter",
+    "trade_plural": "Painting",
+    "town": "Osnabrück",
+    "county": "Niedersachsen",
+    "where": "Painting & decorating · Osnabrück",
+    "coverage": "Osnabrück and the surrounding area",
+    "phone": "+49 172 5621734",
+    "whatsapp": "491725621734",
+    "rating": 4.8,
+    "review_count": 19,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=AD%20Design%20Malermeister%20Heinemann%2C%20Dielingerstra%C3%9Fe%208%2C%2049074%20Osnabr%C3%BCck",
+    "hours": "Open until 6pm",
+    "accent": "#8A6D3B",
+    "headline": "Painting in Osnabrück, meticulous and clean.",
+    "subline": "Interior and exterior painting, doors, facades and detailed work. Appointments kept, quick answers, honest advice on colours, and no mess left behind.",
+    "promises": [
+      "Very clean, meticulous work",
+      "Appointments kept",
+      "Advice on choosing colours",
+      "Quick, easy communication"
+    ],
+    "services": [
+      {
+        "name": "Interior painting",
+        "text": "Walls and rooms painted cleanly, with no construction chaos."
+      },
+      {
+        "name": "Exterior & facades",
+        "text": "Facades repaired and painted, including around new windows."
+      },
+      {
+        "name": "Door painting",
+        "text": "Doors painted with a careful, even finish."
+      },
+      {
+        "name": "Colour advice",
+        "text": "Help choosing colours that go with what you already have."
+      },
+      {
+        "name": "Repairs & detailed work",
+        "text": "Damage from earlier jobs put right, and fine detailed work."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Very meticulous and clean work. Excellent value for money and reliable scheduling. Quick and easy communication. I can definitely recommend them."
+      },
+      {
+        "name": "Google review",
+        "text": "Absolutely super professional and works very cleanly! The appointment was kept. A very, very nice painter who takes care of everything himself and also gives great tips! I will only ever use him for any painting work from now on!"
+      },
+      {
+        "name": "Google review",
+        "text": "Mr. Dapkus repaired the facade around the windows and painted them after installing new ones. We are very satisfied, including with his advice on choosing the colors (we were unsure what would go with the red window frames). Mr. Dapkus is professional, very friendly, highly competent, and reliable. He answers questions quickly. It's wonderful that there are still such skilled tradespeople around!"
+      }
+    ],
+    "areas": [
+      "Osnabrück",
+      "Belm",
+      "Wallenhorst",
+      "Bissendorf",
+      "Hasbergen",
+      "Georgsmarienhütte",
+      "Hagen a.T.W.",
+      "Bramsche"
+    ]
   }
 ]
