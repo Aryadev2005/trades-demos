@@ -699,5 +699,76 @@
       "Kötschau",
       "Mellingen"
     ]
+  },
+  {
+    "slug": "maksuti-gartenpflege-gartenbau",
+    "business": "Maksuti Gartenpflege",
+    "trade": "Landscaper",
+    "trade_plural": "Garden",
+    "town": "Ulm",
+    "county": "Ulm & Neu-Ulm",
+    "where": "Garden care & landscaping · Ulm & Neu-Ulm",
+    "coverage": "Ulm, Neu-Ulm and the surrounding area",
+    "phone": "+49 731 20640447",
+    "whatsapp": "4973120640447",
+    "rating": 5.0,
+    "review_count": 45,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Maksuti%20Gartenpflege%20%26%20Gartenbau%20Ulm",
+    "hours": "Open until 5pm",
+    "accent": "#4E6650",
+    "headline": "Hedges, lawns and patios in Ulm, beautifully kept.",
+    "subline": "Hedge trimming, turf, patios, paths and garden redesigns from Mr. Maksuti. Reliable, quick and tidy, with every last clipping taken away.",
+    "promises": [
+      "Reliable and punctual",
+      "Quick and straightforward",
+      "All clippings taken away",
+      "Expert advice"
+    ],
+    "services": [
+      {
+        "name": "Garden maintenance",
+        "text": "Regular care to keep the garden in shape."
+      },
+      {
+        "name": "Hedge trimming",
+        "text": "Overgrown hedges cut back, with your wishes taken into account."
+      },
+      {
+        "name": "Lawns & turf",
+        "text": "Lawns scarified, old weeds removed and new rolled turf laid."
+      },
+      {
+        "name": "Patios & paths",
+        "text": "Patios extended and relaid, small paths and edging stones laid."
+      },
+      {
+        "name": "Garden redesign",
+        "text": "Neglected gardens redesigned, with steps, fences and new planting."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "We are really very happy, the hedge looks great, exactly as we wanted it. Thank you so much! Thanks also for everything being so straightforward and quick :)"
+      },
+      {
+        "name": "Google review",
+        "text": "We became aware of Maksuti through their positive reviews and can only confirm them. We had neglected our small terraced house garden in recent years. With a new privacy fence, neatly trimmed cherry laurel trees, a patio bordered with edging stones, new rolled turf, and a small paved path, it has become a real gem. Thank you for the great ideas and the meticulous workmanship!"
+      },
+      {
+        "name": "Google review",
+        "text": "Mr. Maksuti scarified our lawn, removed the old weeds, and laid new roller slabs. He was very reliable, responded quickly, and completed the work professionally and efficiently. In the end, it was even a bit cheaper than we expected. We highly recommend him!"
+      }
+    ],
+    "areas": [
+      "Ulm",
+      "Neu-Ulm",
+      "Blaustein",
+      "Senden",
+      "Elchingen",
+      "Illerkirchberg",
+      "Dornstadt",
+      "Erbach"
+    ]
   }
 ]
