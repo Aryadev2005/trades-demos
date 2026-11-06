@@ -770,5 +770,76 @@
       "Dornstadt",
       "Erbach"
     ]
+  },
+  {
+    "slug": "gartenpflege-alili",
+    "business": "Gartenpflege Alili",
+    "trade": "Gardener",
+    "trade_plural": "Garden",
+    "town": "Bielefeld",
+    "county": "Nordrhein-Westfalen",
+    "where": "Garden care & hedge trimming · Bielefeld",
+    "coverage": "Bielefeld and the surrounding area",
+    "phone": "+49 1520 3936929",
+    "whatsapp": "4915203936929",
+    "rating": 4.9,
+    "review_count": 41,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Gartenpflege'ALILI%2C%20Dompfaffweg%2C%2033607%20Bielefeld",
+    "hours": "Open until 7:30pm",
+    "accent": "#5B6B3A",
+    "headline": "Hedges and gardens in Bielefeld, thoughtfully kept.",
+    "subline": "Hedge trimming, branch trimming, front gardens and garden work from Mr. Alili. Quick replies on WhatsApp, fair prices, and everything done exactly as agreed.",
+    "promises": [
+      "Quick replies on WhatsApp",
+      "Done exactly as agreed",
+      "Fair, transparent prices",
+      "Left clean and tidy"
+    ],
+    "services": [
+      {
+        "name": "Hedge trimming",
+        "text": "Hedges shaped with care, keeping their natural character."
+      },
+      {
+        "name": "Branch trimming",
+        "text": "Overhanging branches and shrubs cut back neatly."
+      },
+      {
+        "name": "Front gardens",
+        "text": "Front gardens tidied up and laid out again."
+      },
+      {
+        "name": "Garden work",
+        "text": "General garden work, often at short notice."
+      },
+      {
+        "name": "Garden design",
+        "text": "Advice and a plan for how your garden should look."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "A truly wonderful garden service with customer service that's hard to find these days. Completely uncomplicated via WhatsApp, very friendly, quick responses, and very transparent. I highly recommend Alili Garden Service. The result also fully met my expectations."
+      },
+      {
+        "name": "Google review",
+        "text": "We contacted Alili Nursery at very short notice, after already having contacted two gardeners but still waiting for a response. Alili gave us incredibly quick advice (he came by that same evening for a consultation and site visit). He then carried out the work very promptly. He is very competent, reliable, and performs the work professionally and neatly. We are very grateful and extremely satisfied! Our garden looks fantastic, and we will definitely use him again. A clear recommendation!"
+      },
+      {
+        "name": "Google review",
+        "text": "Very reliable and pleasant contact. I called yesterday and everything was finished today. The work was left clean and tidy and carried out exactly as agreed. I especially appreciated that the hedge wasn't just radically cut, but thoughtfully considered. The hedge now looks well-maintained again without losing its natural character. The price was absolutely realistic and fair."
+      }
+    ],
+    "areas": [
+      "Bielefeld-Mitte",
+      "Schildesche",
+      "Heepen",
+      "Brackwede",
+      "Sennestadt",
+      "Jöllenbeck",
+      "Herford",
+      "Oerlinghausen"
+    ]
   }
 ]
