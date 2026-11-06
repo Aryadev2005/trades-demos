@@ -561,5 +561,72 @@
       "Douglas",
       "Ballincollig"
     ]
+  },
+  {
+    "slug": "abwassertechnik-gmbh-goettingen",
+    "business": "Abwassertechnik Göttingen",
+    "trade": "Drainage service",
+    "trade_plural": "Drain cleaning",
+    "town": "Göttingen",
+    "county": "Niedersachsen",
+    "where": "Drain & sewer cleaning · Göttingen-Weende",
+    "coverage": "Göttingen and the surrounding area",
+    "phone": "+49 174 1648871",
+    "whatsapp": "491741648871",
+    "rating": 4.9,
+    "review_count": 108,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Abwassertechnik%20GmbH%20G%C3%B6ttingen%2C%20Werner-von-Siemens-Stra%C3%9Fe%203%2C%2037077%20G%C3%B6ttingen",
+    "hours": "Open until 8pm",
+    "accent": "#355C7D",
+    "headline": "Blocked drains in Göttingen, cleared quickly.",
+    "subline": "Kitchen drains, basement blockages and drain cleaning. Modern equipment, a professional team, and the place left spotless afterwards.",
+    "promises": [
+      "Quick to arrive",
+      "Modern, reliable equipment",
+      "Left spotless afterwards",
+      "Professional, friendly team"
+    ],
+    "services": [
+      {
+        "name": "Drain cleaning",
+        "text": "Blocked drains cleaned out with professional equipment."
+      },
+      {
+        "name": "Kitchen drains",
+        "text": "Stubborn grease clogs cleared when home remedies won't."
+      },
+      {
+        "name": "Basement blockages",
+        "text": "Basement drains unblocked, and the area left clean."
+      },
+      {
+        "name": "Sewer pipes",
+        "text": "Sewer and main drain pipes cleaned."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "I had a blockage in my basement yesterday and they arrived quickly. Everything was professionally cleaned and they left it spotless afterwards. I'm really relieved it went so well."
+      },
+      {
+        "name": "Google review",
+        "text": "We had a really stubborn grease clog in our kitchen drain that no home remedy could clear. They brought in some serious equipment and got it completely unblocked. Finally, free-flowing!"
+      },
+      {
+        "name": "Google review",
+        "text": "I had the drain cleaned, and everything went smoothly. The staff were professional, relaxed, and in good spirits. The equipment seemed modern and reliable."
+      }
+    ],
+    "areas": [
+      "Göttingen",
+      "Weende",
+      "Grone",
+      "Geismar",
+      "Bovenden",
+      "Rosdorf",
+      "Gleichen",
+      "Nörten-Hardenberg"
+    ]
   }
 ]
