@@ -1887,5 +1887,76 @@
       "Hohenems",
       "Dornbirn"
     ]
+  },
+  {
+    "slug": "malermeister-juergen-hofer",
+    "business": "Malermeister Jürgen Hofer",
+    "trade": "Painter",
+    "trade_plural": "Painting",
+    "town": "Gumpoldskirchen",
+    "county": "Niederösterreich",
+    "where": "Painting, facades & wood · Gumpoldskirchen",
+    "coverage": "Gumpoldskirchen and the surrounding area",
+    "phone": "+43 664 2504955",
+    "whatsapp": "436642504955",
+    "rating": 5.0,
+    "review_count": 25,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Malermeister%20J%C3%BCrgen%20Hofer%2C%20M%C3%B6dlinger%20Str.%209%2C%202352%20Gumpoldskirchen",
+    "hours": "Call to arrange a time",
+    "accent": "#7D5A44",
+    "headline": "Painting near Vienna, precise, clean and reliable.",
+    "subline": "Rooms, whole apartments, facades and wooden beams from Jürgen Hofer and his assistant. Good advice from the start, precise and clean work, and reasonable prices.",
+    "promises": [
+      "Precise, clean work",
+      "Reliable and friendly",
+      "Expert advice",
+      "Reasonable prices"
+    ],
+    "services": [
+      {
+        "name": "Interior painting",
+        "text": "Rooms and whole apartments painted, even in very colourful shades."
+      },
+      {
+        "name": "Facades",
+        "text": "Exterior walls painted until the facade shines again."
+      },
+      {
+        "name": "Wood varnishing",
+        "text": "Weathered wooden beams sanded and painted."
+      },
+      {
+        "name": "Water damage",
+        "text": "Water damage in the house repaired, straightforwardly and cleanly."
+      },
+      {
+        "name": "Wallpaper removal",
+        "text": "Old woodchip wallpaper stripped before painting."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "We highly recommend Mr. Hofer; we were absolutely thrilled. He sanded and painted our weathered wooden beams on the house. He works very precisely and cleanly, is reliable, and extremely friendly. The price and service are perfect!"
+      },
+      {
+        "name": "Google review",
+        "text": "I was looking for a painting company to repair water damage in my house. The entire process was straightforward, reliable, and professional, and the work was carried out perfectly and cleanly – I highly recommend them and thank them very much – I would gladly return as a customer anytime."
+      },
+      {
+        "name": "Google review",
+        "text": "Highly recommended! Jürgen Hofer and his assistant recently painted my entire new apartment. Despite some challenges, such as removing old woodchip wallpaper in three rooms and my very colorful requests, everything was completed in record time. Planning, execution, and value for money were all excellent, as was Mr. Hofer's advice and expertise. I would hire them again in a heartbeat."
+      }
+    ],
+    "areas": [
+      "Gumpoldskirchen",
+      "Mödling",
+      "Guntramsdorf",
+      "Traiskirchen",
+      "Pfaffstätten",
+      "Baden",
+      "Wiener Neudorf",
+      "Perchtoldsdorf"
+    ]
   }
 ]
