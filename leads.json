@@ -1816,5 +1816,76 @@
       "Grafenstein",
       "Velden"
     ]
+  },
+  {
+    "slug": "emas-malerbetrieb",
+    "business": "EMAS Malerbetrieb",
+    "trade": "Painter",
+    "trade_plural": "Painting",
+    "town": "Feldkirch",
+    "county": "Vorarlberg",
+    "where": "Painting & decorating · Feldkirch, Vorarlberg",
+    "coverage": "Feldkirch and the surrounding area",
+    "phone": "+43 660 5601090",
+    "whatsapp": "436605601090",
+    "rating": 5.0,
+    "review_count": 32,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=EMAS%20Malerbetrieb%2C%20Luegerstra%C3%9Fe%2015c%2C%206800%20Feldkirch",
+    "hours": "Call to arrange a time",
+    "accent": "#6B5B4E",
+    "headline": "Painting in Feldkirch, clean and precise.",
+    "subline": "Apartments, ceilings, walls and facades painted with absolute precision. Furniture covered, every edge masked, deadlines kept, and creative ideas when you want them.",
+    "promises": [
+      "Deadlines kept",
+      "Furniture covered, edges masked",
+      "Creative ideas",
+      "Reasonable prices"
+    ],
+    "services": [
+      {
+        "name": "Interior painting",
+        "text": "Whole apartments, ceilings and walls painted with great care."
+      },
+      {
+        "name": "Facades",
+        "text": "Building facades painted quickly and cleanly."
+      },
+      {
+        "name": "Decorative techniques",
+        "text": "Innovative ideas carried out with special painting techniques."
+      },
+      {
+        "name": "Water damage",
+        "text": "Damage assessed quickly and put right."
+      },
+      {
+        "name": "Short-notice jobs",
+        "text": "Short-notice appointments, done quickly and cleanly."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "The short-notice appointment worked out well, it was quick and clean. We are very satisfied."
+      },
+      {
+        "name": "Google review",
+        "text": "He completed the entire facade of our apartment building extremely quickly and cleanly. In my own apartment, he suggested innovative ideas and implemented them using special painting techniques. A very competent and reliable painter! The price-performance ratio is also perfect. Thank you, EMAS! ✌️"
+      },
+      {
+        "name": "Google review",
+        "text": "E+MAS Painting Company completely painted our two-room apartment in Bludenz. Communication was seamless, and all agreed-upon deadlines were met. The work was carried out cleanly and with absolute precision. Every edge that wasn't being painted was carefully masked off. All furniture was completely covered with protective sheeting. Ceilings and walls were painted with great care. The team of two painters completed everything in one day. They were very friendly, and we found the price to be reasonable."
+      }
+    ],
+    "areas": [
+      "Feldkirch",
+      "Rankweil",
+      "Frastanz",
+      "Götzis",
+      "Nenzing",
+      "Bludenz",
+      "Hohenems",
+      "Dornbirn"
+    ]
   }
 ]
