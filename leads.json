@@ -1745,5 +1745,76 @@
       "Schwentinental",
       "Kiel-Mitte"
     ]
+  },
+  {
+    "slug": "elektro-dreschnig-gmbh",
+    "business": "Elektro Dreschnig",
+    "trade": "Electrical appliances",
+    "trade_plural": "Appliance",
+    "town": "Klagenfurt",
+    "county": "Kärnten",
+    "where": "Household appliances, delivery & installation · Klagenfurt",
+    "coverage": "Klagenfurt and the surrounding area",
+    "phone": "+43 463 514751",
+    "whatsapp": "43463514751",
+    "rating": 4.7,
+    "review_count": 81,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Elektro%20Dreschnig%20GmbH%2C%20Osterwitzgasse%2010%2C%209020%20Klagenfurt",
+    "hours": "Call for opening times",
+    "accent": "#2F5F4F",
+    "headline": "New appliances in Klagenfurt, delivered and installed.",
+    "subline": "Washing machines, dryers, dishwashers and more, with first-class advice. Delivered and installed as agreed, the old appliance taken away, and shown how to use the new one.",
+    "promises": [
+      "First-class advice",
+      "Delivery and installation as agreed",
+      "Old appliance taken away",
+      "Fair prices"
+    ],
+    "services": [
+      {
+        "name": "Advice & sales",
+        "text": "Expert advice on the right appliance from a small, specialised retailer."
+      },
+      {
+        "name": "Delivery",
+        "text": "Delivered punctually, exactly as agreed."
+      },
+      {
+        "name": "Installation & setup",
+        "text": "Installed precisely, with a walkthrough on how to use it."
+      },
+      {
+        "name": "Removal & disposal",
+        "text": "The old appliance removed and disposed of."
+      },
+      {
+        "name": "Repairs",
+        "text": "Repairs to household appliances."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Excellent advice, top-notch delivery, and outstanding installation. A completely worry-free package!"
+      },
+      {
+        "name": "Google review",
+        "text": "I have to say, I'm really impressed! I bought a washing machine, the advice was first-class, I automatically got a 5-year warranty, and the delivery and installation were top-notch and super friendly! And the price was great too! I'll definitely buy from Elektro Dreschnig again! Thanks :)"
+      },
+      {
+        "name": "Google review",
+        "text": "Excellent advice and very friendly service. Delivery and installation were exactly as agreed, punctual and precise. They handled the removal and disposal of the old appliance and the installation of the new one. I highly recommend them. The bill was accurate to the cent, as agreed, even though installing the dishwasher was a bit tricky. They even provided training on how to use the new appliance. That's how it should be. You feel like a real customer, not just a number."
+      }
+    ],
+    "areas": [
+      "Klagenfurt",
+      "Viktring",
+      "Ebenthal",
+      "Krumpendorf",
+      "Pörtschach",
+      "Maria Saal",
+      "Grafenstein",
+      "Velden"
+    ]
   }
 ]
