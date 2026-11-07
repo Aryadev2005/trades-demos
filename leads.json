@@ -2210,5 +2210,72 @@
       "Hallstatt",
       "Bad Aussee"
     ]
+  },
+  {
+    "slug": "elektro-sigmund",
+    "business": "Elektro Sigmund",
+    "trade": "Electrician",
+    "trade_plural": "Electrical",
+    "town": "Klagenfurt",
+    "county": "Kärnten",
+    "where": "Electrical installation & repairs · Klagenfurt",
+    "coverage": "Klagenfurt and the surrounding area",
+    "phone": "+43 463 503415",
+    "whatsapp": "43463503415",
+    "rating": 4.9,
+    "review_count": 24,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Elektro%20Sigmund%2C%20Villacher%20Str.%2033%2C%209020%20Klagenfurt",
+    "hours": "Call to arrange a time",
+    "accent": "#405F73",
+    "headline": "Electrical work in Klagenfurt, done promptly and cleanly.",
+    "subline": "Repairs, fuse boxes and full renovations from a competent, knowledgeable team. Professional, prompt, reliable and clean, with an owner who brings real expertise.",
+    "promises": [
+      "Prompt, reliable work",
+      "Clean and professional",
+      "Knowledgeable team",
+      "Quick repairs"
+    ],
+    "services": [
+      {
+        "name": "Electrical repairs",
+        "text": "Faults repaired quickly and reliably."
+      },
+      {
+        "name": "Fuse box replacement",
+        "text": "Old fuse boxes replaced promptly."
+      },
+      {
+        "name": "Renovations",
+        "text": "Complete electrical renovations, carried out conscientiously."
+      },
+      {
+        "name": "Practical solutions",
+        "text": "Creative, practical ways to make things work on site."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "This company is the best for me!!!! (proven multiple times!!) I called today and when I got home everything was repaired. I'm so happy!!!"
+      },
+      {
+        "name": "Google review",
+        "text": "Extremely competent, highly knowledgeable, and very conscientious in handling customer requests. The complete renovation of my ski lodge in Innerfillgraten was completed to my utmost satisfaction despite repeated snowfalls! The company owner, Mr. Huainig, also shines with his professional expertise! Highly recommended!"
+      },
+      {
+        "name": "Google review",
+        "text": "The work was carried out very professionally, promptly, reliably, and cleanly. I would highly recommend them!"
+      }
+    ],
+    "areas": [
+      "Klagenfurt",
+      "Viktring",
+      "Ebenthal",
+      "Krumpendorf",
+      "Pörtschach",
+      "Maria Rain",
+      "Grafenstein",
+      "Wölfnitz"
+    ]
   }
 ]
