@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>AI receptionist preview · James Byrne Electrical Services</title>
+<style>
+:root{
+  --navy:#0f2236;--navy-2:#16314d;--ink:#18222d;--mute:#5d6b78;--line:#e3e7ec;--bg:#f4f6f8;
+  --amber:#f2a516;--amber-d:#c9850a;--green:#1f9d55;--red:#c2402f;
+  --wa-bg:#efeae2;--wa-out:#d9fdd3;--wa-in:#fff;--wa-head:#075e54;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased}
+button{font:inherit;cursor:pointer}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+
+/* preview banner */
+.mb{display:none}
+@media (max-width:860px){.mb{display:inline}.dk{display:none}}
+.banner{background:var(--amber);color:#2a1d00;font-size:13px;text-align:center;padding:7px 12px;font-weight:600}
+
+/* hero */
+.hero{background:radial-gradient(1200px 500px at 80% -10%,#24476d 0%,transparent 60%),var(--navy);color:#fff;padding:44px 0 120px}
+.brand{display:flex;align-items:center;gap:12px;margin-bottom:28px}
+.mono{width:44px;height:44px;border-radius:11px;background:var(--amber);color:var(--navy);display:grid;place-items:center;font-weight:800;letter-spacing:-.5px}
+.brand b{display:block;font-size:16px}
+.brand span{font-size:13px;color:#b8c7d6}
+.hero h1{font-size:clamp(30px,4.6vw,50px);line-height:1.08;letter-spacing:-.02em;max-width:820px}
+.hero h1 em{font-style:normal;color:var(--amber)}
+.hero p.lead{margin-top:16px;font-size:clamp(16px,2vw,19px);color:#cfdbe7;max-width:680px}
+.proof{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.proof span{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:6px 12px;font-size:13px;color:#e4ecf3}
+.proof b{color:var(--amber)}
+
+/* demo stage */
+.stage{margin-top:-86px;position:relative;z-index:2}
+.scen{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px;box-shadow:0 10px 30px rgba(15,34,54,.08);display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.scen .lbl{font-size:13px;font-weight:700;color:var(--mute);margin-right:4px}
+.scen button{border:1px solid var(--line);background:#f7f9fb;border-radius:10px;padding:8px 12px;font-size:14px;color:var(--ink);transition:.15s}
+.scen button:hover{border-color:#c6ced7;background:#fff}
+.scen button.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.scen .reset{margin-left:auto;background:none;border:0;color:var(--mute);font-size:13px;text-decoration:underline}
+
+.tabs{display:none;margin-top:14px;background:#e6eaef;border-radius:12px;padding:4px}
+.tabs button{flex:1;border:0;background:none;padding:9px;border-radius:9px;font-size:14px;font-weight:600;color:var(--mute);position:relative}
+.tabs button.on{background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.tabs .dot{position:absolute;top:7px;right:12px;width:8px;height:8px;border-radius:50%;background:var(--red);display:none}
+.tabs .dot.on{display:block}
+
+.panes{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;margin-top:18px}
+.pane-h{display:flex;align-items:baseline;justify-content:space-between;margin:0 4px 8px}
+.pane-h b{font-size:15px}
+.pane-h span{font-size:13px;color:var(--mute)}
+
+/* phone shell */
+.phone{background:#111;border-radius:34px;padding:10px;box-shadow:0 18px 40px rgba(15,34,54,.18)}
+.screen{border-radius:26px;overflow:hidden;height:640px;display:flex;flex-direction:column;background:var(--wa-bg)}
+.wa-head{background:var(--wa-head);color:#fff;display:flex;align-items:center;gap:10px;padding:12px 14px}
+.wa-head .av{width:36px;height:36px;border-radius:50%;background:var(--amber);color:var(--navy);display:grid;place-items:center;font-weight:800;font-size:13px;flex:none}
+.wa-head b{display:block;font-size:15px;line-height:1.2}
+.wa-head small{font-size:12px;color:#cde8e3}
+.msgs{flex:1;overflow-y:auto;padding:14px 12px 8px;display:flex;flex-direction:column;gap:6px;background-image:radial-gradient(rgba(0,0,0,.035) 1px,transparent 1px);background-size:14px 14px}
+.b{max-width:84%;padding:7px 10px 18px;border-radius:9px;font-size:14.5px;line-height:1.42;position:relative;box-shadow:0 1px .5px rgba(0,0,0,.13);white-space:pre-wrap;word-wrap:break-word;animation:pop .18s ease-out}
+.b.in{background:var(--wa-in);align-self:flex-start;border-top-left-radius:2px}
+.b.out{background:var(--wa-out);align-self:flex-end;border-top-right-radius:2px}
+.b .t{position:absolute;right:8px;bottom:3px;font-size:10.5px;color:#7b8a87}
+.b.sys{align-self:center;background:#fff7d6;color:#5b4a12;font-size:12.5px;padding:5px 10px;box-shadow:none;border-radius:7px}
+.b.sys .t{display:none}
+.b.photo{padding:4px 4px 18px}
+.b.photo .img{width:200px;height:130px;border-radius:7px;background:linear-gradient(135deg,#d7dde3,#b7c2cc);display:grid;place-items:center;color:#4b5966;font-size:12.5px;text-align:center;padding:10px}
+.typing{align-self:flex-start;background:#fff;border-radius:9px;padding:10px 12px;display:flex;gap:4px;box-shadow:0 1px .5px rgba(0,0,0,.13)}
+.typing i{width:6px;height:6px;border-radius:50%;background:#9aa6a3;animation:blink 1s infinite}
+.typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}
+@keyframes blink{0%,80%,100%{opacity:.3}40%{opacity:1}}
+@keyframes pop{from{transform:translateY(4px);opacity:0}to{transform:none;opacity:1}}
+.qr{display:flex;flex-wrap:wrap;gap:6px;padding:6px 10px 2px;justify-content:flex-end}
+.qr button{background:#fff;border:1px solid #cfd8d5;color:#0b6b5f;border-radius:16px;padding:6px 11px;font-size:13.5px}
+.qr button:hover{background:#f1fbf8}
+.comp{display:flex;gap:8px;padding:8px 10px 10px;align-items:center}
+.comp input{flex:1;border:0;border-radius:22px;padding:11px 14px;font:inherit;font-size:15px;outline:none;background:#fff}
+.comp .send{width:42px;height:42px;border-radius:50%;border:0;background:#00a884;color:#fff;display:grid;place-items:center;flex:none}
+.comp .clip{width:36px;height:36px;border-radius:50%;border:0;background:none;color:#54656f;display:grid;place-items:center;flex:none}
+
+/* James side */
+.jscreen{background:#f2f4f7}
+.jhead{background:var(--navy);color:#fff;padding:14px 16px}
+.jhead b{display:block;font-size:15px}
+.jhead small{color:#aebfd0;font-size:12px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:12px 12px 4px}
+.stat{background:#fff;border-radius:10px;padding:8px 10px;border:1px solid var(--line)}
+.stat b{display:block;font-size:20px;line-height:1.1}
+.stat span{font-size:11.5px;color:var(--mute)}
+.feed{flex:1;overflow-y:auto;padding:8px 12px 14px;display:flex;flex-direction:column;gap:10px}
+.empty{color:var(--mute);font-size:13.5px;text-align:center;padding:30px 18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px;animation:pop .25s ease-out}
+.card.urgent{border-color:#f0b3aa;box-shadow:0 0 0 3px #fde5e1}
+.card .top{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:6px}
+.tag{font-size:11px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;padding:3px 7px;border-radius:6px}
+.tag.ev{background:#e7f0fb;color:#24558c}
+.tag.job{background:#eef1f4;color:#45525e}
+.tag.red{background:#fde5e1;color:var(--red)}
+.tag.ok{background:#e3f4ea;color:var(--green)}
+.tag.auto{background:#fff3d6;color:#8a5d00}
+.card .when{font-size:11.5px;color:var(--mute)}
+.card h4{font-size:15px;margin-bottom:6px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:13px}
+.kv dt{color:var(--mute)}
+.kv dd{color:var(--ink)}
+.card .acts{display:flex;gap:6px;margin-top:10px}
+.card .acts button{flex:1;border-radius:8px;padding:8px;font-size:13.5px;font-weight:600;border:1px solid var(--line);background:#fff}
+.card .acts .go{background:var(--green);border-color:var(--green);color:#fff}
+.card .acts .call{background:var(--red);border-color:var(--red);color:#fff}
+.card .note{font-size:12.5px;color:var(--mute);margin-top:8px}
+
+/* sections */
+section.s{padding:72px 0 0}
+.s h2{font-size:clamp(24px,3.2vw,34px);letter-spacing:-.015em;line-height:1.15}
+.s p.sub{color:var(--mute);margin-top:8px;max-width:640px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+.tile{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}
+.tile .k{font-size:12px;font-weight:700;color:var(--amber-d);text-transform:uppercase;letter-spacing:.05em}
+.tile h3{font-size:17px;margin:6px 0 10px}
+.tile .wa{background:var(--wa-bg);border-radius:10px;padding:10px}
+.tile .wa .b{max-width:100%;font-size:13.5px;animation:none}
+.tile p.how{font-size:13.5px;color:var(--mute);margin-top:10px}
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+.rev{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;font-size:15px}
+.rev .st{color:var(--amber);letter-spacing:2px;margin-bottom:6px}
+.rev small{display:block;color:var(--mute);margin-top:8px;font-size:12.5px}
+.ctrl{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:26px}
+.ctrl div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;font-size:14px;color:var(--mute)}
+.ctrl b{display:block;color:var(--ink);font-size:15px;margin-bottom:4px}
+.cta{margin:72px 0 0;background:var(--navy);color:#fff;border-radius:20px;padding:36px 28px;text-align:center}
+.cta h2{font-size:clamp(22px,3vw,30px)}
+.cta p{color:#c6d4e2;margin:10px auto 0;max-width:560px}
+footer{color:var(--mute);font-size:12.5px;text-align:center;padding:36px 20px 50px}
+
+.toast{pointer-events:none;position:fixed;left:50%;bottom:22px;transform:translateX(-50%) translateY(20px);background:var(--navy);color:#fff;padding:10px 16px;border-radius:12px;font-size:14px;font-weight:600;opacity:0;transition:.25s;z-index:50;box-shadow:0 8px 24px rgba(0,0,0,.25);cursor:pointer}
+.toast.on{opacity:1;transform:translateX(-50%);pointer-events:auto}
+
+@media (max-width:860px){
+  .hero{padding:22px 0 96px}
+  .hero h1{font-size:28px}
+  .hero p.lead{font-size:15.5px;margin-top:12px}
+  .brand{margin-bottom:18px}
+  .proof{margin-top:16px;gap:6px}
+  .proof span{font-size:12px;padding:5px 10px}
+  .tabs{display:flex}
+  .panes{grid-template-columns:minmax(0,1fr);margin-top:12px}
+  .pane{min-width:0}
+  .scen{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding:10px;scrollbar-width:none}
+  .scen::-webkit-scrollbar{display:none}
+  .scen button{white-space:nowrap;flex:none;font-size:13.5px;padding:7px 10px}
+  .scen .lbl{display:none}
+  .pane{display:none}
+  .pane.on{display:block}
+  .pane-h{display:none}
+  .phone{border-radius:0;padding:0;background:none;box-shadow:none}
+  .screen{border-radius:16px;height:min(74vh,620px);border:1px solid var(--line)}
+  .grid3,.revs{grid-template-columns:1fr}
+  .ctrl{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+
+<div class="banner">Private preview built for James Byrne Electrical Services · not public</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="brand"><div class="mono">JB</div><div><b>James Byrne Electrical Services</b><span>Co. Clare · 5.0★ from 57 Google reviews</span></div></div>
+    <h1>Your AI receptionist. <em>Answers every enquiry in seconds</em>, and books the job while you're on the tools.</h1>
+    <p class="lead">James, this is a working preview set up for your business. <span class="dk">Play the customer on the left. Your phone on the right shows exactly what you'd get.</span><span class="mb">Play the customer below, then flip to "Your phone" to see exactly what you'd get.</span></p>
+    <div class="proof">
+      <span><b>€300</b> SEAI grant check built in</span>
+      <span>Books EV surveys into <b>your</b> free slots</span>
+      <span>Texts back <b>missed calls</b> automatically</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap stage" id="demo">
+  <div class="scen">
+    <span class="lbl">Try a scenario:</span>
+    <button data-scen="ev" class="on">⚡ EV charger + grant</button>
+    <button data-scen="missed">📵 Missed call at 7pm</button>
+    <button data-scen="fault">🔌 "My power keeps tripping"</button>
+    <button data-scen="job">💡 Other jobs</button>
+    <button class="reset" data-scen="reset">Start over</button>
+  </div>
+
+  <div class="tabs" role="tablist">
+    <button class="on" data-tab="cust">Customer's phone</button>
+    <button data-tab="james">Your phone <i class="dot" id="dot"></i></button>
+  </div>
+
+  <div class="panes">
+    <div class="pane on" id="pane-cust">
+      <div class="pane-h"><b>The customer's WhatsApp</b><span>Type anything, or tap a reply</span></div>
+      <div class="phone"><div class="screen">
+        <div class="wa-head"><div class="av">JB</div><div><b>James Byrne Electrical</b><small id="wa-status">online · usually replies instantly</small></div></div>
+        <div class="msgs" id="msgs"></div>
+        <div class="qr" id="qr"></div>
+        <div class="comp">
+          <button class="clip" id="clip" title="Send a photo" aria-label="Send a photo"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.4 11.1l-9.2 9.2a6 6 0 01-8.5-8.5l9.2-9.2a4 4 0 015.7 5.7l-9.2 9.2a2 2 0 01-2.8-2.8l8.5-8.5"/></svg></button>
+          <input id="inp" placeholder="Message" autocomplete="off" enterkeyhint="send">
+          <button class="send" id="send" aria-label="Send"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3 20.5l18-8.5L3 3.5v6.6l12.8 1.9L3 13.9z"/></svg></button>
+        </div>
+      </div></div>
+    </div>
+
+    <div class="pane" id="pane-james">
+      <div class="pane-h"><b>Your phone</b><span>What lands for you</span></div>
+      <div class="phone"><div class="screen jscreen">
+        <div class="jhead"><b>Your bookings</b><small>Everything the assistant handled for you</small></div>
+        <div class="stats">
+          <div class="stat"><b id="s-ans">0</b><span>enquiries answered</span></div>
+          <div class="stat"><b id="s-book">0</b><span>jobs booked</span></div>
+          <div class="stat"><b id="s-time">–</b><span>avg reply time</span></div>
+        </div>
+        <div class="feed" id="feed"><div class="empty" id="empty">Nothing yet. Chat as a customer and watch the jobs arrive here, ready to go.</div></div>
+      </div></div>
+    </div>
+  </div>
+</main>
+
+<section class="s"><div class="wrap">
+  <h2>It also brings you more work</h2>
+  <p class="sub">The same assistant goes back to customers you've already done work for, so jobs come to you directly and not only through a platform.</p>
+  <div class="grid3">
+    <div class="tile">
+      <div class="k">After every job</div><h3>A review on <i>your</i> Google listing</h3>
+      <div class="wa"><div class="b in">Hi Siobhán, thanks for having James out for the charger today. If you were happy with the job, a quick Google review helps a small local business more than you'd think: [link]. Thanks a million!</div></div>
+      <p class="how">Goes out the evening the job's done. Your Local Heroes reputation ends up on your own Google listing, where new customers find you directly.</p>
+    </div>
+    <div class="tile">
+      <div class="k">Quote gone quiet</div><h3>A friendly nudge, not a hard sell</h3>
+      <div class="wa"><div class="b in">Hi Declan, just checking in on the charger quote James sent last week. Any questions about the grant or the install? Happy to hold a survey slot for you this Thursday if that suits.</div></div>
+      <p class="how">Sent after 5 days with no reply. If they say no, it stops.</p>
+    </div>
+    <div class="tile">
+      <div class="k">Past customers</div><h3>Neighbours and next jobs</h3>
+      <div class="wa"><div class="b in">Hi Aoife, hope the charger's been working well. If any neighbours are thinking about one, James is in your area on the 14th, so it's an easy one to slot in. Just reply here.</div></div>
+      <p class="how">A careful, occasional message when you're already working nearby. You choose who gets it and when.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="s"><div class="wrap">
+  <h2>It talks like your customers talk about you</h2>
+  <p class="sub">It's set up on your services and your real reviews, so it sounds like your business, not a call centre.</p>
+  <div class="revs">
+    <div class="rev"><div class="st">★★★★★</div>"In and out in great time, clean and tidy job."<small>Google review</small></div>
+    <div class="rev"><div class="st">★★★★★</div>"James had the form sent off for the SEAI grant straight away."<small>Google review</small></div>
+    <div class="rev"><div class="st">★★★★★</div>"Punctual, tidy, and very knowledgeable."<small>Google review</small></div>
+  </div>
+</div></section>
+
+<section class="s"><div class="wrap">
+  <h2>You stay in control</h2>
+  <div class="ctrl">
+    <div><b>Your diary, your rules</b>It only offers slots you've left free.</div>
+    <div><b>You set the prices</b>It never invents a price. Anything about price comes to you.</div>
+    <div><b>Emergencies come first</b>Anything dangerous goes straight to you as urgent.</div>
+    <div><b>Your number stays</b>It works on your existing WhatsApp and website.</div>
+  </div>
+  <div class="cta">
+    <h2>Like what you see, James?</h2>
+    <p>Just reply on WhatsApp. I'll set it up with your real services, diary and areas, and you can switch it off any time.</p>
+  </div>
+</div></section>
+
+<footer>Preview only: bookings here are pretend and nothing is sent anywhere. SEAI grant details as published on seai.ie.</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+const $ = s => document.querySelector(s);
+const msgs = $('#msgs'), qr = $('#qr'), inp = $('#inp'), feed = $('#feed');
+const isMobile = () => matchMedia('(max-width:860px)').matches;
+
+/* ---------- helpers ---------- */
+const pad = n => String(n).padStart(2,'0');
+let clock = null; // simulated time (Date) per scenario
+function now(){ return clock ? new Date(clock) : new Date(); }
+function tick(mins){ if (clock) clock = new Date(clock.getTime() + mins*60000); }
+function hhmm(d){ return pad(d.getHours())+':'+pad(d.getMinutes()); }
+const DAYS = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function nextSlots(){
+  const out=[]; const d=new Date(); d.setHours(0,0,0,0);
+  const times=['9:00am','1:30pm','10:00am','3:00pm','8:30am','12:00pm'];
+  let i=0;
+  while(out.length<3){ d.setDate(d.getDate()+1); if(d.getDay()===0||d.getDay()===6) continue; if(i===0 && out.length===0){ i++; continue; } // skip first weekday to look "booked"
+    out.push(`${DAYS[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()]}, ${times[(out.length*2+d.getDate())%times.length]}`); }
+  return out;
+}
+
+let busy=false, queue=[], state={}, step=null, stats={ans:0,book:0,times:[]};
+let scenario='ev';
+
+function bubble(text, side, opts={}){
+  const el=document.createElement('div');
+  el.className='b '+side+(opts.photo?' photo':'');
+  if(opts.photo){ el.innerHTML='<div class="img">📷 '+opts.photo+'</div>'; }
+  else el.textContent=text;
+  if(side!=='sys'){ const t=document.createElement('span'); t.className='t'; t.textContent=hhmm(now())+(side==='out'?' ✓✓':''); el.appendChild(t); }
+  msgs.appendChild(el); msgs.scrollTop=msgs.scrollHeight;
+}
+function typing(on){
+  let t=msgs.querySelector('.typing');
+  if(on && !t){ t=document.createElement('div'); t.className='typing'; t.innerHTML='<i></i><i></i><i></i>'; msgs.appendChild(t); msgs.scrollTop=msgs.scrollHeight; }
+  if(!on && t) t.remove();
+  $('#wa-status').textContent = on ? 'typing…' : 'online · usually replies instantly';
+}
+// bot says lines sequentially with typing delay
+function say(lines, replies, next){
+  if(!Array.isArray(lines)) lines=[lines];
+  setReplies([]); busy=true;
+  const t0=performance.now();
+  let i=0;
+  (function go(){
+    if(i>=lines.length){ const L=lines[lines.length-1]; lastAsk = (step||next) ? {line:(L&&L.text)||L, replies:replies||[]} : null; busy=false; typing(false); setReplies(replies||[]); if(next) next(); stats.times.push(Math.max(1,Math.round((performance.now()-t0)/1000/lines.length))); renderStats(); return; }
+    typing(true);
+    const l=lines[i++]; const delay=Math.min(1500, 420+String(l.text||l).length*9);
+    setTimeout(()=>{ typing(false); if(l.sys) bubble(l.sys,'sys'); else bubble(l.text||l,'in'); go(); }, delay);
+  })();
+}
+function setReplies(arr){
+  qr.innerHTML='';
+  arr.forEach(r=>{ const b=document.createElement('button'); b.textContent=r; b.onclick=()=>userSays(r); qr.appendChild(b); });
+}
+let lastAsk=null;
+function userSays(text, photo){
+  if(busy) return;
+  if(photo) bubble('', 'out', {photo}); else bubble(text,'out');
+  setReplies([]); inp.value='';
+  stats.ans = Math.max(stats.ans,1); renderStats();
+  setTimeout(()=>{
+    if(!photo && /burn|smell|smok|spark|fire|hot to touch|scorch|shock/i.test(text) && state.type!=='urgent'){ step=null; return danger(); }
+    if(step && !photo && lastAsk && !lastAsk.replies.includes(text) && /how much|price|cost|expensive|what.*charge/i.test(text)){
+      return say(["Good question. James sets every price himself because it depends on the job, so he'll include a firm price. No surprises.", lastAsk.line], lastAsk.replies);
+    }
+    if(step) step(text, !!photo); else route(text);
+  }, 250);
+}
+function renderStats(){
+  $('#s-ans').textContent=stats.ans; $('#s-ans').nextElementSibling.textContent = stats.ans===1?'enquiry answered':'enquiries answered'; $('#s-book').nextElementSibling.textContent = stats.book===1?'job booked':'jobs booked'; $('#s-book').textContent=stats.book;
+  const a=stats.times.length? Math.max(2,Math.round(stats.times.reduce((x,y)=>x+y,0)/stats.times.length)) : null;
+  $('#s-time').textContent= a? a+' sec':'–';
+}
+function toast(t, tab){
+  const el=$('#toast'); el.textContent=t; el.classList.add('on');
+  el.onclick=()=>{ if(tab) showTab(tab); el.classList.remove('on'); };
+  clearTimeout(el._t); el._t=setTimeout(()=>el.classList.remove('on'),3800);
+}
+function notifyJames(){
+  if(isMobile()){ $('#dot').classList.add('on'); toast('New job on your phone. Tap to see it 👉','james'); }
+}
+function card(html, cls){
+  const e=$('#empty'); if(e) e.remove();
+  const c=document.createElement('div'); c.className='card '+(cls||''); c.innerHTML=html;
+  feed.prepend(c); feed.scrollTop=0; notifyJames(); return c;
+}
+const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+function kv(obj){ return '<dl class="kv">'+Object.entries(obj).filter(([k,v])=>v).map(([k,v])=>`<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')+'</dl>'; }
+const yes = t => /^(y|yes|yeah|yep|yup|sure|ok|okay|i do|we do|correct|it is|we have|i have|own)/i.test(t.trim());
+const no  = t => /^(n|no|nope|not|nah|don'?t|we don'?t|i don'?t|renting|rent)/i.test(t.trim());
+
+/* ---------- intent router (free text) ---------- */
+function route(t){
+  const s=t.toLowerCase();
+  if(/burn|smell|smok|spark|fire|hot to touch|scorch|shock/.test(s)) return danger();
+  if(/ev|charger|charge point|electric car|tesla|zappi|ohme|hive|myenergi|easee|wallbox/.test(s)) return evStart();
+  if(/grant|seai|€300|300/.test(s)) return grantInfo();
+  if(/trip|rcd|fuse|no power|power.*(out|off|gone)|electric.*(out|gone)|lost power|blackout/.test(s)) return faultStart();
+  if(/price|cost|how much|quote|charge you|€|euro|expensive/.test(s)) return priceQ();
+  if(/where|area|cover|ennis|clare|limerick|galway|shannon|kilrush|kilkee|lahinch|tulla|scariff|killaloe/.test(s)) return areaQ();
+  if(/light|socket|plug|shower|rewir|board|cooker|immersion|outside|garden|cert|inspect|alarm|fan|extension|wiring|switch/.test(s)) return jobStart(t);
+  if(/^(hi|hello|hey|hiya|morning|evening|good|howya|how are)/.test(s)) return greet();
+  if(/thank|cheers|great|perfect|brilliant|lovely|sound/.test(s)) return say(["You're very welcome! Anything else I can help with?"],['EV charger','Something else']);
+  if(/human|person|james|call me|ring me|talk to/.test(s)) return callback();
+  return say(["Thanks! So I get you to the right place, what's this about?"], ['EV charger','Power keeps tripping','Lights or sockets','Something else']);
+}
+function greet(){ step=null; say(["Hi! 👋 You've reached James Byrne Electrical Services. I'm James's assistant and I can sort most things right now. What can we help with?"], ['EV charger','Power keeps tripping','Lights or sockets','Something else']); }
+function areaQ(){ step=null; say(["James is based in Co. Clare and covers the county and the surrounding area. If you send me your Eircode, I can check it's on his patch."], ['EV charger','Something else']); }
+function priceQ(){ step=null; say(["Good question! James gives every price himself, because it depends on the job (for chargers, things like how far the fuse board is from the driveway). I can get you a firm quote quickly though.","For an EV charger, the SEAI grant also takes up to €300 off. Want me to check if you qualify?"], ['Yes, check the grant','Something else']); }
+function grantInfo(){ step=null; say(["The SEAI home charger grant gives up to €300 towards the charger and install. The main rules:\n• it's for your own private home, with a private off-street driveway\n• you don't need to own an EV yet\n• you must get SEAI's approval BEFORE any work starts\n• then the install has to be done within 6 months","Want me to check if you qualify? It takes about 30 seconds."], ['Yes, check','Not now']); step=(t)=>{ step=null; if(/not now|no/i.test(t)) return say(["No problem. Just message any time."],['EV charger','Something else']); evGrant(); }; }
+function callback(){ step=(t)=>{ step=null; state.name=t; const c=card(`<div class="top"><span class="tag job">Callback</span><span class="when">${hhmm(now())}</span></div><h4>Wants a call from you</h4>${kv({Name:t})}<div class="acts"><button class="go">Call back</button></div>`); bindCard(c); say([`Thanks ${firstName(t)}, James has your message and will ring you back as soon as he's off the job he's on.`]); }; say(["No problem, James likes to talk to people himself. What's your name? He'll ring you back on this number as soon as he's free."]); }
+function firstName(t){ return (String(t).trim().split(/\s+/)[0]||'').replace(/[^A-Za-zÀ-ÿ'-]/g,'') || 'there'; }
+
+/* ---------- EV flow ---------- */
+function evStart(){
+  state={type:'ev'};
+  say(["Great, EV chargers are one of James's specialities. He's installed loads across Clare, including through the Bord Gáis Local Heroes scheme. ⚡","First I'll check if you qualify for the €300 SEAI grant (30 seconds), then we'll book a quick survey."], ['Go on','Just book a survey'], null);
+  step=(t)=>{ if(/book|survey|skip/i.test(t)){ state.grant='Skipped check'; return evCharger(); } evGrant(); };
+}
+function evGrant(){
+  state.type='ev';
+  say(["Do you own the home where the charger's going?"], ['Yes, I own it','I\'m renting']);
+  step=(t)=>{
+    if(no(t)||/rent/i.test(t)){ state.own='Renting'; return say(["No bother. For the grant, the homeowner needs to be the one who applies, so it's worth a word with your landlord. James can still quote and install either way. Is there a private driveway?"], ['Yes, a driveway','No, on-street parking'], null, step=evDrive); }
+    state.own='Owner-occupier'; evDriveQ();
+  };
+}
+function evDriveQ(){
+  say(["Is there a private driveway (off-street parking within your property) where the car will charge?"], ['Yes','No, on-street parking']);
+  step=evDrive;
+}
+function evDrive(t){
+  if(no(t)||/street|road/i.test(t)){ state.drive='No off-street parking'; state.grant='Likely not eligible (no driveway)';
+    return say(["Thanks. The SEAI grant needs off-street parking within the property boundary, so it probably won't apply here. James can still look at options for you, though. Shall we carry on?"], ['Yes, carry on','No thanks'], null), step=(x)=>{ if(no(x)) {step=null; return say(["No problem at all. Message any time."]);} evCharger(); }; }
+  state.drive='Private driveway';
+  say(["Has this address had an SEAI charger grant before, or a free ESB charger before 2018?"], ['No','Yes','Not sure']);
+  step=(t)=>{
+    if(yes(t) && !/sure/i.test(t)){ state.prev='Yes'; state.grant='Not eligible (grant already used here)'; return say(["Ah, the grant is only once per home, so it won't apply this time. But James can still install a new charger for you, no problem."], ['Okay, continue'], ()=>{ step=()=>evCharger(); }); }
+    state.prev = /sure/i.test(t)?'Not sure':'No';
+    say(["Last one: do you have an electric car yet?"], ['Yes','Not yet','Ordered one']);
+    step=(t)=>{ state.car = /order/i.test(t)?'On order':(no(t)||/yet/i.test(t))?'Not yet':'Yes';
+      state.grant = state.own==='Renting' ? 'Eligible if the landlord applies' : 'Looks eligible: up to €300';
+      const lines=[];
+      if(state.car!=='Yes') lines.push("Good news: you don't need to have the car yet to apply.");
+      lines.push(state.own==='Renting'
+        ? "✅ The home looks like it qualifies for up to €300, as long as your landlord applies."
+        : "✅ Good news, you look eligible for the SEAI grant of up to €300 off the charger and install.");
+      lines.push("One important thing: apply on seai.ie and wait for your Letter of Offer BEFORE any work starts, or the grant can't be paid. James does the paperwork on his side (the Safe Electric cert) once the job's done.");
+      say(lines, ['Got it 👍'], ()=>{ step=()=>evCharger(); });
+    };
+  };
+}
+function evCharger(){
+  say(["Which charger are you thinking of? Any is fine, and for the grant it needs to be on SEAI's smart charger list."], ['Hive','Zappi','Ohme','Not sure, advise me']);
+  step=(t)=>{ state.charger = /sure|advise/i.test(t)?'Wants advice':t;
+    say(["Roughly how far is your fuse board from where the car parks?"], ['Under 10m','10 to 20m','Over 20m','No idea']);
+    step=(t)=>{ state.dist=t;
+      say(["Perfect. Could you send a photo of your fuse board? It helps James quote accurately without an extra visit. (Tap 📎 below, or skip.)"], ['Send photo 📷','Skip']);
+      step=(t,isPhoto)=>{ state.photo = isPhoto||/photo/i.test(t) ? '1 photo received' : 'Not sent';
+        if(/photo/i.test(t)&&!isPhoto){ bubble('', 'out', {photo:'fuse-board.jpg'}); }
+        evSlot();
+      };
+    };
+  };
+}
+function evSlot(){
+  const s=nextSlots(); state.slots=s;
+  say([ state.photo!=='Not sent' ? "Got it, thanks! 👌" : "No problem.", "James has these survey slots free (about 20 mins at your place):"], [...s, 'None of these suit']);
+  step=(t)=>{
+    if(/none/i.test(t)){ state.slot='Customer to suggest a time'; return say(["No bother. What day and time would suit you better?"], [], ()=>{ step=(x)=>{ state.slot='Asked for: '+x; evDetails(); }; }); }
+    state.slot=t; evDetails();
+  };
+}
+function evDetails(){
+  say(["Lovely. And your name and Eircode?"], []);
+  inp.placeholder='e.g. Siobhán Kelly, V95 X2Y7';
+  step=(t)=>{ inp.placeholder='Message';
+    const m=t.match(/[A-Za-z]\d{2}\s?[A-Za-z0-9]{4}/); state.eircode = m? m[0].toUpperCase() : '—';
+    state.name = t.replace(m?m[0]:'','').replace(/[,.]/g,' ').trim() || 'Customer';
+    stats.book++; renderStats();
+    const c=card(`<div class="top"><span class="tag ev">EV charger survey</span><span class="when">just now</span></div>
+      <h4>${esc(state.name)}: ${esc(state.slot)}</h4>
+      ${kv({'Eircode':state.eircode,'Grant check':state.grant,'Home':[state.own,state.drive].filter(Boolean).join(' · '),'EV':state.car,'Charger':state.charger,'Board to car':state.dist,'Photo':state.photo})}
+      <div class="acts"><button class="go">✓ Confirm</button><button class="alt">Suggest another time</button></div>
+      <div class="note">One tap and the customer gets a confirmation. No phone tag.</div>`);
+    bindCard(c,'ev');
+    say([`Thanks ${firstName(state.name)}! I've sent that to James. You'll get a confirmation here shortly. 👍`, "While you wait, here's the SEAI grant page so you can apply now and the Letter of Offer is ready in time: seai.ie → Grants → EV home charger grant"]);
+    step=null;
+  };
+}
+function bindCard(c, kind){
+  const go=c.querySelector('.go'), alt=c.querySelector('.alt'), call=c.querySelector('.call');
+  if(go) go.onclick=()=>{
+    c.querySelector('.acts').innerHTML='<span class="tag ok">Confirmed ✓ customer notified</span>';
+    if(kind==='ev'||kind==='job'){ if(isMobile()) setTimeout(()=>showTab('cust'),500); setTimeout(()=>say([`✅ Confirmed! James will see you ${state.slot.replace(/^Asked for: /,'')}. He'll text when he's on the way. Reply here any time if anything changes.`]),700); }
+    if(kind==='callback') toast('Calling…');
+  };
+  if(alt) alt.onclick=()=>{ c.querySelector('.acts').innerHTML='<span class="tag auto">New times sent to the customer</span>'; if(isMobile()) setTimeout(()=>showTab('cust'),500); setTimeout(()=>{ const s=nextSlots(); say(["James is tied up then, sorry! Would any of these work instead?"], s.slice(1).concat(['None of these']), ()=>{ step=(t)=>{ state.slot=t; step=null; say(["Perfect, I've moved you to "+t+". James will see you then ✅"]); }; }); },700); };
+  if(call) call.onclick=()=>toast('Calling customer…');
+}
+
+/* ---------- fault / danger flow ---------- */
+function faultStart(){
+  state={type:'fault'};
+  say(["Sorry to hear that, it's frustrating. Quick safety check first: is there any burning smell, scorch marks, sparking, or anything hot to the touch?"], ['No, none of that','Yes, there is']);
+  step=(t)=>{ if(yes(t)||/there is/i.test(t)) return danger(); faultDetail(); };
+}
+function danger(){
+  state.type='urgent';
+  say(["⚠️ Please be careful. If it's safe to do so, switch off the power at the main switch on your fuse board and don't touch anything that's hot or sparking. If there's any fire or smoke, ring 112 or 999 first.", "I've flagged this to James as URGENT right now. What's your name and Eircode so he can get to you?"], []);
+  step=(t)=>{ const m=t.match(/[A-Za-z]\d{2}\s?[A-Za-z0-9]{4}/);
+    const c=card(`<div class="top"><span class="tag red">Urgent · possible hazard</span><span class="when">just now</span></div><h4>${esc(t.replace(m?m[0]:'','').replace(/,/g,'').trim()||'Customer')}</h4>${kv({'Eircode':m?m[0].toUpperCase():'—','Reported':'Burning smell / heat / sparking','Advice given':'Main switch off if safe; 112/999 if fire'})}<div class="acts"><button class="call">📞 Call now</button></div><div class="note">Urgent jobs ping you straight away, even at night if you want.</div>`,'urgent');
+    bindCard(c);
+    say(["James has been alerted and will call you in the next few minutes. Keep the power off until he does."]);
+    step=null;
+  };
+}
+function faultDetail(){
+  say(["Good. When does it trip? Is it the whole house, or one circuit (like the kitchen or the shower)?"], ['Whole house','Just one circuit','When the kettle/shower is on','Not sure']);
+  step=(t)=>{ state.trip=t;
+    say(["Thanks. A photo of the fuse board with the switch that's down would really help James (📎 below), or just skip."], ['Send photo 📷','Skip']);
+    step=(t,ph)=>{ state.photo= ph||/photo/i.test(t)?'1 photo':'Not sent'; if(/photo/i.test(t)&&!ph) bubble('','out',{photo:'board-tripped.jpg'});
+      const s=nextSlots(); state.slots=s;
+      say(["James can call out at one of these times. If it's getting worse, tell me and I'll flag it as urgent."], [s[0], s[1], "It's getting worse"]);
+      step=(t)=>{ if(/worse/i.test(t)) return danger(); state.slot=t;
+        say(["And your name and Eircode?"]); step=(x)=>{ const m=x.match(/[A-Za-z]\d{2}\s?[A-Za-z0-9]{4}/); state.name=x.replace(m?m[0]:'','').replace(/,/g,'').trim()||'Customer';
+          stats.book++; renderStats();
+          const c=card(`<div class="top"><span class="tag job">Fault call-out</span><span class="when">just now</span></div><h4>${esc(state.name)}: ${esc(state.slot)}</h4>${kv({'Eircode':m?m[0].toUpperCase():'—','Problem':'Power tripping: '+state.trip,'Safety check':'No burning/heat/sparks','Photo':state.photo})}<div class="acts"><button class="go">✓ Confirm</button><button class="alt">Suggest another time</button></div>`);
+          bindCard(c,'job'); say([`Thanks ${firstName(state.name)}, that's with James now. You'll get a confirmation here shortly.`]); step=null; };
+      };
+    };
+  };
+}
+
+/* ---------- general jobs ---------- */
+function jobStart(first){
+  state={type:'job'};
+  const known = first && !/^(lights or sockets|something else|other)/i.test(first);
+  if(known){ state.what=first; return jobPhoto(); }
+  say(["Sure, what's the job? A line or two is plenty (e.g. \"3 new sockets in the kitchen\" or \"outside light by the back door\")."], ['New sockets','Outside lights','Electric shower','Fuse board upgrade']);
+  step=(t)=>{ state.what=t; jobPhoto(); };
+}
+function jobPhoto(){
+  say(["Got it. Can you send a photo of the area? It means James can give you a price without an extra visit in a lot of cases."], ['Send photo 📷','Skip']);
+  step=(t,ph)=>{ state.photo= ph||/photo/i.test(t)?'1 photo':'Not sent'; if(/photo/i.test(t)&&!ph) bubble('','out',{photo:'job-photo.jpg'});
+    say(["Do you need a price first, or are you happy to book a visit?"], ['Price first please','Book a visit']);
+    step=(t)=>{
+      if(/price/i.test(t)){ state.slot='Wants a quote first';
+        say(["No problem, James will send you a price himself. What's your name and Eircode?"]);
+        step=(x)=>{ const m=x.match(/[A-Za-z]\d{2}\s?[A-Za-z0-9]{4}/); state.name=x.replace(m?m[0]:'','').replace(/,/g,'').trim()||'Customer';
+          const c=card(`<div class="top"><span class="tag auto">Quote needed</span><span class="when">just now</span></div><h4>${esc(state.name)}: ${esc(state.what)}</h4>${kv({'Eircode':m?m[0].toUpperCase():'—','Photo':state.photo,'Wants':'A price before booking'})}<div class="acts"><button class="go">Send price</button></div><div class="note">You type the price, it does the rest. If they go quiet, it follows up after 5 days.</div>`);
+          c.querySelector('.go').onclick=()=>{ c.querySelector('.acts').innerHTML='<span class="tag ok">Price sent ✓</span>'; };
+          say([`Thanks ${firstName(state.name)}! James will send your price shortly.`]); step=null; };
+        return;
+      }
+      const s=nextSlots();
+      say(["Here's what James has free:"], s);
+      step=(t)=>{ state.slot=t; say(["Great. Your name and Eircode?"]); step=(x)=>{ const m=x.match(/[A-Za-z]\d{2}\s?[A-Za-z0-9]{4}/); state.name=x.replace(m?m[0]:'','').replace(/,/g,'').trim()||'Customer';
+        stats.book++; renderStats();
+        const c=card(`<div class="top"><span class="tag job">New job</span><span class="when">just now</span></div><h4>${esc(state.name)}: ${esc(state.slot)}</h4>${kv({'Eircode':m?m[0].toUpperCase():'—','Job':state.what,'Photo':state.photo})}<div class="acts"><button class="go">✓ Confirm</button><button class="alt">Suggest another time</button></div>`);
+        bindCard(c,'job'); say([`Thanks ${firstName(state.name)}, that's with James. You'll get a confirmation here shortly.`]); step=null; }; };
+    };
+  };
+}
+
+/* ---------- missed call ---------- */
+function missed(){
+  clock=new Date(); clock.setHours(19,12,0,0);
+  const c=card(`<div class="top"><span class="tag red">Missed call</span><span class="when">19:12</span></div><h4>087 *** 4417</h4><div class="note">You were on a job. The assistant texted them back within 5 seconds 👇</div>`);
+  stats.ans++; renderStats();
+  bubble('📞 Missed voice call at 19:12','sys');
+  setTimeout(()=>{ say(["Hi, it's James Byrne Electrical. Sorry we missed your call! James is on a job right now. I'm his assistant and can help straight away. What's it about?"], ['EV charger','Power keeps tripping','Something else']); },600);
+  step=(t)=>{ step=null; c.querySelector('.note').textContent='Texted back in 5 seconds. Customer is now booking 👍'; route(t); };
+}
+
+/* ---------- scenarios ---------- */
+function reset(){
+  msgs.innerHTML=''; qr.innerHTML=''; feed.innerHTML='<div class="empty" id="empty">Nothing yet. Chat as a customer and watch the jobs arrive here, ready to go.</div>';
+  step=null; state={}; busy=false; clock=null; stats={ans:0,book:0,times:[]}; renderStats(); $('#dot').classList.remove('on'); inp.placeholder='Message';
+}
+function start(s){
+  scenario=s; reset(); showTab('cust');
+  document.querySelectorAll('.scen button[data-scen]').forEach(b=>b.classList.toggle('on', b.dataset.scen===s));
+  bubble('Today','sys');
+  if(s==='ev'){ stats.ans=1; renderStats(); setTimeout(()=>{ bubble("Hi, I'm looking to get an EV charger installed at home. Do you do that?",'out'); setTimeout(evStart,300); },300); }
+  if(s==='missed') missed();
+  if(s==='fault'){ stats.ans=1; renderStats(); setTimeout(()=>{ bubble("Hi, my electrics keep tripping since this morning",'out'); setTimeout(faultStart,300); },300); }
+  if(s==='job'){ stats.ans=1; renderStats(); setTimeout(()=>{ bubble("Hello, do you do small jobs? Need a few things done",'out'); setTimeout(()=>jobStart(),300); },300); }
+}
+document.querySelectorAll('.scen button[data-scen]').forEach(b=>b.onclick=()=> b.dataset.scen==='reset' ? start(scenario) : start(b.dataset.scen));
+
+function showTab(t){
+  document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('on',b.dataset.tab===t));
+  $('#pane-cust').classList.toggle('on',t==='cust'); $('#pane-james').classList.toggle('on',t==='james');
+  if(t==='james') $('#dot').classList.remove('on');
+}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
+
+/* input */
+$('#send').onclick=()=>{ const v=inp.value.trim(); if(v) userSays(v); };
+inp.addEventListener('keydown',e=>{ if(e.key==='Enter'){ e.preventDefault(); const v=inp.value.trim(); if(v) userSays(v); }});
+$('#clip').onclick=()=>{ if(busy) return; userSays('photo', 'photo.jpg'); };
+
+/* quick-reply aliases for top-level buttons */
+const _route=route;
+route=function(t){
+  if(/^ev charger$/i.test(t)) return evStart();
+  if(/^power keeps tripping$/i.test(t)) return faultStart();
+  if(/^(lights or sockets|something else)$/i.test(t)) return jobStart();
+  if(/^yes, check( the grant)?$/i.test(t)) return evGrant();
+  return _route(t);
+};
+
+start('ev');
+})();
+</script>
+</body>
+</html>
