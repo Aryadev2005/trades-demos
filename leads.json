@@ -1398,5 +1398,76 @@
       "Kahla",
       "Apolda"
     ]
+  },
+  {
+    "slug": "helmut-danzer-heizung-sanitaer-bedachung",
+    "business": "Fa. Helmut Danzer",
+    "trade": "Heating, plumbing & roofing",
+    "trade_plural": "Heating, plumbing & roofing",
+    "town": "Wettin-Löbejün",
+    "county": "Sachsen-Anhalt",
+    "where": "Heating, sanitary & roofing · Wettin-Löbejün",
+    "coverage": "Wettin-Löbejün and the surrounding area",
+    "phone": "+49 34607 3010",
+    "whatsapp": "49346073010",
+    "rating": 4.8,
+    "review_count": 27,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Fa.%20Helmut%20Danzer%2C%20L%C3%B6bnitzmark%2033%2C%2006198%20Wettin-L%C3%B6bej%C3%BCn",
+    "hours": "Call to arrange a time",
+    "accent": "#7B4B3A",
+    "headline": "Heating, plumbing and roofs, all from one team.",
+    "subline": "Heating and plumbing installation, roof repairs and gutters from Torsten Danzer and his team. Competent, friendly and careful, with fair prices and solid craftsmanship.",
+    "promises": [
+      "Careful installers",
+      "Fair, reasonable prices",
+      "Quick help with problems",
+      "Solid craftsmanship"
+    ],
+    "services": [
+      {
+        "name": "Heating",
+        "text": "Heating systems installed and repaired."
+      },
+      {
+        "name": "Plumbing & sanitary",
+        "text": "All your plumbing needs, with competent help for any problem."
+      },
+      {
+        "name": "Roof repairs",
+        "text": "Roofers who carry out repairs very carefully."
+      },
+      {
+        "name": "Roof installation & inspection",
+        "text": "Roofs inspected and new roofing installed."
+      },
+      {
+        "name": "Gutters & roof plumbing",
+        "text": "Gutter repairs and roof metalwork (Dachklempnerarbeiten)."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Many thanks to the team at Danzer for taking care of all my heating and plumbing needs. They provide professional and competent help with any problems. That's not something you can take for granted these days."
+      },
+      {
+        "name": "Google review",
+        "text": "Many thanks to Torsten Danzer and his team. Excellent work! Competent, friendly, and careful installers. Fair prices. This is what I call solid craftsmanship! Highly recommended!"
+      },
+      {
+        "name": "Google review",
+        "text": "The roofers came to carry out repairs and performed all the work very carefully. My mother also had a few additional tasks, which were also completed flawlessly, even going beyond their actual job description."
+      }
+    ],
+    "areas": [
+      "Wettin",
+      "Löbejün",
+      "Könnern",
+      "Petersberg",
+      "Salzatal",
+      "Halle (Saale)",
+      "Gerbstedt",
+      "Brachwitz"
+    ]
   }
 ]
