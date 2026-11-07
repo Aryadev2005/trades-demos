@@ -1958,5 +1958,76 @@
       "Wiener Neudorf",
       "Perchtoldsdorf"
     ]
+  },
+  {
+    "slug": "dipl-ing-zoesmayr-elektrotechnik-gmbh",
+    "business": "Zösmayr Elektrotechnik",
+    "trade": "Electrician",
+    "trade_plural": "Electrical",
+    "town": "Innsbruck",
+    "county": "Tirol",
+    "where": "Electrical installation & wallboxes · Innsbruck-Hötting",
+    "coverage": "Innsbruck and the surrounding area",
+    "phone": "+43 512 281962",
+    "whatsapp": "43512281962",
+    "rating": 4.6,
+    "review_count": 23,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Dipl.%20Ing.%20Z%C3%B6smayr%20Elektrotechnik%2C%20H%C3%B6ttinger%20G.%2012b%2C%206020%20Innsbruck",
+    "hours": "Call to arrange a time",
+    "accent": "#34506B",
+    "headline": "Electrical work in Innsbruck, competently advised.",
+    "subline": "Rewiring, wallboxes, sockets, switches and lighting. Competent advice before any work starts, a motivated team that works cleanly, and an owner who's always reachable.",
+    "promises": [
+      "Competent advice first",
+      "Clean, careful team",
+      "Owner always reachable",
+      "Quick, professional work"
+    ],
+    "services": [
+      {
+        "name": "Complete rewiring",
+        "text": "Whole apartments rewired, with clear coordination beforehand."
+      },
+      {
+        "name": "Wallboxes",
+        "text": "Advice and installation for EV charging at home."
+      },
+      {
+        "name": "Sockets & switches",
+        "text": "Outlets and switches installed, moved and repaired."
+      },
+      {
+        "name": "Lighting",
+        "text": "Light fixtures installed and repaired."
+      },
+      {
+        "name": "Wiring checks & fuses",
+        "text": "Wiring and sockets checked, fuses changed."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "The electrician came to my apartment to check the electrical wiring and sockets. He was very competent and did his job quickly and professionally. Highly recommended. Excellent."
+      },
+      {
+        "name": "Google review",
+        "text": "Elektro Zösmayer provided us with very short-notice yet absolutely professional support for the complete rewiring of our apartment. The coordination beforehand was straightforward and reliable, and on-site, a young, motivated team arrived and worked very cleanly and diligently. A particular highlight was that the owner was always available, solution-oriented, and communicated openly and respectfully. Any issues could be discussed openly and were taken into account – exactly how it should be!"
+      },
+      {
+        "name": "Google review",
+        "text": "I obtained quotes and consultations from several companies for a wallbox. Zösmayr provided the most competent advice. While their price was slightly higher than the others, I chose Zösmayr because of their consultation."
+      }
+    ],
+    "areas": [
+      "Innsbruck",
+      "Hötting",
+      "Wilten",
+      "Pradl",
+      "Völs",
+      "Rum",
+      "Natters",
+      "Hall in Tirol"
+    ]
   }
 ]
