@@ -1327,5 +1327,76 @@
       "Gleichen",
       "Friedland"
     ]
+  },
+  {
+    "slug": "dieter-koenig-hausmeisterservice-gartengestaltung",
+    "business": "Dieter König",
+    "trade": "Caretaker & gardener",
+    "trade_plural": "Caretaking & garden",
+    "town": "Jena",
+    "county": "Thüringen",
+    "where": "Caretaking & garden design · Jena-Zwätzen",
+    "coverage": "Jena and the surrounding area",
+    "phone": "+49 172 3614201",
+    "whatsapp": "491723614201",
+    "rating": 5.0,
+    "review_count": 19,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Dieter%20K%C3%B6nig%20Hausmeisterservice%2C%20Michael-H%C3%A4u%C3%9Fler-Weg%201A%2C%2007743%20Jena",
+    "hours": "Call to arrange a time",
+    "accent": "#4A6741",
+    "headline": "Caretaking and gardens in Jena, done reliably.",
+    "subline": "Lawns, hedges, tree trimming, repairs and house clearances from Dieter König. Reliable, punctual and thorough, with neat, precise work every time.",
+    "promises": [
+      "Reliable, year after year",
+      "Punctual",
+      "Thorough, precise work",
+      "Friendly and competent"
+    ],
+    "services": [
+      {
+        "name": "Lawn & hedge care",
+        "text": "Lawns mown and hedges trimmed, reliably, season after season."
+      },
+      {
+        "name": "Tree trimming",
+        "text": "Trees cut back neatly and competently."
+      },
+      {
+        "name": "Repairs",
+        "text": "Minor repairs around the house, expertly done."
+      },
+      {
+        "name": "Balcony cladding",
+        "text": "Balcony cladding renovated."
+      },
+      {
+        "name": "House clearance & cleaning",
+        "text": "Clearing and final cleaning when you move, at short notice."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Today we had our trees trimmed, and we were extremely satisfied with the work. Mr. König is very friendly and competent, and this will certainly not be the last time we use his services."
+      },
+      {
+        "name": "Google review",
+        "text": "Mr. König is a competent and reliable craftsman. He renovated our balcony cladding and expertly carried out minor repairs. We will contact him again if needed and can recommend him without hesitation."
+      },
+      {
+        "name": "Google review",
+        "text": "A true example of excellence in customer service! For years, Dieter has reliably helped us with lawn and hedge trimming. This year, together with Dieter, we successfully completed our move and the complete clearing and final cleaning of our house in a short amount of time. We can wholeheartedly and enthusiastically recommend Dieter!"
+      }
+    ],
+    "areas": [
+      "Jena",
+      "Zwätzen",
+      "Löbstedt",
+      "Dornburg-Camburg",
+      "Großschwabhausen",
+      "Bürgel",
+      "Kahla",
+      "Apolda"
+    ]
   }
 ]
