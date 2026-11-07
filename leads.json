@@ -2029,5 +2029,64 @@
       "Natters",
       "Hall in Tirol"
     ]
+  },
+  {
+    "slug": "holzmanufaktur-hafner",
+    "business": "Holzmanufaktur Hafner",
+    "trade": "Cabinet maker",
+    "trade_plural": "Woodwork",
+    "town": "Gränzing",
+    "county": "Tirol",
+    "where": "Cabinet making & Swiss pine wood · Gränzing, Tirol",
+    "coverage": "the Walchsee and Kufstein area",
+    "phone": "+43 5373 8633",
+    "whatsapp": "4353738633",
+    "rating": 4.9,
+    "review_count": 15,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Holzmanufaktur%20Hafner%2C%20Gr%C3%A4nzing%2013%2C%206346%20Gr%C3%A4nzing",
+    "hours": "Call to arrange a time",
+    "accent": "#8B6B45",
+    "headline": "Woodwork from Tirol, made with great care.",
+    "subline": "A cabinet maker with a friendly, courteous team. Clean workmanship, outstanding quality and real attention to detail, plus sensational Swiss pine wood.",
+    "promises": [
+      "Clean workmanship",
+      "Attention to detail",
+      "Reliable and professional",
+      "Friendly, courteous team"
+    ],
+    "services": [
+      {
+        "name": "Cabinet making",
+        "text": "Woodwork made with great care and attention to detail."
+      },
+      {
+        "name": "Swiss pine wood",
+        "text": "Swiss pine (Zirbe) wood that customers come back for."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Excellent work! A very friendly and courteous team, clean workmanship and outstanding quality. You can tell they work with great care and attention to detail. Highly recommended!"
+      },
+      {
+        "name": "Google review",
+        "text": "Reliable, professional, up-to-date, and great collaboration!"
+      },
+      {
+        "name": "Google review",
+        "text": "I always get Swiss pine wood, it's sensational, thank you so much for the wood!"
+      }
+    ],
+    "areas": [
+      "Gränzing",
+      "Niederndorferberg",
+      "Walchsee",
+      "Niederndorf",
+      "Rettenschöss",
+      "Kössen",
+      "Ebbs",
+      "Kufstein"
+    ]
   }
 ]
