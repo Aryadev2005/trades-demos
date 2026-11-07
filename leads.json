@@ -2407,5 +2407,72 @@
       "Brückl",
       "St. Veit an der Glan"
     ]
+  },
+  {
+    "slug": "adm-sanitair-cv",
+    "business": "ADM Sanitair & CV",
+    "trade": "Plumbing & heating",
+    "trade_plural": "Plumbing & heating",
+    "town": "Ostend",
+    "county": "West Flanders",
+    "where": "Plumbing & central heating · Ostend",
+    "coverage": "Ostend and the surrounding area",
+    "phone": "+32 494 90 28 57",
+    "whatsapp": "32494902857",
+    "rating": 4.9,
+    "review_count": 81,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=ADM%20Sanitair%20%26%20CV%2C%20Schapenstraat%2026%2C%208400%20Oostende",
+    "hours": "Call to arrange a time",
+    "accent": "#2F5D6A",
+    "headline": "Plumbing and heating in Ostend, clearly explained.",
+    "subline": "Boilers, heating repairs and plumbing from Andy. Quick help when the heating breaks down, accurate quotes, and a clear explanation of what's going on.",
+    "promises": [
+      "Clear explanations",
+      "Accurate quotes",
+      "Quick help in a breakdown",
+      "Quick replies to emails"
+    ],
+    "services": [
+      {
+        "name": "Boiler replacement",
+        "text": "New boilers installed on time, even with a busy schedule."
+      },
+      {
+        "name": "Heating repairs",
+        "text": "Heating that suddenly breaks down, diagnosed and fixed fast."
+      },
+      {
+        "name": "Boiler repairs",
+        "text": "Boilers repaired by an expert in his field."
+      },
+      {
+        "name": "Taps & plumbing",
+        "text": "Malfunctioning taps and plumbing problems fixed quickly."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Andy knew immediately what was wrong when our heating suddenly broke down in the winter. He really saved us with his quick intervention. A highly recommended professional with thorough knowledge; there aren't many like him left!"
+      },
+      {
+        "name": "Google review",
+        "text": "Very communicative, friendly, and they do a good job! Our boiler was running out of steam, but we were still able to have a new one installed on time thanks to the flexibility of these men, who already have a busy schedule. In between, they also quickly fixed our malfunctioning bathroom tap on their own initiative. Thank you, you've gained a customer!"
+      },
+      {
+        "name": "Google review",
+        "text": "We had a very good experience with ADM. This company had already caught our attention due to the good reviews. Responds quickly to emails, prepares an accurate quote (the final invoice was exactly the amount of the quote). Friendly, provides extra info, ... Work carried out correctly. We definitely know where to go when we are looking for a plumber/heater. Highly recommended!"
+      }
+    ],
+    "areas": [
+      "Ostend",
+      "Stene",
+      "Mariakerke",
+      "Bredene",
+      "Middelkerke",
+      "Gistel",
+      "Oudenburg",
+      "De Haan"
+    ]
   }
 ]
