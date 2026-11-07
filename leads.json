@@ -2336,5 +2336,76 @@
       "St. Kanzian",
       "Klopein"
     ]
+  },
+  {
+    "slug": "heiztechnik-rumpf-gmbh",
+    "business": "Heiztechnik Rumpf",
+    "trade": "Heating & plumbing",
+    "trade_plural": "Heating & plumbing",
+    "town": "Krobathen",
+    "county": "Kärnten",
+    "where": "Heating & plumbing · Krobathen, Magdalensberg",
+    "coverage": "Krobathen and the surrounding area",
+    "phone": "+43 4224 2590",
+    "whatsapp": "4342242590",
+    "rating": 4.4,
+    "review_count": 28,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Heiztechnik%20Rumpf%20GmbH%2C%20J%C3%A4gerweg%204%2C%209064%20Krobathen",
+    "hours": "Call to arrange a time",
+    "accent": "#6E4A3A",
+    "headline": "Heating systems, planned and installed properly.",
+    "subline": "New heating systems, conversions from oil to wood, and bathroom installations. Excellent advice, clean and professional work, reasonable prices, and help long after the job is done.",
+    "promises": [
+      "Excellent advice",
+      "Clean, professional work",
+      "Reasonably priced",
+      "Still there after the job"
+    ],
+    "services": [
+      {
+        "name": "New heating systems",
+        "text": "Complete heating systems planned and installed, including in new builds."
+      },
+      {
+        "name": "Heating conversions",
+        "text": "Oil burners replaced, for example with a wood gasifier."
+      },
+      {
+        "name": "Showers & toilets",
+        "text": "Showers and toilets installed."
+      },
+      {
+        "name": "Water heaters & tanks",
+        "text": "Water heaters and water tanks installed."
+      },
+      {
+        "name": "Tap repairs",
+        "text": "Faucets and taps repaired."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "The Rumpf company converted my central heating system from an oil burner to an ETA wood gasifier, and it worked perfectly – clean and professional work. Other work they did also went smoothly and quickly. I highly recommend this installation company."
+      },
+      {
+        "name": "Google review",
+        "text": "Very helpful, reasonably priced, competent, friendly, and always available to assist even after all work was completed. We had the entire HVAC system in our new building near Reifnitz planned and installed by Rumpf and are very satisfied! Highly recommended!"
+      },
+      {
+        "name": "Google review",
+        "text": "A very good company! Excellent consultation and execution! The price is also very reasonable! I highly recommend this company! Five thumbs up!"
+      }
+    ],
+    "areas": [
+      "Magdalensberg",
+      "Pischeldorf",
+      "Ebenthal",
+      "Klagenfurt",
+      "Grafenstein",
+      "Maria Saal",
+      "Brückl",
+      "St. Veit an der Glan"
+    ]
   }
 ]
