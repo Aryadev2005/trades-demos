@@ -2545,5 +2545,76 @@
       "Saint-Nicolas",
       "Herstal"
     ]
+  },
+  {
+    "slug": "ipsotoit-ypsoroof",
+    "business": "Ipsotoit",
+    "trade": "Roofer",
+    "trade_plural": "Roofing",
+    "town": "Frameries",
+    "county": "Hainaut",
+    "where": "Roofing & renovation · Frameries, near Mons",
+    "coverage": "Frameries, Mons and the surrounding area",
+    "phone": "+32 485 80 03 00",
+    "whatsapp": "32485800300",
+    "rating": 4.7,
+    "review_count": 267,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=IPSOTOIT%20-%20YPSOROOF%20S.A.%2C%20Rue%20Montavaux%20135%2C%207080%20Frameries",
+    "hours": "Call to arrange a time",
+    "accent": "#4A4F57",
+    "headline": "Roofing around Mons, done meticulously.",
+    "subline": "Roof renovations, flat roofs, skylights and siding from a family business. The owner on site, daily progress updates, and a clean site when the work is done.",
+    "promises": [
+      "Clean work site",
+      "Owner on site",
+      "Kept informed daily",
+      "Deadlines met"
+    ],
+    "services": [
+      {
+        "name": "Roof renovation",
+        "text": "Full roof renovations and replacements, carefully quoted."
+      },
+      {
+        "name": "Flat roofs & platforms",
+        "text": "Flat roofs and roof platforms renovated."
+      },
+      {
+        "name": "Skylights & roof domes",
+        "text": "Velux windows and roof domes installed with great care."
+      },
+      {
+        "name": "Siding & gables",
+        "text": "Siding and gables renovated alongside the roof."
+      },
+      {
+        "name": "Storm damage repairs",
+        "text": "Roof repairs after storm and wind damage."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Very satisfied with the work done. The deadlines were met, the team was discreet, professional, and efficient. The dome installation was carried out with great care, and the result is impeccable. I recommend this company without hesitation."
+      },
+      {
+        "name": "Google review",
+        "text": "Ipsotoit renovated the roof, siding, flat roof, and gables at my son's house in Pâturages. Friendly, punctual, and very professional team. The work was meticulous, clean, and durable. Very satisfied with the result, I highly recommend them!"
+      },
+      {
+        "name": "Google review",
+        "text": "I had the immense pleasure of having my platform and roof renovation work done by IPSOTOIT. A serious, professional company that listens to its clients. The project went perfectly smoothly; I was kept informed at every stage, and follow-up was ensured at all levels. The staff is pleasant and very professional. Once the work was finished, everything was tidy and clean."
+      }
+    ],
+    "areas": [
+      "Frameries",
+      "Mons",
+      "Pâturages",
+      "Quaregnon",
+      "Colfontaine",
+      "Jemappes",
+      "Quévy",
+      "Saint-Ghislain"
+    ]
   }
 ]
