@@ -1256,5 +1256,76 @@
       "Delbrück",
       "Rheda-Wiedenbrück"
     ]
+  },
+  {
+    "slug": "thies-heizungsbau-lueftungs-und-sanitaertechnik-gmbh",
+    "business": "Thies Heizungsbau",
+    "trade": "Heating & plumbing",
+    "trade_plural": "Heating & plumbing",
+    "town": "Göttingen",
+    "county": "Niedersachsen",
+    "where": "Heating, ventilation & sanitary · Göttingen",
+    "coverage": "Göttingen and the surrounding area",
+    "phone": "+49 551 59289",
+    "whatsapp": "4955159289",
+    "rating": 4.6,
+    "review_count": 19,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Thies%20Heizungsbau%2C%20B%C3%BChlstra%C3%9Fe%208%2C%2037073%20G%C3%B6ttingen",
+    "hours": "Call to arrange a time",
+    "accent": "#2F5E5A",
+    "headline": "Heating and plumbing in Göttingen, sorted quickly.",
+    "subline": "Heating repairs, new boilers, water heaters and bathroom work from a friendly, competent team. Quick appointments, clear quotes, and clean, punctual work.",
+    "promises": [
+      "Quick appointments",
+      "Clear quotes, fair prices",
+      "Punctual and clean",
+      "Friendly on the phone"
+    ],
+    "services": [
+      {
+        "name": "Heating repairs",
+        "text": "Broken heating looked at and fixed quickly."
+      },
+      {
+        "name": "New boilers",
+        "text": "Boilers beyond repair quoted, ordered and installed fast."
+      },
+      {
+        "name": "Water heaters",
+        "text": "Water heater repairs, done quickly and reliably."
+      },
+      {
+        "name": "Bathrooms & showers",
+        "text": "Shower screens and sanitary work fitted cleanly."
+      },
+      {
+        "name": "Gas meters & recommissioning",
+        "text": "Gas meters reinstalled and old boilers put back into operation."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Thank you so much for your quick and highly professional work on the heating repair. Your prompt assistance was invaluable, and we greatly appreciate the quality of your service. Thank you again!"
+      },
+      {
+        "name": "Google review",
+        "text": "Excellent service! Ms. Fraatz took care of installing a new shower screen for me, and I am more than satisfied. She was extremely punctual, always friendly and cheerful, and completed her work very cleanly and quickly. A big thank you again to such wonderful and exemplary employees!"
+      },
+      {
+        "name": "Google review",
+        "text": "We bought a house with a broken heating system—we knew this when we bought it, so we immediately tried to get it repaired (it was already October, and we'd had a few cold days). Every company I called told me I wasn't a customer and therefore couldn't do anything for me. Only Thies was willing to take on my case. It quickly became clear that the boiler was beyond repair. The owner sent me a quote on a Thursday. I ordered the boiler that same day, it was ordered from the supplier on Friday, delivered on Monday, and by chance, there was an appointment available on Tuesday, so it was installed. And the final bill? It was even lower than the quote!"
+      }
+    ],
+    "areas": [
+      "Göttingen",
+      "Weende",
+      "Grone",
+      "Geismar",
+      "Bovenden",
+      "Rosdorf",
+      "Gleichen",
+      "Friedland"
+    ]
   }
 ]
