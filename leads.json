@@ -1678,5 +1678,72 @@
       "Mönkeberg",
       "Schwentinental"
     ]
+  },
+  {
+    "slug": "horst-dieter-pakulla-heizung-sanitaer",
+    "business": "Pakulla Heizung/Sanitär",
+    "trade": "Plumber",
+    "trade_plural": "Plumbing",
+    "town": "Kiel",
+    "county": "Schleswig-Holstein",
+    "where": "Plumbing & heating · Kiel-Russee",
+    "coverage": "Kiel and the surrounding area",
+    "phone": "+49 431 62167",
+    "whatsapp": "4943162167",
+    "rating": 4.2,
+    "review_count": 21,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Horst-Dieter%20Pakulla%20Heizung%20Sanit%C3%A4r%2C%20Rendsburger%20Landstra%C3%9Fe%20162%2C%2024113%20Kiel",
+    "hours": "Call to arrange a time",
+    "accent": "#8A5A3C",
+    "headline": "Plumbing in Kiel, quick and uncomplicated.",
+    "subline": "Taps, water heaters and plumbing repairs, even in old buildings. Friendly, competent staff, no long waiting times, and help that's quick and professional.",
+    "promises": [
+      "No long waiting times",
+      "Friendly, competent staff",
+      "Quick, professional help",
+      "Respectful and helpful"
+    ],
+    "services": [
+      {
+        "name": "Taps & faucets",
+        "text": "Seized taps removed and replaced with new ones."
+      },
+      {
+        "name": "Water heaters",
+        "text": "New water heaters installed and commissioned."
+      },
+      {
+        "name": "Plumbing repairs",
+        "text": "Plumbing problems fixed quickly and professionally."
+      },
+      {
+        "name": "Older buildings",
+        "text": "Friendly help with old plumbing in older houses."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Very friendly and competent staff. No long waiting times 👍 Everything went smoothly, from installation to commissioning of a new water heater. Thank you so much! Best regards, from Schwentinental, Raisdorf district"
+      },
+      {
+        "name": "Google review",
+        "text": "Thank you so much for the quick, professional help!! A special thank you to Mr. Wolf. The seized kitchen faucet could finally be removed and replaced with a new one. Especially in an old building from the 1930s with 1970s plumbing, such friendly and uncomplicated help is simply invaluable ⭐⭐⭐⭐⭐"
+      },
+      {
+        "name": "Google review",
+        "text": "Very nice tradesmen! They did their job well and quickly, as far as I can tell as a layperson, and were incredibly friendly and helpful. As a young woman, I've unfortunately often been treated rudely or even condescendingly by tradesmen from other companies, but that wasn't the case at all today, and I was really pleased!"
+      }
+    ],
+    "areas": [
+      "Kiel-Russee",
+      "Hammer",
+      "Hassee",
+      "Kronshagen",
+      "Melsdorf",
+      "Molfsee",
+      "Schwentinental",
+      "Kiel-Mitte"
+    ]
   }
 ]
