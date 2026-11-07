@@ -281,5 +281,1051 @@
       "Slane",
       "Skryne"
     ]
+  },
+  {
+    "slug": "plumbing-ireland",
+    "business": "Plumbing Ireland",
+    "trade": "Plumber",
+    "trade_plural": "Plumbing & heating",
+    "town": "Kilkenny",
+    "county": "Co. Kilkenny",
+    "where": "Plumbing & heating · Dunmore, Kilkenny",
+    "coverage": "Kilkenny and the surrounding area",
+    "phone": "+353 87 357 5184",
+    "whatsapp": "353873575184",
+    "rating": 5.0,
+    "review_count": 104,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Plumbing%20Ireland%2C%20Bleach%20Road%2C%20Dunmore%2C%20Kilkenny",
+    "hours": "Open 24 hours",
+    "accent": "#2E6670",
+    "headline": "Plumbing and heating in Kilkenny, sorted fast.",
+    "subline": "Leaks, heating, radiators and repairs from Richie. Quick to answer, often there within hours, and the whole system explained before he goes.",
+    "promises": [
+      "Answers the call, even late",
+      "Often there within hours",
+      "Explains the whole system",
+      "Clean, tidy and fair prices"
+    ],
+    "services": [
+      {
+        "name": "Heating repairs",
+        "text": "No heat? Circulation pumps, heating systems and oil burners fixed."
+      },
+      {
+        "name": "Radiators",
+        "text": "New radiators fitted, and every rad checked hot before he leaves."
+      },
+      {
+        "name": "Leaks & emergencies",
+        "text": "Leaks, damaged pipes and seized valves, day or night."
+      },
+      {
+        "name": "Sinks, taps & toilets",
+        "text": "Kitchen sinks, taps and toilets repaired properly."
+      },
+      {
+        "name": "Well water filters",
+        "text": "Water filters for wells replaced and checked."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Got a text at 8am Saturday morning saying he'd be at the house before 1 and he was. Fitted new circulation pump and waited to make sure all rads were hot and explained the whole system to us. Can't recommend him enough."
+      },
+      {
+        "name": "Google review",
+        "text": "Richie was excellent. I rang him due to a big issue with my kitchen sink and he was there within hours, had the issue fixed no problem. Also helped me with another tap in a bathroom at the same time. Very clean, tidy, genuine and honest man. Great work done and no delays. Will be using Richie going forward. 10 out of 10.."
+      },
+      {
+        "name": "Google review",
+        "text": "Richie came and replaced the water filter of our well. He was quick to answer the call and really good to call out to us on a weekend. He identified the issue quickly and fixed it. Will definitely recommend him to anyone looking for a good plumber. Really good at his job.Excellent service. Thank you Richie."
+      }
+    ],
+    "areas": [
+      "Kilkenny City",
+      "Dunmore",
+      "Castlecomer",
+      "Ballyragget",
+      "Freshford",
+      "Bennettsbridge",
+      "Thomastown",
+      "Callan"
+    ]
+  },
+  {
+    "slug": "gmc-carpentry-services",
+    "business": "GMC Carpentry Services",
+    "trade": "Carpenter",
+    "trade_plural": "Carpentry & attic",
+    "town": "Ballincollig",
+    "county": "Co. Cork",
+    "where": "Attic conversions & carpentry · Ballincollig, Co. Cork",
+    "coverage": "Cork and the surrounding area",
+    "phone": "+353 86 203 0827",
+    "whatsapp": "353862030827",
+    "rating": 5.0,
+    "review_count": 26,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=GMC%20Carpentry%20Services%2C%2029%20Leslie's%20Arch%2C%20Ballincollig%2C%20Cork",
+    "hours": "Open until 5pm",
+    "accent": "#6E4B32",
+    "headline": "Attic conversions in Cork, finished to a high standard.",
+    "subline": "Garret and his team turn attics into proper rooms. Clear communication from the first call, as little disruption as possible, and the house left clean every day.",
+    "promises": [
+      "Clear communication throughout",
+      "Minimal disruption to your home",
+      "Cleaned up every evening",
+      "Reasonable prices"
+    ],
+    "services": [
+      {
+        "name": "Attic conversions",
+        "text": "Full attic conversions, from the first call to the final finish."
+      },
+      {
+        "name": "Attic stairs",
+        "text": "New stairs up to the attic, built and finished neatly."
+      },
+      {
+        "name": "Roof windows",
+        "text": "Roof windows fitted to bring daylight into the new room."
+      },
+      {
+        "name": "Changes along the way",
+        "text": "Plans change mid-build? The team works the change in."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Garret and his team at GMC Carpentry are the best tradesmen we have ever worked with. Their communication, professionalism and attention to detail is exceptional. The standard of finish on our attic conversion is top class. If you're thinking about an attic conversion GMC Carpentry are outstanding. Highly recommended"
+      },
+      {
+        "name": "Google review",
+        "text": "Garret and his team were an absolute pleasure to deal with from start to finish. They recently completed our attic conversion. Nothing was too much trouble and they went out of their way to keep the disruption to our home to a minimum. The quality of work is very impressive. They are by far the best group of trades people that we have ever dealt with. We would highly recommend GMC Carpentry Services."
+      },
+      {
+        "name": "Google review",
+        "text": "We used GMC Carpentry for our attic conversion in summer 2025 and had a very positive experience from start to finish. Communication with Garret was clear and straightforward, prices were reasonable, and the whole process was made easy for us. Every tradesperson who came to the house was polite, friendly, professional, and efficient. The standard of finish is excellent and we're genuinely delighted with our attic. Would totally recommend them"
+      }
+    ],
+    "areas": [
+      "Ballincollig",
+      "Cork City",
+      "Bishopstown",
+      "Wilton",
+      "Douglas",
+      "Blarney",
+      "Ovens",
+      "Carrigaline"
+    ]
+  },
+  {
+    "slug": "brendan-radford-landscaping",
+    "business": "Brendan Radford Landscaping",
+    "trade": "Landscaper",
+    "trade_plural": "Landscaping",
+    "town": "Wexford",
+    "county": "Co. Wexford",
+    "where": "Garden design & landscaping · Co. Wexford",
+    "coverage": "Wexford and the surrounding area",
+    "phone": "+353 87 655 7384",
+    "whatsapp": "353876557384",
+    "rating": 4.8,
+    "review_count": 22,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Brendan%20Radford%20Landscaping%2C%20Bargy%20Commons%2C%20Co.%20Wexford",
+    "hours": "Open until 6pm",
+    "accent": "#5E6B47",
+    "headline": "Gardens, patios and paths in Wexford, beautifully done.",
+    "subline": "Brendan designs and builds gardens, patios, paths and raised beds with great attention to detail. On time, on budget, and the place left clean when he's finished.",
+    "promises": [
+      "On time and on budget",
+      "Kept informed throughout",
+      "Expert design advice",
+      "Left clean and tidy"
+    ],
+    "services": [
+      {
+        "name": "Garden design",
+        "text": "Ideas and a design for your garden, worked out with you."
+      },
+      {
+        "name": "Patios & paving",
+        "text": "Patios and paving laid neatly, with proper drainage underneath."
+      },
+      {
+        "name": "Paths",
+        "text": "Garden paths built to suit the space."
+      },
+      {
+        "name": "Retaining walls & steps",
+        "text": "Walls and paved steps for sloping gardens."
+      },
+      {
+        "name": "Raised beds & planting",
+        "text": "Raised beds, hedges and planting, with advice on keeping them thriving."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Brendan did an absolutely brilliant job for  us and we are extremely happy that we waited to book him. Nothing was an issue for him and he is a real perfectionist and he left our place very clean when he was finished. I can honestly say I would recommend Brendan 100%."
+      },
+      {
+        "name": "Google review",
+        "text": "We were thrilled with Brendan's work, he has transformed our garden and we look forward to see it mature over the coming years. Brendan's work is high quality and precise. He's on-time and works to budget, keeping you informed along the way and exceeding expectations. Very happy to recommend Brendan."
+      },
+      {
+        "name": "Google review",
+        "text": "We are absolutely delighted with the work Brendan did for us from the garden design to building paths, a patio, raised beds and fantastic features. Brendan's work is very high standard with great attention to detail. We would highly recommend using Brendan for any landscaping."
+      }
+    ],
+    "areas": [
+      "Wexford Town",
+      "Barntown",
+      "Taghmon",
+      "Bridgetown",
+      "Murrintown",
+      "Piercestown",
+      "Killinick",
+      "Rosslare"
+    ]
+  },
+  {
+    "slug": "nk-carpenter",
+    "business": "NK Carpenter",
+    "trade": "Carpenter",
+    "trade_plural": "Carpentry",
+    "town": "Cork",
+    "county": "Co. Cork",
+    "where": "Carpentry & flooring · Wilton, Cork",
+    "coverage": "Cork and the surrounding area",
+    "phone": "+353 87 139 0036",
+    "whatsapp": "353871390036",
+    "rating": 5.0,
+    "review_count": 12,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=NK%20Carpenter%2C%2036%20Sarsfield%20Heights%2C%20Wilton%2C%20Cork",
+    "hours": "Open until 5:15pm",
+    "accent": "#46586B",
+    "headline": "Carpentry in Cork, done with precision.",
+    "subline": "Floors, kitchens, wardrobes, shelving and sheds from Nehat. Easy to deal with, good value, and happy to take on the small jobs too.",
+    "promises": [
+      "Small jobs welcome",
+      "Precise, careful work",
+      "Good value",
+      "Easy to deal with"
+    ],
+    "services": [
+      {
+        "name": "Flooring",
+        "text": "Floors laid with precision, and repairs to existing ones."
+      },
+      {
+        "name": "Kitchen fitting",
+        "text": "Kitchens and integrated bins fitted properly."
+      },
+      {
+        "name": "Wardrobes & shelving",
+        "text": "Wardrobe drawers and shelving measured and fitted."
+      },
+      {
+        "name": "Garden sheds",
+        "text": "Sturdy sheds built from good wood."
+      },
+      {
+        "name": "Small jobs",
+        "text": "The job others say isn't worth it? Call anyway."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Nehat was great to deal with. It was only a small job, I called 6 other local carpenters and they all turned me down because the job ‘wasn’t worth it’. I called Nehat and he accepted straight away. Was very professional the whole time, and did the job perfectly. I will be using Nehat for any future carpentry needs, and I would highly recommend that you do too!"
+      },
+      {
+        "name": "Google review",
+        "text": "Nehat did a great job for us fitting drawers in our wardrobes and fitting our kitchen. He was easy to deal with from start to finish, good value and we’re delighted with the results!"
+      },
+      {
+        "name": "Google review",
+        "text": "We couldn’t be more thrilled with the flooring work that Nehat did for us! From start to finish, he was professional, incredibly skilled, and a true pleasure to work with. He laid the floors down with perfect precision. Not only does our home look amazing, but he went above and beyond, offering advice and helping out in ways we didn’t expect. His attention to detail and work ethic were top-notch. Highly recommend him to anyone looking for quality craftsmanship and a great experience all around!"
+      }
+    ],
+    "areas": [
+      "Cork City",
+      "Wilton",
+      "Bishopstown",
+      "Togher",
+      "Glasheen",
+      "Frankfield",
+      "Douglas",
+      "Ballincollig"
+    ]
+  },
+  {
+    "slug": "abwassertechnik-gmbh-goettingen",
+    "business": "Abwassertechnik Göttingen",
+    "trade": "Drainage service",
+    "trade_plural": "Drain cleaning",
+    "town": "Göttingen",
+    "county": "Niedersachsen",
+    "where": "Drain & sewer cleaning · Göttingen-Weende",
+    "coverage": "Göttingen and the surrounding area",
+    "phone": "+49 174 1648871",
+    "whatsapp": "491741648871",
+    "rating": 4.9,
+    "review_count": 108,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Abwassertechnik%20GmbH%20G%C3%B6ttingen%2C%20Werner-von-Siemens-Stra%C3%9Fe%203%2C%2037077%20G%C3%B6ttingen",
+    "hours": "Open until 8pm",
+    "accent": "#355C7D",
+    "headline": "Blocked drains in Göttingen, cleared quickly.",
+    "subline": "Kitchen drains, basement blockages and drain cleaning. Modern equipment, a professional team, and the place left spotless afterwards.",
+    "promises": [
+      "Quick to arrive",
+      "Modern, reliable equipment",
+      "Left spotless afterwards",
+      "Professional, friendly team"
+    ],
+    "services": [
+      {
+        "name": "Drain cleaning",
+        "text": "Blocked drains cleaned out with professional equipment."
+      },
+      {
+        "name": "Kitchen drains",
+        "text": "Stubborn grease clogs cleared when home remedies won't."
+      },
+      {
+        "name": "Basement blockages",
+        "text": "Basement drains unblocked, and the area left clean."
+      },
+      {
+        "name": "Sewer pipes",
+        "text": "Sewer and main drain pipes cleaned."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "I had a blockage in my basement yesterday and they arrived quickly. Everything was professionally cleaned and they left it spotless afterwards. I'm really relieved it went so well."
+      },
+      {
+        "name": "Google review",
+        "text": "We had a really stubborn grease clog in our kitchen drain that no home remedy could clear. They brought in some serious equipment and got it completely unblocked. Finally, free-flowing!"
+      },
+      {
+        "name": "Google review",
+        "text": "I had the drain cleaned, and everything went smoothly. The staff were professional, relaxed, and in good spirits. The equipment seemed modern and reliable."
+      }
+    ],
+    "areas": [
+      "Göttingen",
+      "Weende",
+      "Grone",
+      "Geismar",
+      "Bovenden",
+      "Rosdorf",
+      "Gleichen",
+      "Nörten-Hardenberg"
+    ]
+  },
+  {
+    "slug": "gaertnerei-nico-delaporte",
+    "business": "Gärtnerei Nico Delaporte",
+    "trade": "Plant nursery",
+    "trade_plural": "Nursery",
+    "town": "Großschwabhausen",
+    "county": "Thüringen",
+    "where": "Plant nursery & flowers · Großschwabhausen",
+    "coverage": "Großschwabhausen and the surrounding area",
+    "phone": "+49 36454 51373",
+    "whatsapp": "493645451373",
+    "rating": 4.9,
+    "review_count": 62,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=G%C3%A4rtnerei%20Nico%20Delaporte%2C%20Am%20Hohlstedter%20Weg%207%2C%2099441%20Gro%C3%9Fschwabhausen",
+    "hours": "Mon–Fri 9am–6pm, Sat 8am–12:30pm",
+    "accent": "#6E4F68",
+    "headline": "Fresh plants and flowers, straight from the grower.",
+    "subline": "Ornamental and vegetable plants, cut flowers, bouquets and gardening supplies in Großschwabhausen. Friendly service, expert advice and affordable prices.",
+    "promises": [
+      "Straight from the grower",
+      "Friendly, expert advice",
+      "Affordable prices",
+      "Family-run"
+    ],
+    "services": [
+      {
+        "name": "Ornamental plants",
+        "text": "A wide selection of ornamental plants of high quality."
+      },
+      {
+        "name": "Vegetable plants",
+        "text": "Vegetable plants for your garden."
+      },
+      {
+        "name": "Cut flowers & bouquets",
+        "text": "Beautiful, long-lasting bouquets and fresh cut flowers."
+      },
+      {
+        "name": "Floral decoration",
+        "text": "Flowers and arrangements for decorating."
+      },
+      {
+        "name": "Gardening supplies",
+        "text": "Everything else you need for the garden."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "We are thrilled with this garden center; the service is friendly and the advice is expert. They offer a wide selection of various ornamental and vegetable plants of the highest quality at affordable prices. The bouquets are also beautiful and long-lasting. We highly recommend this garden center and will definitely be back. There should be more family-run specialty shops like this."
+      },
+      {
+        "name": "Google review",
+        "text": "Spring is here! I like to shop at stores and markets with knowledgeable staff and high-quality goods! And produce directly from the grower is simply the best! What I'm trying to say is: If you need and want fresh plants, cut flowers, and gardening supplies, then head to Delaporte Nursery in Großschwabhausen!"
+      },
+      {
+        "name": "Google review",
+        "text": "Super Service"
+      }
+    ],
+    "areas": [
+      "Großschwabhausen",
+      "Jena",
+      "Weimar",
+      "Isserstedt",
+      "Hohlstedt",
+      "Magdala",
+      "Kötschau",
+      "Mellingen"
+    ]
+  },
+  {
+    "slug": "maksuti-gartenpflege-gartenbau",
+    "business": "Maksuti Gartenpflege",
+    "trade": "Landscaper",
+    "trade_plural": "Garden",
+    "town": "Ulm",
+    "county": "Ulm & Neu-Ulm",
+    "where": "Garden care & landscaping · Ulm & Neu-Ulm",
+    "coverage": "Ulm, Neu-Ulm and the surrounding area",
+    "phone": "+49 731 20640447",
+    "whatsapp": "4973120640447",
+    "rating": 5.0,
+    "review_count": 45,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Maksuti%20Gartenpflege%20%26%20Gartenbau%20Ulm",
+    "hours": "Open until 5pm",
+    "accent": "#4E6650",
+    "headline": "Hedges, lawns and patios in Ulm, beautifully kept.",
+    "subline": "Hedge trimming, turf, patios, paths and garden redesigns from Mr. Maksuti. Reliable, quick and tidy, with every last clipping taken away.",
+    "promises": [
+      "Reliable and punctual",
+      "Quick and straightforward",
+      "All clippings taken away",
+      "Expert advice"
+    ],
+    "services": [
+      {
+        "name": "Garden maintenance",
+        "text": "Regular care to keep the garden in shape."
+      },
+      {
+        "name": "Hedge trimming",
+        "text": "Overgrown hedges cut back, with your wishes taken into account."
+      },
+      {
+        "name": "Lawns & turf",
+        "text": "Lawns scarified, old weeds removed and new rolled turf laid."
+      },
+      {
+        "name": "Patios & paths",
+        "text": "Patios extended and relaid, small paths and edging stones laid."
+      },
+      {
+        "name": "Garden redesign",
+        "text": "Neglected gardens redesigned, with steps, fences and new planting."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "We are really very happy, the hedge looks great, exactly as we wanted it. Thank you so much! Thanks also for everything being so straightforward and quick :)"
+      },
+      {
+        "name": "Google review",
+        "text": "We became aware of Maksuti through their positive reviews and can only confirm them. We had neglected our small terraced house garden in recent years. With a new privacy fence, neatly trimmed cherry laurel trees, a patio bordered with edging stones, new rolled turf, and a small paved path, it has become a real gem. Thank you for the great ideas and the meticulous workmanship!"
+      },
+      {
+        "name": "Google review",
+        "text": "Mr. Maksuti scarified our lawn, removed the old weeds, and laid new roller slabs. He was very reliable, responded quickly, and completed the work professionally and efficiently. In the end, it was even a bit cheaper than we expected. We highly recommend him!"
+      }
+    ],
+    "areas": [
+      "Ulm",
+      "Neu-Ulm",
+      "Blaustein",
+      "Senden",
+      "Elchingen",
+      "Illerkirchberg",
+      "Dornstadt",
+      "Erbach"
+    ]
+  },
+  {
+    "slug": "gartenpflege-alili",
+    "business": "Gartenpflege Alili",
+    "trade": "Gardener",
+    "trade_plural": "Garden",
+    "town": "Bielefeld",
+    "county": "Nordrhein-Westfalen",
+    "where": "Garden care & hedge trimming · Bielefeld",
+    "coverage": "Bielefeld and the surrounding area",
+    "phone": "+49 1520 3936929",
+    "whatsapp": "4915203936929",
+    "rating": 4.9,
+    "review_count": 41,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Gartenpflege'ALILI%2C%20Dompfaffweg%2C%2033607%20Bielefeld",
+    "hours": "Open until 7:30pm",
+    "accent": "#5B6B3A",
+    "headline": "Hedges and gardens in Bielefeld, thoughtfully kept.",
+    "subline": "Hedge trimming, branch trimming, front gardens and garden work from Mr. Alili. Quick replies on WhatsApp, fair prices, and everything done exactly as agreed.",
+    "promises": [
+      "Quick replies on WhatsApp",
+      "Done exactly as agreed",
+      "Fair, transparent prices",
+      "Left clean and tidy"
+    ],
+    "services": [
+      {
+        "name": "Hedge trimming",
+        "text": "Hedges shaped with care, keeping their natural character."
+      },
+      {
+        "name": "Branch trimming",
+        "text": "Overhanging branches and shrubs cut back neatly."
+      },
+      {
+        "name": "Front gardens",
+        "text": "Front gardens tidied up and laid out again."
+      },
+      {
+        "name": "Garden work",
+        "text": "General garden work, often at short notice."
+      },
+      {
+        "name": "Garden design",
+        "text": "Advice and a plan for how your garden should look."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "A truly wonderful garden service with customer service that's hard to find these days. Completely uncomplicated via WhatsApp, very friendly, quick responses, and very transparent. I highly recommend Alili Garden Service. The result also fully met my expectations."
+      },
+      {
+        "name": "Google review",
+        "text": "We contacted Alili Nursery at very short notice, after already having contacted two gardeners but still waiting for a response. Alili gave us incredibly quick advice (he came by that same evening for a consultation and site visit). He then carried out the work very promptly. He is very competent, reliable, and performs the work professionally and neatly. We are very grateful and extremely satisfied! Our garden looks fantastic, and we will definitely use him again. A clear recommendation!"
+      },
+      {
+        "name": "Google review",
+        "text": "Very reliable and pleasant contact. I called yesterday and everything was finished today. The work was left clean and tidy and carried out exactly as agreed. I especially appreciated that the hedge wasn't just radically cut, but thoughtfully considered. The hedge now looks well-maintained again without losing its natural character. The price was absolutely realistic and fair."
+      }
+    ],
+    "areas": [
+      "Bielefeld-Mitte",
+      "Schildesche",
+      "Heepen",
+      "Brackwede",
+      "Sennestadt",
+      "Jöllenbeck",
+      "Herford",
+      "Oerlinghausen"
+    ]
+  },
+  {
+    "slug": "edix-facility-management-gmbh",
+    "business": "EDIX Facility Management",
+    "trade": "Facility management",
+    "trade_plural": "Facility",
+    "town": "Halle",
+    "county": "Sachsen-Anhalt",
+    "where": "Facility management & caretaking · Halle (Saale)",
+    "coverage": "Halle (Saale) and the surrounding area",
+    "phone": "+49 15678 123030",
+    "whatsapp": "4915678123030",
+    "rating": 5.0,
+    "review_count": 33,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=EDIX%20Facility%20Management%20GmbH%2C%20Gro%C3%9Fe%20Brunnenstra%C3%9Fe%2072%2C%2006114%20Halle%20(Saale)",
+    "hours": "Open until 6pm",
+    "accent": "#3E4C63",
+    "headline": "Facility management in Halle, done exactly as agreed.",
+    "subline": "A friendly, professional team that works on time, keeps you involved, and communicates clearly from the very first step.",
+    "promises": [
+      "Done exactly as requested",
+      "On time and reliable",
+      "Clear, straightforward communication",
+      "Friendly, professional team"
+    ],
+    "services": [
+      {
+        "name": "Facility management",
+        "text": "Looking after your property, carried out exactly as agreed."
+      },
+      {
+        "name": "Caretaker services",
+        "text": "Janitorial work for homes and buildings in Halle."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "I had a very positive experience with Edix Facility Management. The work was done exactly as I had requested, and everything was completed on time and reliably. Furthermore, everyone was very friendly and pleasant. I would definitely recommend Edix to anyone who needs such services!"
+      },
+      {
+        "name": "Google review",
+        "text": "Excellent work! Very reliable, professional, and meticulously executed. Communication was straightforward, and the result exceeded my expectations. Highly recommended – I would use them again anytime!"
+      },
+      {
+        "name": "Google review",
+        "text": "A very friendly and professional team/company. Everything runs smoothly and you are involved as a customer. I can wholeheartedly recommend them."
+      }
+    ],
+    "areas": [
+      "Halle-Neustadt",
+      "Giebichenstein",
+      "Kröllwitz",
+      "Petersberg",
+      "Landsberg",
+      "Teutschenthal",
+      "Merseburg",
+      "Wettin-Löbejün"
+    ]
+  },
+  {
+    "slug": "finn-matthies-roepke",
+    "business": "Finn Matthies Röpke",
+    "trade": "Heating engineer",
+    "trade_plural": "Heating",
+    "town": "Laboe",
+    "county": "Schleswig-Holstein",
+    "where": "Heating & bathrooms · Laboe, near Kiel",
+    "coverage": "Laboe and the surrounding area",
+    "phone": "+49 4343 1505",
+    "whatsapp": "4943431505",
+    "rating": 4.7,
+    "review_count": 26,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Finn%20Matthies%20R%C3%B6pke%2C%20Steiner%20Weg%2024b%2C%2024235%20Laboe",
+    "hours": "Call to arrange a time",
+    "accent": "#7A4A3A",
+    "headline": "Heating and hot water in Laboe, back up and running fast.",
+    "subline": "Heating repairs, maintenance, new systems and bathrooms. Spare parts sourced at short notice, friendly advice, and help you can rely on, even in the middle of winter.",
+    "promises": [
+      "Fast, reliable help",
+      "Spare parts sourced quickly",
+      "Friendly, expert advice",
+      "There at short notice"
+    ],
+    "services": [
+      {
+        "name": "Heating repairs",
+        "text": "Broken heaters fixed, with spare parts found at short notice."
+      },
+      {
+        "name": "Heating maintenance",
+        "text": "Thorough servicing, with friendly advice along the way."
+      },
+      {
+        "name": "New heating systems",
+        "text": "Systems installed quickly and properly commissioned."
+      },
+      {
+        "name": "Bathroom renovation",
+        "text": "Bathrooms renovated, with a trusted tiler brought in."
+      },
+      {
+        "name": "Water damage",
+        "text": "The cause of a leak found quickly and accurately."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Thank you so much for the quick help! As always, super fast and reliable. A needed spare part for our broken heater was even procured at very short notice. We had hot water again in no time. Such courteous and excellent service is not something to be taken for granted and deserves appreciation and thanks."
+      },
+      {
+        "name": "Google review",
+        "text": "Unreserved recommendation! We've been customers of Mr. Röpke for years, and he even spontaneously repaired our broken gas heater on a Sunday using a spare part we sourced ourselves – all for a price in the double digits! Heating maintenance is very professional and comprehensive, including a friendly and helpful consultation. When we had water damage in the shower area, the cause was quickly and accurately analyzed, and we weren't charged anything."
+      },
+      {
+        "name": "Google review",
+        "text": "A huge THANK YOU again! :-) Hooray for the \"small\" craft businesses. Even if you're stuck in the mud in the middle of winter, you can rely on Matthies. Thank you so much!"
+      }
+    ],
+    "areas": [
+      "Laboe",
+      "Stein",
+      "Wendtorf",
+      "Heikendorf",
+      "Mönkeberg",
+      "Schönberg",
+      "Probsteierhagen",
+      "Kiel"
+    ]
+  },
+  {
+    "slug": "ad-design-malermeister-heinemann",
+    "business": "AD Design Heinemann",
+    "trade": "Painter",
+    "trade_plural": "Painting",
+    "town": "Osnabrück",
+    "county": "Niedersachsen",
+    "where": "Painting & decorating · Osnabrück",
+    "coverage": "Osnabrück and the surrounding area",
+    "phone": "+49 172 5621734",
+    "whatsapp": "491725621734",
+    "rating": 4.8,
+    "review_count": 19,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=AD%20Design%20Malermeister%20Heinemann%2C%20Dielingerstra%C3%9Fe%208%2C%2049074%20Osnabr%C3%BCck",
+    "hours": "Open until 6pm",
+    "accent": "#8A6D3B",
+    "headline": "Painting in Osnabrück, meticulous and clean.",
+    "subline": "Interior and exterior painting, doors, facades and detailed work. Appointments kept, quick answers, honest advice on colours, and no mess left behind.",
+    "promises": [
+      "Very clean, meticulous work",
+      "Appointments kept",
+      "Advice on choosing colours",
+      "Quick, easy communication"
+    ],
+    "services": [
+      {
+        "name": "Interior painting",
+        "text": "Walls and rooms painted cleanly, with no construction chaos."
+      },
+      {
+        "name": "Exterior & facades",
+        "text": "Facades repaired and painted, including around new windows."
+      },
+      {
+        "name": "Door painting",
+        "text": "Doors painted with a careful, even finish."
+      },
+      {
+        "name": "Colour advice",
+        "text": "Help choosing colours that go with what you already have."
+      },
+      {
+        "name": "Repairs & detailed work",
+        "text": "Damage from earlier jobs put right, and fine detailed work."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Very meticulous and clean work. Excellent value for money and reliable scheduling. Quick and easy communication. I can definitely recommend them."
+      },
+      {
+        "name": "Google review",
+        "text": "Absolutely super professional and works very cleanly! The appointment was kept. A very, very nice painter who takes care of everything himself and also gives great tips! I will only ever use him for any painting work from now on!"
+      },
+      {
+        "name": "Google review",
+        "text": "Mr. Dapkus repaired the facade around the windows and painted them after installing new ones. We are very satisfied, including with his advice on choosing the colors (we were unsure what would go with the red window frames). Mr. Dapkus is professional, very friendly, highly competent, and reliable. He answers questions quickly. It's wonderful that there are still such skilled tradespeople around!"
+      }
+    ],
+    "areas": [
+      "Osnabrück",
+      "Belm",
+      "Wallenhorst",
+      "Bissendorf",
+      "Hasbergen",
+      "Georgsmarienhütte",
+      "Hagen a.T.W.",
+      "Bramsche"
+    ]
+  },
+  {
+    "slug": "gruenform-gartengestaltung",
+    "business": "Grünform Gartengestaltung",
+    "trade": "Garden designer",
+    "trade_plural": "Garden design",
+    "town": "Trier",
+    "county": "Rheinland-Pfalz",
+    "where": "Garden design & landscaping · Trier-Kürenz",
+    "coverage": "Trier and the surrounding area",
+    "phone": "+49 651 9983430",
+    "whatsapp": "496519983430",
+    "rating": 4.8,
+    "review_count": 17,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Gr%C3%BCnform%20Gartengestaltung%2C%20Ober%20Kleeburg%201%2C%2054296%20Trier",
+    "hours": "Call to arrange a time",
+    "accent": "#4F6357",
+    "headline": "Gardens in Trier, designed and built with care.",
+    "subline": "Garden design, terraces, planting, trees and decking. Competent advice, good ideas, quick answers to your questions, and helpful tips for looking after it all afterwards.",
+    "promises": [
+      "Competent, friendly advice",
+      "Good ideas, even unusual ones",
+      "Quick answers to questions",
+      "Helpful maintenance tips"
+    ],
+    "services": [
+      {
+        "name": "Garden design",
+        "text": "Gardens designed around how you want to use them."
+      },
+      {
+        "name": "Terraces & paving",
+        "text": "Terraces and paved areas laid cleanly."
+      },
+      {
+        "name": "Plants & trees",
+        "text": "Plants, flowers and trees chosen and planted."
+      },
+      {
+        "name": "Decking",
+        "text": "Timber decking built as part of the garden."
+      },
+      {
+        "name": "Garden renovation",
+        "text": "Existing gardens reworked and brought back to life."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "We were very satisfied with Grünform. Cornelius knows his craft. Competent advice and execution of the work. Helpful maintenance tips and good ideas on top of that. Highly recommended and would use them again anytime."
+      },
+      {
+        "name": "Google review",
+        "text": "We have known and worked with Fred at Grunform for over 10 years and have always been delighted with his service.  He has designed 2 very different gardens for us including plants, flowers, trees and decking.  He is extremely professional and friendly (as are all his team) and knows his product very well.  He is an excellent communicator and always responds quickly to any questions I have.  He comes highly recommended!"
+      },
+      {
+        "name": "Google review",
+        "text": "We had our garden designed and landscaped by the company Grünform a long time ago (about 20 years)."
+      }
+    ],
+    "areas": [
+      "Trier",
+      "Kürenz",
+      "Tarforst",
+      "Konz",
+      "Schweich",
+      "Trierweiler",
+      "Kasel",
+      "Waldrach"
+    ]
+  },
+  {
+    "slug": "sandner-kaelte-klima-gmbh",
+    "business": "Sandner Kälte Klima",
+    "trade": "Air conditioning",
+    "trade_plural": "Air conditioning",
+    "town": "Chemnitz",
+    "county": "Sachsen",
+    "where": "Air conditioning & heat pumps · Chemnitz-Altchemnitz",
+    "coverage": "Chemnitz and the surrounding area",
+    "phone": "+49 371 2732115",
+    "whatsapp": "493712732115",
+    "rating": 4.6,
+    "review_count": 16,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Sandner%20K%C3%A4lte%20Klima%20GmbH%2C%20Comeniusstra%C3%9Fe%208A%2C%2009120%20Chemnitz",
+    "hours": "Call to arrange a time",
+    "accent": "#3F5F6E",
+    "headline": "Air conditioning in Chemnitz, installed on time.",
+    "subline": "Split air conditioning, heat pumps and annual maintenance for homes and businesses. Fair, transparent prices, deadlines kept, and clean, tidy installs.",
+    "promises": [
+      "Fair, transparent prices",
+      "Deadlines kept",
+      "Punctual for every service",
+      "Clean and tidy"
+    ],
+    "services": [
+      {
+        "name": "Air conditioning installation",
+        "text": "Split systems with one or more indoor units, fitted as agreed."
+      },
+      {
+        "name": "Heat pumps",
+        "text": "Units that heat in winter and cool in summer."
+      },
+      {
+        "name": "Annual maintenance",
+        "text": "Systems serviced every year, on time."
+      },
+      {
+        "name": "Business premises",
+        "text": "Air conditioning for shops and branches, maintained long-term."
+      },
+      {
+        "name": "Help by phone",
+        "text": "Competent support outside scheduled appointments too."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "We've been customers of our air conditioning systems and maintenance services for 10 years and are very satisfied. This summer we installed three new units in our branch. Uncomplicated, friendly, punctual, clean, and tidy. Thank you very much."
+      },
+      {
+        "name": "Google review",
+        "text": "+++ HIGHLY RECOMMENDED +++ We had Mr. Sandner install a split air conditioning system with two indoor units. The installation went smoothly and exactly as agreed beforehand. Mr. Sandner always arrives punctually for the annual maintenance. He is also available by phone outside of scheduled appointments and provides competent and friendly assistance with any problems."
+      },
+      {
+        "name": "Google review",
+        "text": "We are absolutely satisfied with the work of Sandner Kälte Klima GmbH. We would particularly like to emphasize their fair and transparent pricing as well as their reliable adherence to deadlines. Despite a very short timeframe, Mr. Sander managed to have our air conditioning system installed before the start of summer. Communication was always friendly, professional, and solution-oriented. Highly recommended!"
+      }
+    ],
+    "areas": [
+      "Chemnitz",
+      "Altchemnitz",
+      "Einsiedel",
+      "Neukirchen",
+      "Limbach-Oberfrohna",
+      "Hohenstein-Ernstthal",
+      "Stollberg",
+      "Flöha"
+    ]
+  },
+  {
+    "slug": "dachtechnik-stueker",
+    "business": "Dachtechnik Stüker",
+    "trade": "Roofer",
+    "trade_plural": "Roofing",
+    "town": "Verl",
+    "county": "Nordrhein-Westfalen",
+    "where": "Roofing, skylights & solar · Verl",
+    "coverage": "Verl and the surrounding area",
+    "phone": "+49 176 64377639",
+    "whatsapp": "4917664377639",
+    "email": "Info@dachtechnikstueker.de",
+    "rating": 5.0,
+    "review_count": 13,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Dachtechnik%20St%C3%BCker%2C%20Paderborner%20Str.%20466%2C%2033415%20Verl",
+    "hours": "Call to arrange a time",
+    "accent": "#9A4E3A",
+    "headline": "Roofing in Verl, done with experience and care.",
+    "subline": "Re-roofs, repairs, leaks, skylights, gutters and solar panels from Mark Stüker. Quick to come out, clean and neat, with honest advice before any work starts.",
+    "promises": [
+      "Quick to come out",
+      "Clean, neat work",
+      "Honest communication",
+      "Reasonable prices"
+    ],
+    "services": [
+      {
+        "name": "Re-roofing",
+        "text": "Whole roofs replaced, with work that's still top-notch years later."
+      },
+      {
+        "name": "Repairs & leaks",
+        "text": "Leaks assessed quickly and minor repairs done neatly."
+      },
+      {
+        "name": "Skylights",
+        "text": "New skylights sourced and installed promptly."
+      },
+      {
+        "name": "Gutter cleaning",
+        "text": "Gutters cleaned out reliably, as often as you need."
+      },
+      {
+        "name": "Solar panels",
+        "text": "Solar panels fitted on your roof, flexibly and cleanly."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "We were introduced to Mr. Stüker through an acquaintance, even though we hadn't been his customers before. When our roof leaked, he arrived quickly, professionally assessed the situation, advised us, and then promptly procured and installed a new skylight. We are absolutely satisfied and grateful and gladly recommend his company."
+      },
+      {
+        "name": "Google review",
+        "text": "We've had consistently excellent experiences with this roofing company. They've reliably cleaned our gutters several times, and minor repairs have always been completed quickly and neatly. Furthermore, they completely re-roofed our house a few years ago, and the work was, and still is, absolutely top-notch. You can tell they work with experience and care. We especially appreciate their reliability and honest communication. They're truly dependable. Highly recommended!"
+      },
+      {
+        "name": "Google review",
+        "text": "Excellent and meticulous work on our old barn. It certainly wasn't an easy task. Furthermore, Mark Stüker is a competent and friendly person! Highly recommended!"
+      }
+    ],
+    "areas": [
+      "Verl",
+      "Kaunitz",
+      "Sürenheide",
+      "Gütersloh",
+      "Rietberg",
+      "Schloß Holte-Stukenbrock",
+      "Delbrück",
+      "Rheda-Wiedenbrück"
+    ]
+  },
+  {
+    "slug": "thies-heizungsbau-lueftungs-und-sanitaertechnik-gmbh",
+    "business": "Thies Heizungsbau",
+    "trade": "Heating & plumbing",
+    "trade_plural": "Heating & plumbing",
+    "town": "Göttingen",
+    "county": "Niedersachsen",
+    "where": "Heating, ventilation & sanitary · Göttingen",
+    "coverage": "Göttingen and the surrounding area",
+    "phone": "+49 551 59289",
+    "whatsapp": "4955159289",
+    "rating": 4.6,
+    "review_count": 19,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Thies%20Heizungsbau%2C%20B%C3%BChlstra%C3%9Fe%208%2C%2037073%20G%C3%B6ttingen",
+    "hours": "Call to arrange a time",
+    "accent": "#2F5E5A",
+    "headline": "Heating and plumbing in Göttingen, sorted quickly.",
+    "subline": "Heating repairs, new boilers, water heaters and bathroom work from a friendly, competent team. Quick appointments, clear quotes, and clean, punctual work.",
+    "promises": [
+      "Quick appointments",
+      "Clear quotes, fair prices",
+      "Punctual and clean",
+      "Friendly on the phone"
+    ],
+    "services": [
+      {
+        "name": "Heating repairs",
+        "text": "Broken heating looked at and fixed quickly."
+      },
+      {
+        "name": "New boilers",
+        "text": "Boilers beyond repair quoted, ordered and installed fast."
+      },
+      {
+        "name": "Water heaters",
+        "text": "Water heater repairs, done quickly and reliably."
+      },
+      {
+        "name": "Bathrooms & showers",
+        "text": "Shower screens and sanitary work fitted cleanly."
+      },
+      {
+        "name": "Gas meters & recommissioning",
+        "text": "Gas meters reinstalled and old boilers put back into operation."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Thank you so much for your quick and highly professional work on the heating repair. Your prompt assistance was invaluable, and we greatly appreciate the quality of your service. Thank you again!"
+      },
+      {
+        "name": "Google review",
+        "text": "Excellent service! Ms. Fraatz took care of installing a new shower screen for me, and I am more than satisfied. She was extremely punctual, always friendly and cheerful, and completed her work very cleanly and quickly. A big thank you again to such wonderful and exemplary employees!"
+      },
+      {
+        "name": "Google review",
+        "text": "We bought a house with a broken heating system—we knew this when we bought it, so we immediately tried to get it repaired (it was already October, and we'd had a few cold days). Every company I called told me I wasn't a customer and therefore couldn't do anything for me. Only Thies was willing to take on my case. It quickly became clear that the boiler was beyond repair. The owner sent me a quote on a Thursday. I ordered the boiler that same day, it was ordered from the supplier on Friday, delivered on Monday, and by chance, there was an appointment available on Tuesday, so it was installed. And the final bill? It was even lower than the quote!"
+      }
+    ],
+    "areas": [
+      "Göttingen",
+      "Weende",
+      "Grone",
+      "Geismar",
+      "Bovenden",
+      "Rosdorf",
+      "Gleichen",
+      "Friedland"
+    ]
   }
 ]
