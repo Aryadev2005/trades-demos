@@ -2088,5 +2088,68 @@
       "Ebbs",
       "Kufstein"
     ]
+  },
+  {
+    "slug": "elektro-gaebel",
+    "business": "Elektro Gäbel",
+    "trade": "Electrician",
+    "trade_plural": "Electrical",
+    "town": "Hard",
+    "county": "Vorarlberg",
+    "where": "Electrician · Hard, Vorarlberg",
+    "coverage": "Hard, Bregenz and the surrounding area",
+    "phone": "+43 5574 71807",
+    "whatsapp": "43557471807",
+    "rating": 5.0,
+    "review_count": 14,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Elektro%20G%C3%A4bel%2C%20Grafenweg%2027%2C%206971%20Hard",
+    "hours": "Call to arrange a time",
+    "accent": "#44546A",
+    "headline": "Electrical work in Hard, reliable and punctual.",
+    "subline": "Pascal and his team replace old electrical cabinets, bring installations up to date and help at short notice. Competent, fast, clean work and excellent value.",
+    "promises": [
+      "Reliable and punctual",
+      "Fast, clean work",
+      "Excellent value",
+      "Friendly, competent team"
+    ],
+    "services": [
+      {
+        "name": "Electrical cabinets",
+        "text": "Aging electrical cabinets replaced, quickly and cleanly."
+      },
+      {
+        "name": "Bringing installations up to date",
+        "text": "Older electrics brought up to current standards."
+      },
+      {
+        "name": "Short-notice jobs",
+        "text": "Help at short notice, for example just before you move in."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Very professional, prompt service, friendly, competent, excellent value for money, would use again anytime, highly recommended."
+      },
+      {
+        "name": "Google review",
+        "text": "Pascal and his team replaced our aging electrical cabinet and brought everything up to date. They were extremely competent, very fast, and worked very cleanly. What I particularly want to emphasize is their reliability and punctuality, which I often find lacking in other tradespeople. I can recommend them without reservation."
+      },
+      {
+        "name": "Google review",
+        "text": "The price-performance ratio is excellent, the service is friendly and fast, uncomplicated - what more could you want? :-)"
+      }
+    ],
+    "areas": [
+      "Hard",
+      "Bregenz",
+      "Fußach",
+      "Höchst",
+      "Lauterach",
+      "Wolfurt",
+      "Lustenau",
+      "Kennelbach"
+    ]
   }
 ]
