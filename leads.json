@@ -1184,5 +1184,77 @@
       "Stollberg",
       "Flöha"
     ]
+  },
+  {
+    "slug": "dachtechnik-stueker",
+    "business": "Dachtechnik Stüker",
+    "trade": "Roofer",
+    "trade_plural": "Roofing",
+    "town": "Verl",
+    "county": "Nordrhein-Westfalen",
+    "where": "Roofing, skylights & solar · Verl",
+    "coverage": "Verl and the surrounding area",
+    "phone": "+49 176 64377639",
+    "whatsapp": "4917664377639",
+    "email": "Info@dachtechnikstueker.de",
+    "rating": 5.0,
+    "review_count": 13,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Dachtechnik%20St%C3%BCker%2C%20Paderborner%20Str.%20466%2C%2033415%20Verl",
+    "hours": "Call to arrange a time",
+    "accent": "#9A4E3A",
+    "headline": "Roofing in Verl, done with experience and care.",
+    "subline": "Re-roofs, repairs, leaks, skylights, gutters and solar panels from Mark Stüker. Quick to come out, clean and neat, with honest advice before any work starts.",
+    "promises": [
+      "Quick to come out",
+      "Clean, neat work",
+      "Honest communication",
+      "Reasonable prices"
+    ],
+    "services": [
+      {
+        "name": "Re-roofing",
+        "text": "Whole roofs replaced, with work that's still top-notch years later."
+      },
+      {
+        "name": "Repairs & leaks",
+        "text": "Leaks assessed quickly and minor repairs done neatly."
+      },
+      {
+        "name": "Skylights",
+        "text": "New skylights sourced and installed promptly."
+      },
+      {
+        "name": "Gutter cleaning",
+        "text": "Gutters cleaned out reliably, as often as you need."
+      },
+      {
+        "name": "Solar panels",
+        "text": "Solar panels fitted on your roof, flexibly and cleanly."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "We were introduced to Mr. Stüker through an acquaintance, even though we hadn't been his customers before. When our roof leaked, he arrived quickly, professionally assessed the situation, advised us, and then promptly procured and installed a new skylight. We are absolutely satisfied and grateful and gladly recommend his company."
+      },
+      {
+        "name": "Google review",
+        "text": "We've had consistently excellent experiences with this roofing company. They've reliably cleaned our gutters several times, and minor repairs have always been completed quickly and neatly. Furthermore, they completely re-roofed our house a few years ago, and the work was, and still is, absolutely top-notch. You can tell they work with experience and care. We especially appreciate their reliability and honest communication. They're truly dependable. Highly recommended!"
+      },
+      {
+        "name": "Google review",
+        "text": "Excellent and meticulous work on our old barn. It certainly wasn't an easy task. Furthermore, Mark Stüker is a competent and friendly person! Highly recommended!"
+      }
+    ],
+    "areas": [
+      "Verl",
+      "Kaunitz",
+      "Sürenheide",
+      "Gütersloh",
+      "Rietberg",
+      "Schloß Holte-Stukenbrock",
+      "Delbrück",
+      "Rheda-Wiedenbrück"
+    ]
   }
 ]
