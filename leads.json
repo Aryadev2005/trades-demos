@@ -1536,5 +1536,76 @@
       "Trier-West",
       "Konz"
     ]
+  },
+  {
+    "slug": "dachdeckerei-wagner",
+    "business": "Dachdeckerei Wagner",
+    "trade": "Roofer",
+    "trade_plural": "Roofing",
+    "town": "Halle (Saale)",
+    "county": "Sachsen-Anhalt",
+    "where": "Roofing & roof windows · Halle (Saale)",
+    "coverage": "Halle (Saale) and the surrounding area",
+    "phone": "+49 176 72501173",
+    "whatsapp": "4917672501173",
+    "rating": 4.8,
+    "review_count": 23,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Dachdeckerei%20Wagner%2C%20Am%20Spielrain%2018%2C%2006116%20Halle%20(Saale)",
+    "hours": "Call to arrange a time",
+    "accent": "#8C4A36",
+    "headline": "Roofs and roof windows in Halle, done properly.",
+    "subline": "Roof repairs, new skylights and roof windows from Mr. Wagner and his team. Quick solutions, on time, friendly and competent, and the work done cleanly.",
+    "promises": [
+      "Quick, on-time work",
+      "Excellent advice first",
+      "Clean, efficient team",
+      "Prompt help when you need it"
+    ],
+    "services": [
+      {
+        "name": "Roof repairs",
+        "text": "Roof damage repaired quickly and thoroughly."
+      },
+      {
+        "name": "Skylights & roof windows",
+        "text": "Old roof windows replaced with new ones, fitted cleanly."
+      },
+      {
+        "name": "Access windows",
+        "text": "An old roof access window replaced with a modern one with thermal glazing."
+      },
+      {
+        "name": "Bungalow roofs",
+        "text": "Damage to bungalow roofs repaired quickly and thoroughly."
+      },
+      {
+        "name": "Urgent help",
+        "text": "Immediate help when your roof can't wait."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "We can wholeheartedly recommend Mr. Wagner and his team, who repaired the damage to our bungalow's roof very quickly and thoroughly. After excellent advice and the prompt repair, we are very satisfied. We would like to express our sincere gratitude."
+      },
+      {
+        "name": "Google review",
+        "text": "We had two new skylights installed by this company in March, as our old windows, over 20 years old, were beyond repair. The two employees did an excellent job; they were very friendly, efficient, and worked cleanly. All in all, we can highly recommend this company and would like to sincerely thank Mr. Wagner and his team."
+      },
+      {
+        "name": "Google review",
+        "text": "Top roofer – Wagner Roofing is highly recommended! We are completely satisfied with Mr. Wagner's work. The solution was found quickly, and everything went smoothly and on time. We were particularly impressed by his friendly and competent manner – you immediately feel you're in good hands. If you're looking for reliable and professional help with your roof, Mr. Wagner is the right person to contact!"
+      }
+    ],
+    "areas": [
+      "Halle-Ost",
+      "Reideburg",
+      "Dölbau",
+      "Büschdorf",
+      "Kanena",
+      "Diemitz",
+      "Landsberg",
+      "Kabelsketal"
+    ]
   }
 ]
