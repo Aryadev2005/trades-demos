@@ -2474,5 +2474,76 @@
       "Oudenburg",
       "De Haan"
     ]
+  },
+  {
+    "slug": "bss-energy-srl",
+    "business": "B.S.S Energy",
+    "trade": "Electrician",
+    "trade_plural": "Electrical & solar",
+    "town": "Ans",
+    "county": "Liège",
+    "where": "Electrical work, solar panels & batteries · Ans, near Liège",
+    "coverage": "Ans, Liège and the surrounding area",
+    "phone": "+32 499 74 06 53",
+    "whatsapp": "32499740653",
+    "rating": 5.0,
+    "review_count": 41,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=B.S.S%20ENERGY%20SRL%2C%20Clos%20du%20Berger%2C%204432%20Ans",
+    "hours": "Open until 5pm",
+    "accent": "#3F5E4E",
+    "headline": "Solar panels and electrical work around Liège, done meticulously.",
+    "subline": "Solar panels, home batteries and electrical work from Steven and his team. The owner on site, deadlines met, and a system sized to suit your home.",
+    "promises": [
+      "Owner on site",
+      "Deadlines met",
+      "Meticulous work",
+      "Clear communication"
+    ],
+    "services": [
+      {
+        "name": "Solar panels",
+        "text": "Photovoltaic panels installed, with the number adjusted to suit your home."
+      },
+      {
+        "name": "Home batteries",
+        "text": "Batteries that charge by day and take over in the evening."
+      },
+      {
+        "name": "Electrical work",
+        "text": "Electrical work around the house, done carefully and thoroughly."
+      },
+      {
+        "name": "Bringing up to code",
+        "text": "Older installations brought up to current standards."
+      },
+      {
+        "name": "Electrical upgrades & signage",
+        "text": "Electrical system upgrades and signage for businesses."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Highly professional! Steven respects appointments and deadlines. He is flexible, proactive, and attentive to his clients. He has already worked on two projects for us. I highly recommend him."
+      },
+      {
+        "name": "Google review",
+        "text": "A huge thank you for the efficiency and professionalism in installing my solar panels and batteries. I can plug in my car and use no electricity at all. The batteries are fully charged and take over in the evening. Bss Energy adjusted the number of solar panels and batteries to suit my home. Thanks again, Steven."
+      },
+      {
+        "name": "Google review",
+        "text": "Hello, I highly recommend this electrical company. The work was carried out with great care and professionalism. The owner was present on site, which was very reassuring and demonstrates genuine oversight of the project. The team was highly efficient, responding quickly and delivering meticulous work. They met deadlines, provided high-quality workmanship, and offered excellent communication: a trustworthy company that I would not hesitate to use again."
+      }
+    ],
+    "areas": [
+      "Ans",
+      "Liège",
+      "Alleur",
+      "Loncin",
+      "Awans",
+      "Grâce-Hollogne",
+      "Saint-Nicolas",
+      "Herstal"
+    ]
   }
 ]
