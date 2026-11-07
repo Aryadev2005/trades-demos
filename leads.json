@@ -1469,5 +1469,72 @@
       "Gerbstedt",
       "Brachwitz"
     ]
+  },
+  {
+    "slug": "august-melchisedech",
+    "business": "Gärtnerei Melchisedech",
+    "trade": "Plant nursery",
+    "trade_plural": "Nursery",
+    "town": "Trier",
+    "county": "Rheinland-Pfalz",
+    "where": "Family-run plant nursery · Trier-Nord",
+    "coverage": "Trier and the surrounding area",
+    "phone": "+49 651 28977",
+    "whatsapp": "4965128977",
+    "rating": 4.8,
+    "review_count": 16,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=August%20Melchisedech%2C%20Zurmaiener%20Str.%2061%2C%2054292%20Trier",
+    "hours": "Call for opening times",
+    "accent": "#3E6B4F",
+    "headline": "Plants grown here, in the heart of Trier.",
+    "subline": "A family-run nursery with a large selection of seasonal plants from its own production. High-quality plants, friendly, knowledgeable staff and very reasonable prices.",
+    "promises": [
+      "Grown in our own nursery",
+      "Large selection",
+      "Friendly, expert staff",
+      "Very reasonable prices"
+    ],
+    "services": [
+      {
+        "name": "Seasonal plants",
+        "text": "A large selection of seasonal plants from our own production."
+      },
+      {
+        "name": "Bedding & balcony plants",
+        "text": "Colourful autumn and winter plants for beds and balconies."
+      },
+      {
+        "name": "Flowering houseplants",
+        "text": "Flowering plants for indoors."
+      },
+      {
+        "name": "Flowers",
+        "text": "Flowers in consistently excellent quality."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "One of the best nurseries in Trier. Excellent quality plants, very friendly and knowledgeable staff. Very nice employees. Large selection at very reasonable prices. Owner-operated nursery. Highly recommended and in a great location. Keep it up!"
+      },
+      {
+        "name": "Google review",
+        "text": "This family-run business is centrally located in the heart of the city center. Friendliness and expertise are evident here. A consistently wide selection and high-quality plants. A real gem."
+      },
+      {
+        "name": "Google review",
+        "text": "We have been receiving our flowers from the Melchisedech family for many years. Always excellent quality and outstanding service!"
+      }
+    ],
+    "areas": [
+      "Trier-Nord",
+      "Trier-Mitte",
+      "Pfalzel",
+      "Ehrang",
+      "Kürenz",
+      "Ruwer",
+      "Trier-West",
+      "Konz"
+    ]
   }
 ]
