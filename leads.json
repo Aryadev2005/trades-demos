@@ -2151,5 +2151,64 @@
       "Lustenau",
       "Kennelbach"
     ]
+  },
+  {
+    "slug": "michael-kolanek",
+    "business": "Michael Kolanek",
+    "trade": "Roofer",
+    "trade_plural": "Roofing",
+    "town": "Bad Ischl",
+    "county": "Oberösterreich",
+    "where": "Roofing contractor · Bad Ischl",
+    "coverage": "Bad Ischl and the Salzkammergut",
+    "phone": "+43 6132 23421",
+    "whatsapp": "43613223421",
+    "rating": 4.9,
+    "review_count": 14,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Michael%20Kolanek%2C%20Traunkai%2010%2C%204820%20Bad%20Ischl",
+    "hours": "Call to arrange a time",
+    "accent": "#8A4B3C",
+    "headline": "Roofing in Bad Ischl, quick and competent.",
+    "subline": "Roof repairs and help after storms, from a friendly, highly skilled team. Quick, competent and efficient work, and fairly priced.",
+    "promises": [
+      "Quick help after storms",
+      "Highly skilled team",
+      "Clean, efficient work",
+      "Friendly and affordable"
+    ],
+    "services": [
+      {
+        "name": "Storm damage",
+        "text": "Quick, competent help when a storm has damaged your roof."
+      },
+      {
+        "name": "Roof repairs",
+        "text": "Roofing work done quickly and efficiently."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Great company! The employees are friendly, highly skilled, and worked quickly and efficiently! Very satisfied! Thank you!"
+      },
+      {
+        "name": "Google review",
+        "text": "Very quick and competent help after the storm. It was the same the first time. Thank you."
+      },
+      {
+        "name": "Google review",
+        "text": "Thank you so much for the extremely quick, competent, friendly, and courteous service (help). I will recommend you with a \"Very Good\" rating. THANK YOU!"
+      }
+    ],
+    "areas": [
+      "Bad Ischl",
+      "Bad Goisern",
+      "St. Wolfgang",
+      "Strobl",
+      "Ebensee",
+      "Gosau",
+      "Hallstatt",
+      "Bad Aussee"
+    ]
   }
 ]
