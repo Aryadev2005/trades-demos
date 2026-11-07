@@ -2277,5 +2277,64 @@
       "Grafenstein",
       "Wölfnitz"
     ]
+  },
+  {
+    "slug": "sim-service-installationen-malle",
+    "business": "SIM Service Malle",
+    "trade": "Plumber",
+    "trade_plural": "Plumbing",
+    "town": "Eberndorf",
+    "county": "Kärnten",
+    "where": "Plumbing & installations · Eberndorf",
+    "coverage": "Eberndorf and the Jauntal",
+    "phone": "+43 664 1585393",
+    "whatsapp": "436641585393",
+    "rating": 4.9,
+    "review_count": 18,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=SIM%20Service%20Installationen%20Malle%2C%20Gablerner%20Str.%2056%2C%209141%20Eberndorf",
+    "hours": "Call to arrange a time",
+    "accent": "#3D5A6C",
+    "headline": "Plumbing in Eberndorf, competent, clean and fast.",
+    "subline": "Plumbing and installation work from a friendly, competent and reliable team.",
+    "promises": [
+      "Competent",
+      "Clean",
+      "Fast",
+      "Friendly and reliable"
+    ],
+    "services": [
+      {
+        "name": "Plumbing",
+        "text": "Plumbing work done competently, cleanly and fast."
+      },
+      {
+        "name": "Installations",
+        "text": "Installation work from a friendly, reliable team."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Excellent service! Competent, clean, and fast! I highly recommend them!"
+      },
+      {
+        "name": "Google review",
+        "text": "Very friendly staff. Competent and reliable."
+      },
+      {
+        "name": "Google review",
+        "text": "Super Service"
+      }
+    ],
+    "areas": [
+      "Eberndorf",
+      "Kühnsdorf",
+      "Völkermarkt",
+      "Bleiburg",
+      "Sittersdorf",
+      "Gallizien",
+      "St. Kanzian",
+      "Klopein"
+    ]
   }
 ]
