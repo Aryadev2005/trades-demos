@@ -1607,5 +1607,76 @@
       "Landsberg",
       "Kabelsketal"
     ]
+  },
+  {
+    "slug": "doose-gmbh",
+    "business": "Doose GmbH",
+    "trade": "Heating & plumbing",
+    "trade_plural": "Heating & plumbing",
+    "town": "Kiel",
+    "county": "Schleswig-Holstein",
+    "where": "Heating, heat pumps & plumbing · Kiel-Gaarden",
+    "coverage": "Kiel and the surrounding area",
+    "phone": "+49 431 14430",
+    "whatsapp": "4943114430",
+    "rating": 4.4,
+    "review_count": 29,
+    "google_url": "https://www.google.com/maps/search/?api=1&query=Doose%20GmbH%2C%20Tonberg%2011%20B%2C%2024113%20Kiel",
+    "hours": "Call to arrange a time",
+    "accent": "#2E5470",
+    "headline": "Heat pumps, heating and plumbing in Kiel.",
+    "subline": "Heat pump planning and installation, heating repairs and plumbing from a motivated, friendly team. Quick to arrive, clean work, and help until the problem is solved.",
+    "promises": [
+      "Quick to arrive",
+      "Friendly, motivated team",
+      "Clean work",
+      "Reasonable invoices"
+    ],
+    "services": [
+      {
+        "name": "Heat pumps",
+        "text": "Planned and installed, with a full introduction to your new system."
+      },
+      {
+        "name": "Heating repairs",
+        "text": "Heating that others couldn't fix, working again."
+      },
+      {
+        "name": "Plumbing repairs",
+        "text": "Defective valves and connections fixed quickly and cleanly."
+      },
+      {
+        "name": "Emergency help",
+        "text": "Help in an emergency, until the problem is resolved."
+      },
+      {
+        "name": "Bathroom work",
+        "text": "Tiling, plumbing fixtures and refurbishment."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Google review",
+        "text": "Planning and installation of a heat pump. Everything went perfectly; the staff were very motivated and friendly. It works exactly as discussed. Highly recommended."
+      },
+      {
+        "name": "Google review",
+        "text": "They arrived super fast and were very friendly. After two other companies had already looked at our malfunctioning heating system and couldn't fix it, our heating is now working again. Highly recommended."
+      },
+      {
+        "name": "Google review",
+        "text": "Super fast and uncomplicated, we had a defective valve on the washing machine connection, the technician needed less than 10 minutes, was very friendly and clean... great work, thank you very much and we would gladly use them again."
+      }
+    ],
+    "areas": [
+      "Kiel-Gaarden",
+      "Kiel-Mitte",
+      "Ellerbek",
+      "Wellingdorf",
+      "Hassee",
+      "Kronshagen",
+      "Mönkeberg",
+      "Schwentinental"
+    ]
   }
 ]
