@@ -1725,5 +1725,402 @@
     "built_by": "Aryadev",
     "place_id": "ChIJf0f0YNAJe0gRle-CgCOg8Dk",
     "_auto": true
+  },
+  {
+    "slug": "mm-spark-electrical-wigan",
+    "business": "MM Spark Electrical",
+    "trade": "Electrician",
+    "trade_plural": "Electrical",
+    "town": "Wigan",
+    "county": "Greater Manchester",
+    "coverage": "Wigan and nearby",
+    "phone": "07393 217901",
+    "whatsapp": "447393217901",
+    "rating": 5,
+    "review_count": 28,
+    "google_url": "https://maps.google.com/?cid=6663858918863168579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hours": "Mon to Fri 10am to 6:30pm, Sat 10am to 4pm",
+    "accent": "#3A4F8C",
+    "photos": [
+      "img/hero.jpg",
+      "img/w1.jpg",
+      "img/w2.jpg",
+      "img/w3.jpg",
+      "img/w4.jpg"
+    ],
+    "headline": "Electrical in Wigan, done properly.",
+    "subline": "MM Spark Electrical: rated 5.0 from 28 Google reviews. Call, WhatsApp or send the form for a free quote.",
+    "promises": [
+      "Rated 5.0 on Google",
+      "28 Google reviews",
+      "Based in Wigan",
+      "Free quotes"
+    ],
+    "services": [
+      {
+        "name": "Rewires",
+        "text": "Full and partial rewires, done tidily."
+      },
+      {
+        "name": "Fuse boards",
+        "text": "Consumer unit upgrades."
+      },
+      {
+        "name": "Lighting & sockets",
+        "text": "New lights, sockets and outdoor power."
+      },
+      {
+        "name": "EV chargers",
+        "text": "Home car charger installation."
+      },
+      {
+        "name": "Fault finding",
+        "text": "Trips, flickers and dead circuits traced and fixed."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Damian",
+        "text": "I 100% recommend for any electrical work. The installation of the EV charger and running electricity to my garage were completed very professionally."
+      },
+      {
+        "name": "Norbert",
+        "text": "MM Spark replaced the entire electrical istallation in my house and garage. He also installed all the switches and chandeliers. His service, from the estimate to the completion of the work, was top-notch."
+      },
+      {
+        "name": "Tomasz",
+        "text": "Really happy with the work done by MM Spark Electrical Ltd. They were professional, arrived on time, and got the job done efficiently with no hassle."
+      }
+    ],
+    "areas": [
+      "Wigan",
+      "Standish",
+      "Orrell",
+      "Pemberton",
+      "Hindley",
+      "Ince",
+      "Aspull",
+      "Shevington",
+      "Ashton-in-Makerfield"
+    ],
+    "built_by": "Aryadev",
+    "place_id": "ChIJBelS2hIPe0gRQ2QoTGHIelw",
+    "_auto": true
+  },
+  {
+    "slug": "kavs-electrical-solutions-wigan",
+    "business": "Kavs Electrical Solutions",
+    "trade": "Electrician",
+    "trade_plural": "Electrical",
+    "town": "Wigan",
+    "county": "Greater Manchester",
+    "coverage": "Wigan and nearby",
+    "phone": "07492 757599",
+    "whatsapp": "447492757599",
+    "rating": 4.9,
+    "review_count": 30,
+    "google_url": "https://maps.google.com/?cid=1092615505483464252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hours": "Open 24 hours, 7 days",
+    "accent": "#3A4F8C",
+    "photos": [
+      "img/hero.jpg",
+      "img/w1.jpg",
+      "img/w2.jpg",
+      "img/w3.jpg",
+      "img/w4.jpg"
+    ],
+    "headline": "Electrical in Wigan, done properly.",
+    "subline": "Kavs Electrical Solutions: rated 4.9 from 30 Google reviews. Call, WhatsApp or send the form for a free quote.",
+    "promises": [
+      "Rated 4.9 on Google",
+      "30 Google reviews",
+      "Based in Wigan",
+      "Free quotes"
+    ],
+    "services": [
+      {
+        "name": "Rewires",
+        "text": "Full and partial rewires, done tidily."
+      },
+      {
+        "name": "Fuse boards",
+        "text": "Consumer unit upgrades."
+      },
+      {
+        "name": "Lighting & sockets",
+        "text": "New lights, sockets and outdoor power."
+      },
+      {
+        "name": "EV chargers",
+        "text": "Home car charger installation."
+      },
+      {
+        "name": "Fault finding",
+        "text": "Trips, flickers and dead circuits traced and fixed."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Stephen",
+        "text": "Recently had my kitchen renovated and consumer unit moved. Had a few quotes from different electricians and opted to go with Kav’s Electrical Services. Quality workmanship, competitive prices and reliable. Highly recommend!"
+      },
+      {
+        "name": "Carole",
+        "text": "Tom has been absolutely brilliant. Always respectful and responds timely when I’ve rang him or text him. He put in extra sockets to my kitchen and explained how they were fitted to the mains."
+      },
+      {
+        "name": "Mia",
+        "text": "Review of Electrical Services I recently hired Kavs Electrical Services for electrical services at my home, and I am extremely impressed with the quality of their work."
+      }
+    ],
+    "areas": [
+      "Wigan",
+      "Standish",
+      "Orrell",
+      "Pemberton",
+      "Hindley",
+      "Ince",
+      "Aspull",
+      "Shevington",
+      "Ashton-in-Makerfield"
+    ],
+    "built_by": "Aryadev",
+    "place_id": "ChIJccovufkHe0gRPP5saAPAKQ8",
+    "_auto": true
+  },
+  {
+    "slug": "volts-and-bolts-bolton",
+    "business": "Volts and Bolts",
+    "trade": "Handyman",
+    "trade_plural": "Handyman services",
+    "town": "Bolton",
+    "county": "Greater Manchester",
+    "coverage": "Bolton and nearby",
+    "phone": "07343 082636",
+    "whatsapp": "447343082636",
+    "rating": 5,
+    "review_count": 26,
+    "google_url": "https://maps.google.com/?cid=8354943153099227872&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hours": "Open 24 hours, 7 days",
+    "accent": "#3E6B5C",
+    "photos": [
+      "img/hero.jpg",
+      "img/w1.jpg",
+      "img/w2.jpg",
+      "img/w3.jpg",
+      "img/w4.jpg"
+    ],
+    "headline": "Handyman services in Bolton, done properly.",
+    "subline": "Volts and Bolts: rated 5.0 from 26 Google reviews. Call, WhatsApp or send the form for a free quote.",
+    "promises": [
+      "Rated 5.0 on Google",
+      "26 Google reviews",
+      "Based in Bolton",
+      "Free quotes"
+    ],
+    "services": [
+      {
+        "name": "Electrical jobs",
+        "text": "Sockets, lights and small electrical work."
+      },
+      {
+        "name": "Decorating",
+        "text": "Painting and finishing, kept neat and tidy."
+      },
+      {
+        "name": "Furniture assembly",
+        "text": "Wardrobes and flat-pack, built properly."
+      },
+      {
+        "name": "Odd jobs",
+        "text": "Shelves, fixings, repairs and the jobs on your list."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Melika",
+        "text": "Excellent service! He assembled my wardrobe completely on his own and did a perfect job. He worked quickly, was very professional, and paid great attention to detail. He’s also a really nice, friendly guy."
+      },
+      {
+        "name": "Hannah",
+        "text": "Hamza did a fantastic job with both the electrical work and decoration in my home. His work is incredibly neat, very time cautious, tidy and professional. You can really see how much care and attention he puts into every detail."
+      },
+      {
+        "name": "Akeel",
+        "text": "Amazing services from hamza. Always goes above and beyond and someone I can trust with my eyes closed. Highest quality of work and the best prices."
+      }
+    ],
+    "areas": [
+      "Bolton",
+      "Horwich",
+      "Westhoughton",
+      "Farnworth",
+      "Little Lever",
+      "Bromley Cross",
+      "Kearsley"
+    ],
+    "built_by": "Aryadev",
+    "place_id": "ChIJR0S_uSDQQEYR4MIPB4i48nM",
+    "_auto": true
+  },
+  {
+    "slug": "electrical-eddy-bolton",
+    "business": "Electrical Eddy",
+    "trade": "Electrician",
+    "trade_plural": "Electrical",
+    "town": "Bolton",
+    "county": "Greater Manchester",
+    "coverage": "Bolton and nearby",
+    "phone": "07487 733972",
+    "whatsapp": "447487733972",
+    "rating": 5,
+    "review_count": 22,
+    "google_url": "https://maps.google.com/?cid=15086622396439139701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hours": "Mon to Fri open 24 hours, Sat to Sun 8am to 11am",
+    "accent": "#3A4F8C",
+    "photos": [
+      "img/hero.jpg",
+      "img/w1.jpg",
+      "img/w2.jpg",
+      "img/w3.jpg",
+      "img/w4.jpg"
+    ],
+    "headline": "Electrical in Bolton, done properly.",
+    "subline": "Electrical Eddy: rated 5.0 from 22 Google reviews. Call, WhatsApp or send the form for a free quote.",
+    "promises": [
+      "Rated 5.0 on Google",
+      "22 Google reviews",
+      "Based in Bolton",
+      "Free quotes"
+    ],
+    "services": [
+      {
+        "name": "Rewires",
+        "text": "Full and partial rewires, done tidily."
+      },
+      {
+        "name": "Fuse boards",
+        "text": "Consumer unit upgrades."
+      },
+      {
+        "name": "Lighting & sockets",
+        "text": "New lights, sockets and outdoor power."
+      },
+      {
+        "name": "EV chargers",
+        "text": "Home car charger installation."
+      },
+      {
+        "name": "Fault finding",
+        "text": "Trips, flickers and dead circuits traced and fixed."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Tina",
+        "text": "Eddy was recommended to me by family and contacting him was the best decision that i made! Eddy gave me a very reasonable quote via messages and was kind enough to source and supply the downlights that were required for the job."
+      },
+      {
+        "name": "Saeed",
+        "text": "Very friendly, very courteous and insanely good at his job. We needed some outdoor cameras wired in and a whole host of new sockets in the house. All that work and you couldn't even tell that Eddy had been in."
+      },
+      {
+        "name": "Mark",
+        "text": "Contacted Eddy after seeing other reviews about his work. Had some extra sockets fitted, an outdoor socket and some CAT6 cable runs."
+      }
+    ],
+    "areas": [
+      "Bolton",
+      "Horwich",
+      "Westhoughton",
+      "Farnworth",
+      "Little Lever",
+      "Bromley Cross",
+      "Kearsley"
+    ],
+    "built_by": "Aryadev",
+    "place_id": "ChIJ33yhuRCne0gRdRU1ICNzXtE",
+    "_auto": true
+  },
+  {
+    "slug": "d-huxley-construction-wigan",
+    "business": "D Huxley Construction",
+    "trade": "Builder",
+    "trade_plural": "Building",
+    "town": "Wigan",
+    "county": "Greater Manchester",
+    "coverage": "Wigan and nearby",
+    "phone": "01942 466604",
+    "whatsapp": "",
+    "rating": 5,
+    "review_count": 46,
+    "google_url": "https://maps.google.com/?cid=14041651396603556165&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hours": "Mon to Fri 8am to 6pm",
+    "accent": "#3E5C76",
+    "photos": [
+      "img/hero.jpg",
+      "img/w1.jpg",
+      "img/w2.jpg",
+      "img/w3.jpg",
+      "img/w4.jpg"
+    ],
+    "headline": "Building in Wigan, done properly.",
+    "subline": "D Huxley Construction: rated 5.0 from 46 Google reviews. Call or send the form for a free quote.",
+    "promises": [
+      "Rated 5.0 on Google",
+      "46 Google reviews",
+      "Based in Wigan",
+      "Free quotes"
+    ],
+    "services": [
+      {
+        "name": "Extensions",
+        "text": "Single and double storey, planned with you from the start."
+      },
+      {
+        "name": "Renovations",
+        "text": "Kitchens, bathrooms and full refurbishments."
+      },
+      {
+        "name": "Brickwork",
+        "text": "Walls, repointing and repairs."
+      },
+      {
+        "name": "Groundwork",
+        "text": "Foundations, drainage and driveways."
+      },
+      {
+        "name": "Small works",
+        "text": "Repairs and alterations, no job too small."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Andy",
+        "text": "We have used Huxley Construction for a few jobs at our house and would definitely recommend. Their workmanship is 2nd to none. No job is too big or too small."
+      },
+      {
+        "name": "Sam",
+        "text": "Dan and team have completed several large jobs on our property and still continue to do more as we find them competitive with price, reliable and good at what they do. They recently completed a large studio in the garden with decking."
+      },
+      {
+        "name": "Gaz",
+        "text": "We recently had an outhouse and decking built by Dan and the team at D Huxley Construction, and we’re really pleased with the results. The quality of the workmanship is excellent and everything was finished to a high standard."
+      }
+    ],
+    "areas": [
+      "Wigan",
+      "Standish",
+      "Orrell",
+      "Pemberton",
+      "Hindley",
+      "Ince",
+      "Aspull",
+      "Shevington",
+      "Ashton-in-Makerfield"
+    ],
+    "built_by": "Aryadev",
+    "place_id": "ChIJKQ4-EAAbe0gRRTFsooz33cI",
+    "_auto": true
   }
 ]

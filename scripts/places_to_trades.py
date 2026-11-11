@@ -259,6 +259,13 @@ def town_of(p):
     return "St Helens" if town == "Saint Helens" else town
 
 
+def share_suffix(m):
+    """Google writes '8:00 to 11:00am': give the first time its own am/pm."""
+    h1, m1, h2, m2, suf = int(m.group(1)), m.group(2), int(m.group(3)), m.group(4), m.group(5)
+    first = suf if (h1 % 12) <= (h2 % 12) else ("am" if suf == "pm" else "pm")
+    return f"{h1}:{m1}{first} to {h2}:{m2}{suf}"
+
+
 def hours_text(p):
     """Group Google's own day lines: 'Mon to Fri 8am to 5pm, Sat 8am to 1pm'."""
     lines = (p.get("regularOpeningHours") or {}).get("weekdayDescriptions") or []
@@ -268,6 +275,7 @@ def hours_text(p):
     for ln in lines:
         d, _, v = ln.partition(": ")
         v = v.replace("\u2009", " ").replace("\u202f", " ").replace(" – ", " to ").replace("–", " to ").replace(" AM", "am").replace(" PM", "pm")
+        v = re.sub(r"(\d{1,2}):(\d{2}) to (\d{1,2}):(\d{2})([ap]m)", share_suffix, v)
         v = re.sub(r":00(?=[ap]m)", "", v).replace("Open 24 hours", "open 24 hours")
         days.append(d[:3])
         vals.append(v)
