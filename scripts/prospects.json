@@ -1,0 +1,25 @@
+{
+  "queries": [
+    "roofer in Wigan",
+    "roofing contractor in Leigh, Wigan",
+    "roofer in Bolton",
+    "roofer in St Helens",
+    "roofer in Chorley",
+    "builder in Wigan",
+    "building contractor in Leigh, Wigan",
+    "plumber in Wigan",
+    "electrician in Wigan",
+    "plumber in Leigh, Wigan",
+    "electrician in Bolton"
+  ],
+  "skip": [],
+  "limit": 5,
+  "min_rating": 4.7,
+  "min_reviews": 20,
+  "photos": 5,
+  "pages": 2,
+  "price": 300,
+  "county": "Greater Manchester",
+  "your_name": "Aryadev",
+  "base_url": "https://trades-demos.vercel.app"
+}

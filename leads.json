@@ -1327,5 +1327,403 @@
       "Gleichen",
       "Friedland"
     ]
+  },
+  {
+    "slug": "j-bury-plumbing-wigan",
+    "business": "J Bury Plumbing & Heating Services",
+    "trade": "Plumber",
+    "trade_plural": "Plumbing",
+    "town": "Wigan",
+    "county": "Greater Manchester",
+    "coverage": "Wigan and nearby",
+    "phone": "07495 856654",
+    "whatsapp": "447495856654",
+    "rating": 4.8,
+    "review_count": 192,
+    "google_url": "https://maps.google.com/?cid=17116717148615431397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hours": "Open 24 hours, 7 days",
+    "accent": "#2F5F8A",
+    "photos": [
+      "img/w1.jpg",
+      "img/w3.jpg",
+      "img/w2.jpg",
+      "img/w4.jpg"
+    ],
+    "headline": "Plumbing in Wigan, done properly.",
+    "subline": "J Bury Plumbing & Heating Services: rated 4.8 from 192 Google reviews. Call, WhatsApp or send the form for a free quote.",
+    "promises": [
+      "Rated 4.8 on Google",
+      "192 Google reviews",
+      "Based in Wigan",
+      "Free quotes"
+    ],
+    "services": [
+      {
+        "name": "Leaks & repairs",
+        "text": "Dripping taps, burst pipes and leaks fixed."
+      },
+      {
+        "name": "Bathrooms",
+        "text": "New bathrooms and showers fitted."
+      },
+      {
+        "name": "Boilers & heating",
+        "text": "Radiators, heating and boiler work."
+      },
+      {
+        "name": "Drains & blockages",
+        "text": "Sinks, toilets and drains unblocked."
+      },
+      {
+        "name": "Emergency call-outs",
+        "text": "Water where it shouldn't be? Call us."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Jack",
+        "text": "Jack came out on Sunday to have a look at my grandads boiler which had stopped working. Under a quick investigation found that it needed to be replaced as the heating element had split and was leaking water."
+      },
+      {
+        "name": "Chris",
+        "text": "Had a boiler problem,so I called j bury on my trader, answered within 10 minutes and organised to come next morning at 10am,he was there spot on time which I like,and got the job done in an hour or so,boiler back up and running."
+      },
+      {
+        "name": "Adam",
+        "text": "Great service. Called Sunday with a request to remove and fit a new boiler as the old one had failed. Jack sourced one within the price range and attended Tuesday to fit."
+      }
+    ],
+    "areas": [
+      "Wigan",
+      "Standish",
+      "Orrell",
+      "Pemberton",
+      "Hindley",
+      "Ince",
+      "Aspull",
+      "Shevington",
+      "Ashton-in-Makerfield"
+    ],
+    "built_by": "Aryadev",
+    "place_id": "ChIJmQqceU0Pe0gR5VQP9I7Liu0",
+    "_auto": true
+  },
+  {
+    "slug": "mccann-and-sons-roofing-widnes",
+    "business": "McCann & Sons Roofing & Guttering",
+    "trade": "Roofer",
+    "trade_plural": "Roofing",
+    "town": "Widnes",
+    "county": "Greater Manchester",
+    "coverage": "Widnes and nearby",
+    "phone": "07963 440450",
+    "whatsapp": "447963440450",
+    "rating": 5,
+    "review_count": 134,
+    "google_url": "https://maps.google.com/?cid=1044308938870349282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hours": "Mon to Sun 8am to 5pm",
+    "accent": "#9A4A2E",
+    "photos": [
+      "img/hero.jpg",
+      "img/w2.jpg",
+      "img/w3.jpg",
+      "img/w4.jpg"
+    ],
+    "headline": "Roofing in Widnes, done properly.",
+    "subline": "McCann & Sons Roofing & Guttering: rated 5.0 from 134 Google reviews. Call, WhatsApp or send the form for a free quote.",
+    "promises": [
+      "Rated 5.0 on Google",
+      "134 Google reviews",
+      "Based in Widnes",
+      "Free quotes"
+    ],
+    "services": [
+      {
+        "name": "Roof repairs",
+        "text": "Slipped tiles, leaks and storm damage found and fixed."
+      },
+      {
+        "name": "Flat roofs",
+        "text": "Felt, rubber and GRP flat roofs repaired or replaced."
+      },
+      {
+        "name": "Gutters & fascias",
+        "text": "Gutters, soffits and fascias cleared, repaired or renewed."
+      },
+      {
+        "name": "Chimney work",
+        "text": "Flashing, pointing and chimney repairs."
+      },
+      {
+        "name": "New roofs",
+        "text": "Strip and re-roof with a clear plan and price."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Debbie",
+        "text": "I can’t recommend Paul McCann and his team enough! Following an initial telephone conversation with Paul, he arranged to visit my mum’s house to assess the guttering. His team then arranged a convenient date to carry out the work."
+      },
+      {
+        "name": "Chris",
+        "text": "My 93 year old grandmothers roof had some damage from the recent bad weather that caused a severe leak into her ceiling. I called Paul and he was very responsive, understanding how serious this was for someone of her age."
+      },
+      {
+        "name": "Louise",
+        "text": "The McCann and sons team arrived early each day and worked efficiently, completing the loft boarding, insulation, and new roof within the agreed timeframe, despite the bad weather that week."
+      }
+    ],
+    "areas": [
+      "Widnes",
+      "Runcorn",
+      "Halebank",
+      "Hough Green",
+      "Cronton",
+      "Warrington",
+      "St Helens"
+    ],
+    "built_by": "Aryadev",
+    "place_id": "ChIJ3-LT05ode0gR4t0haXIhfg4",
+    "_auto": true
+  },
+  {
+    "slug": "bell-roofing-wigan",
+    "business": "Bell Roofing",
+    "trade": "Roofer",
+    "trade_plural": "Roofing",
+    "town": "Wigan",
+    "county": "Greater Manchester",
+    "coverage": "Wigan and nearby",
+    "phone": "07521 166161",
+    "whatsapp": "447521166161",
+    "rating": 5,
+    "review_count": 60,
+    "google_url": "https://maps.google.com/?cid=10493254436606269277&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hours": "Mon to Sat 7am to 4pm, Sun 8am to 4pm",
+    "accent": "#9A4A2E",
+    "photos": [
+      "img/hero.jpg",
+      "img/w1.jpg",
+      "img/w2.jpg",
+      "img/w3.jpg",
+      "img/w4.jpg"
+    ],
+    "headline": "Roofing in Wigan, done properly.",
+    "subline": "Bell Roofing: rated 5.0 from 60 Google reviews. Call, WhatsApp or send the form for a free quote.",
+    "promises": [
+      "Rated 5.0 on Google",
+      "60 Google reviews",
+      "Based in Wigan",
+      "Free quotes"
+    ],
+    "services": [
+      {
+        "name": "Roof repairs",
+        "text": "Slipped tiles, leaks and storm damage found and fixed."
+      },
+      {
+        "name": "Flat roofs",
+        "text": "Felt, rubber and GRP flat roofs repaired or replaced."
+      },
+      {
+        "name": "Gutters & fascias",
+        "text": "Gutters, soffits and fascias cleared, repaired or renewed."
+      },
+      {
+        "name": "Chimney work",
+        "text": "Flashing, pointing and chimney repairs."
+      },
+      {
+        "name": "New roofs",
+        "text": "Strip and re-roof with a clear plan and price."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Carl",
+        "text": "Recently had a full re-roof done by John. Would highly recommend to anyone. From the initial messages regarding the work through to completion, John was straightforward and professional."
+      },
+      {
+        "name": "Scuba",
+        "text": "Well what can you say. Quick message on what's app and we are on our way to a new roof in no time. I don't live in UK so was updated often with pictures of the progress on my roof."
+      },
+      {
+        "name": "Ching",
+        "text": "Have called several roofer before for the leaking roof, but no one helped to spot the source of leak. John and his team came and inspected the roof very detailedly."
+      }
+    ],
+    "areas": [
+      "Wigan",
+      "Standish",
+      "Orrell",
+      "Pemberton",
+      "Hindley",
+      "Ince",
+      "Aspull",
+      "Shevington",
+      "Ashton-in-Makerfield"
+    ],
+    "built_by": "Aryadev",
+    "place_id": "ChIJWezNwgghRQ4RXVe1f1CHn5E",
+    "_auto": true
+  },
+  {
+    "slug": "gwinnett-roofing-services-chorley",
+    "business": "Gwinnett Roofing Services",
+    "trade": "Roofer",
+    "trade_plural": "Roofing",
+    "town": "Chorley",
+    "county": "Greater Manchester",
+    "coverage": "Chorley and nearby",
+    "phone": "07920 462882",
+    "whatsapp": "447920462882",
+    "rating": 5,
+    "review_count": 34,
+    "google_url": "https://maps.google.com/?cid=8904613650428733581&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hours": "Mon to Sat open 24 hours",
+    "accent": "#9A4A2E",
+    "photos": [
+      "img/hero.jpg",
+      "img/w1.jpg",
+      "img/w2.jpg",
+      "img/w3.jpg",
+      "img/w4.jpg"
+    ],
+    "headline": "Roofing in Chorley, done properly.",
+    "subline": "Gwinnett Roofing Services: rated 5.0 from 34 Google reviews. Call, WhatsApp or send the form for a free quote.",
+    "promises": [
+      "Rated 5.0 on Google",
+      "34 Google reviews",
+      "Based in Chorley",
+      "Free quotes"
+    ],
+    "services": [
+      {
+        "name": "Roof repairs",
+        "text": "Slipped tiles, leaks and storm damage found and fixed."
+      },
+      {
+        "name": "Flat roofs",
+        "text": "Felt, rubber and GRP flat roofs repaired or replaced."
+      },
+      {
+        "name": "Gutters & fascias",
+        "text": "Gutters, soffits and fascias cleared, repaired or renewed."
+      },
+      {
+        "name": "Chimney work",
+        "text": "Flashing, pointing and chimney repairs."
+      },
+      {
+        "name": "New roofs",
+        "text": "Strip and re-roof with a clear plan and price."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "John",
+        "text": "Great work done by Kevin replacing my soffits, fascias, barge boards and gutters. The old materials were removed to reveal the batons and membrane were rotten."
+      },
+      {
+        "name": "Danielle",
+        "text": "We had our front elevation installed with a new roof by Gwinnett Roofing Services because it was damaged by the installers off our dormer. Kev then quoted us to do the rear elevation and dormer roof."
+      },
+      {
+        "name": "Andy",
+        "text": "Can't fault the work that Kevin and Alan have done on our new loft extension. Went above-and-beyond what was expected, and came up with great solutions for any and all issues as they arose, though no fault of theirs."
+      }
+    ],
+    "areas": [
+      "Chorley",
+      "Euxton",
+      "Adlington",
+      "Coppull",
+      "Whittle-le-Woods",
+      "Buckshaw Village",
+      "Leyland"
+    ],
+    "built_by": "Aryadev",
+    "place_id": "ChIJbw4r-_kPe0gRjSjmt--Kk3s",
+    "_auto": true
+  },
+  {
+    "slug": "jamesroofcraft-wigan",
+    "business": "JamesRoofcraft",
+    "trade": "Roofer",
+    "trade_plural": "Roofing",
+    "town": "Wigan",
+    "county": "Greater Manchester",
+    "coverage": "Wigan and nearby",
+    "phone": "07956 451565",
+    "whatsapp": "447956451565",
+    "rating": 4.9,
+    "review_count": 36,
+    "google_url": "https://maps.google.com/?cid=4175012928912813973&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hours": "Mon to Sat 8am to 6pm",
+    "accent": "#9A4A2E",
+    "photos": [
+      "img/hero.jpg",
+      "img/w2.jpg",
+      "img/w3.jpg",
+      "img/w4.jpg"
+    ],
+    "headline": "Roofing in Wigan, done properly.",
+    "subline": "JamesRoofcraft: rated 4.9 from 36 Google reviews. Call, WhatsApp or send the form for a free quote.",
+    "promises": [
+      "Rated 4.9 on Google",
+      "36 Google reviews",
+      "Based in Wigan",
+      "Free quotes"
+    ],
+    "services": [
+      {
+        "name": "Roof repairs",
+        "text": "Slipped tiles, leaks and storm damage found and fixed."
+      },
+      {
+        "name": "Flat roofs",
+        "text": "Felt, rubber and GRP flat roofs repaired or replaced."
+      },
+      {
+        "name": "Gutters & fascias",
+        "text": "Gutters, soffits and fascias cleared, repaired or renewed."
+      },
+      {
+        "name": "Chimney work",
+        "text": "Flashing, pointing and chimney repairs."
+      },
+      {
+        "name": "New roofs",
+        "text": "Strip and re-roof with a clear plan and price."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Lee",
+        "text": "I have used this company now on a number of urgent repairs required on two properties. James is very professional, reliable and trustworthy. His work on both the roof repairs and to replace guttering was excellent."
+      },
+      {
+        "name": "Judy",
+        "text": "We’ve had James do roofing work for us before, price has always been very competitive and the workmanship is always first class. Never had any issues after the work has been done, lead flashing repair, tiles replaced, etc."
+      },
+      {
+        "name": "Janet",
+        "text": "We can't fault James at all. We had a problem with our gutter and he came very quickly to have a look , he managed to slot us in at the end of his working day. Problem solved in record time (we thought) ."
+      }
+    ],
+    "areas": [
+      "Wigan",
+      "Standish",
+      "Orrell",
+      "Pemberton",
+      "Hindley",
+      "Ince",
+      "Aspull",
+      "Shevington",
+      "Ashton-in-Makerfield"
+    ],
+    "built_by": "Aryadev",
+    "place_id": "ChIJf0f0YNAJe0gRle-CgCOg8Dk",
+    "_auto": true
   }
 ]

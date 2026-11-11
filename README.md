@@ -2,7 +2,29 @@
 
 One template, one config per business, one demo site each. Built for local trades (roofers, electricians, gardeners, plumbers, cleaners) that have strong Google reviews but no website.
 
-## Make a new demo (about 15 minutes)
+## Find leads and make demos automatically
+
+```bash
+export GOOGLE_MAPS_API_KEY=...                  # Places API (New), billed Google Cloud project
+python3 scripts/places_to_trades.py --dry-run   # search + rank: see who qualifies
+python3 scripts/places_to_trades.py             # make demos (limit in scripts/prospects.json)
+git add leads.json demos && git commit -m "New demos" && git push   # Vercel deploys on push
+```
+
+- Searches come from `scripts/prospects.json` (roofers, builders, plumbers, electricians around Wigan).
+- Kept: operating, rating ≥ 4.7, ≥ 20 reviews, phone listed, at least 4 photos and 2 usable five-star
+  reviews, and **no own website** (Facebook, Checkatrade, MyBuilder, Rated People, Yell etc. don't count).
+  Ranked by rating × log(reviews), with UK mobiles (WhatsApp-able) first.
+- Each lead gets: real rating, review count, Google's opening hours, 3 five-star reviews (first names),
+  5 Google photos (widest as hero), nearby areas for the town, and starter services for the trade.
+  **Promises are only facts from Google** (rating, review count, town, free quotes): never insurance,
+  accreditations, guarantees or years trading.
+- `out/outreach.csv` (git-ignored): phone, a WhatsApp click-to-send link with the message filled in, demo link.
+- Google responses are cached in `cache/places/` (git-ignored), so re-runs are free; `--max-requests` caps a run.
+- Always look at the photos before sending: stock clip-art, adverts with phone numbers and letterboxed
+  screenshots slip in. Remove them from the lead's `photos` list and run `python3 build.py <slug>`.
+
+## Make a new demo by hand (about 15 minutes)
 
 1. **Qualify the lead on Google Maps:** 15+ reviews, rating 4.7+, phone listed, and **no Website button** (a Facebook page counts as no website).
 2. **Add an entry to `leads.json`** (copy an existing one). Fill in from their Maps listing:
