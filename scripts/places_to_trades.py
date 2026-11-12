@@ -365,7 +365,7 @@ def sheet(rows_leads, cfg):
                      "whatsapp_link": f"https://wa.me/{l['whatsapp']}?text={urllib.parse.quote(msg)}" if l["whatsapp"] else "",
                      "demo": demo, "message": msg, "status": "", "notes": ""})
     path = OUT / "outreach.csv"
-    with path.open("w", newline="", encoding="utf-8") as f:
+    with path.open("w", newline="", encoding="utf-8-sig") as f:  # BOM so Excel/Numbers read UTF-8 (£, names)
         w = csv.DictWriter(f, fieldnames=list(rows[0]) if rows else ["business"])
         w.writeheader()
         w.writerows(rows)
