@@ -21,5 +21,6 @@
   "price": 300,
   "county": "Greater Manchester",
   "your_name": "Aryadev",
-  "base_url": "https://trades-demos.vercel.app"
+  "base_url": "https://trades-demos.vercel.app",
+  "monthly": 39
 }

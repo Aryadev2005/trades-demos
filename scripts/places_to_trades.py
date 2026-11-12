@@ -370,23 +370,53 @@ def make_lead(p, slug, cfg, photos):
     }
 
 
+# The jobs each trade makes the most money from: the pitch leads with these, not with "a website".
+MONEY = {
+    "roof": ("more re-roofs and repair jobs", "full re-roofs, storm and leak repairs, flat roofs and fascias"),
+    "plumb": ("more boiler installs and bathroom jobs", "boiler installs and swaps, bathrooms and emergency call-outs"),
+    "electric": ("more rewires and bigger electrical jobs", "rewires, fuse board upgrades and EV chargers"),
+    "build": ("more extension and renovation enquiries", "extensions, renovations and bigger building jobs"),
+    "handy": ("more steady local jobs", "electrics, decorating and the bigger jobs on people's lists"),
+    "paint": ("more full-house decorating jobs", "full interiors, exteriors and commercial work"),
+}
+
+
+def money_for(trade):
+    t = trade.lower()
+    for k, v in MONEY.items():
+        if k in t:
+            return v
+    return ("more local jobs", "the bigger jobs in your area")
+
+
 def sheet(rows_leads, cfg):
     OUT.mkdir(exist_ok=True)
     rows = []
     for l in rows_leads:
         demo = f"{cfg['base_url'].rstrip('/')}/{l['slug']}/"
-        opener = (f"Hi, is this {l['business']}? I'm {cfg['your_name']}. I built a free website preview for you "
-                  f"from your Google reviews ({l['rating']:.1f} from {l['review_count']}!), with a quote form that sends "
-                  f"jobs straight to your WhatsApp. Can I send you the link to have a look?")
-        followup = (f"Here it is: {demo}\n\nThere's no website on your Google listing right now, so anyone who looks you up "
-                    f"after a recommendation has nothing to click, and every quote goes through the phone. This fixes both.\n\n"
-                    f"If you like it, it's £{cfg['price']} one-off and I'll put it live on your Google listing this week. "
-                    f"If not, no worries.")
+        short, long_ = money_for(l["trade"])
+        price, monthly = cfg["price"], cfg.get("monthly", 39)
+        terms = (f"you only pay once it's live and you're happy with it: £{price} once, or £{monthly} a month "
+                 f"with no contract")
+        opener = (f"Hi, is this {l['business']}? I'm {cfg['your_name']}. I made a free website for you, built to bring in "
+                  f"{short}, using your own Google reviews ({l['rating']:.1f} from {l['review_count']}). Nothing to pay "
+                  f"or sign up for. Can I send you the link?")
+        after_yes = (f"Here it is: {demo}\n\nIt's built around the jobs that pay best: {long_}. There's a quote form "
+                     f"that sends each enquiry straight to your WhatsApp, with the job, postcode and details, so you can "
+                     f"price it before you call back. I've used your own reviews and photos, so there's nothing for you to do.\n\n"
+                     f"If you want it, I'll put it live on your Google listing, and {terms}. Happy to change anything first.")
+        follow_up = (f"Hi again, {cfg['your_name']} here. One thing I should have made clear about the website I made for "
+                     f"{l['business']}: there's no risk. I'll put it live on your Google listing and {terms}. It's built "
+                     f"to bring in {short}: {demo}\n\nNo worries at all if it's not for you.")
+        contacted = bool(l.get("contacted"))
+        first = follow_up if contacted else opener
         rows.append({"business": l["business"], "trade": l["trade"], "town": l["town"], "rating": l["rating"],
                      "reviews": l["review_count"], "phone": l["phone"],
+                     "stage": "already messaged: send follow-up" if contacted else "new: send opener",
                      "channel": "WhatsApp" if l["whatsapp"] else "Call / text",
-                     "whatsapp_link": f"https://wa.me/{l['whatsapp']}?text={urllib.parse.quote(opener)}" if l["whatsapp"] else "",
-                     "demo": demo, "1_opener": opener, "2_after_they_say_yes": followup, "status": "", "notes": ""})
+                     "whatsapp_link": f"https://wa.me/{l['whatsapp']}?text={urllib.parse.quote(first)}" if l["whatsapp"] else "",
+                     "demo": demo, "1_opener": opener, "2_after_they_say_yes": after_yes,
+                     "follow_up_if_already_messaged": follow_up, "status": "", "notes": ""})
     path = OUT / "outreach.csv"
     with path.open("w", newline="", encoding="utf-8-sig") as f:  # BOM so Excel/Numbers read UTF-8 (£, names)
         w = csv.DictWriter(f, fieldnames=list(rows[0]) if rows else ["business"])
