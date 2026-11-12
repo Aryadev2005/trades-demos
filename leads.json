@@ -2122,5 +2122,393 @@
     "built_by": "Aryadev",
     "place_id": "ChIJKQ4-EAAbe0gRRTFsooz33cI",
     "_auto": true
+  },
+  {
+    "slug": "gb-plumbing-and-heating-keighley",
+    "business": "GB Plumbing & Heating",
+    "trade": "Plumber",
+    "trade_plural": "Plumbing",
+    "town": "Keighley",
+    "county": "West Yorkshire",
+    "coverage": "Keighley and nearby",
+    "phone": "07894 133549",
+    "whatsapp": "447894133549",
+    "rating": 5,
+    "review_count": 67,
+    "google_url": "https://maps.google.com/?cid=16177789871571885876&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hours": "Open 24 hours, 7 days",
+    "accent": "#2F5F8A",
+    "photos": [
+      "img/hero.jpg",
+      "img/w1.jpg",
+      "img/w2.jpg",
+      "img/w3.jpg",
+      "img/w4.jpg"
+    ],
+    "headline": "Plumbing in Keighley, done properly.",
+    "subline": "GB Plumbing & Heating: rated 5.0 from 67 Google reviews. Call, WhatsApp or send the form for a free quote.",
+    "promises": [
+      "Rated 5.0 on Google",
+      "67 Google reviews",
+      "Based in Keighley",
+      "Free quotes"
+    ],
+    "services": [
+      {
+        "name": "Leaks & repairs",
+        "text": "Dripping taps, burst pipes and leaks fixed."
+      },
+      {
+        "name": "Bathrooms",
+        "text": "New bathrooms and showers fitted."
+      },
+      {
+        "name": "Boilers & heating",
+        "text": "Radiators, heating and boiler work."
+      },
+      {
+        "name": "Drains & blockages",
+        "text": "Sinks, toilets and drains unblocked."
+      },
+      {
+        "name": "Emergency call-outs",
+        "text": "Water where it shouldn't be? Call us."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Wally",
+        "text": "Gareth booked us in at short notice to install a new Ideal C30 Combi Boiler. He arrived with a fellow installer promptly on the agreed day and they completed the work in one day."
+      },
+      {
+        "name": "Mary",
+        "text": "We were without heat or hot water and desperately in need of help fixing the boiler, and GB Plumbing and Heating came to the rescue. A professional, efficient, expedient and effective result with no nonsense and a fair price."
+      },
+      {
+        "name": "Gemma",
+        "text": "We moved into our house in May and the boiler was very old, and it conked out one Saturday night!"
+      }
+    ],
+    "areas": [
+      "Keighley",
+      "Silsden",
+      "Haworth",
+      "Bingley",
+      "Skipton",
+      "Cross Hills",
+      "Oxenhope"
+    ],
+    "built_by": "Aryadev",
+    "place_id": "ChIJt_vy4_nte0gRNF_0sSwOg-A",
+    "_auto": true
+  },
+  {
+    "slug": "nicholls-plumbing-and-heating-engineer-knaresborough",
+    "business": "Nicholls Plumbing & Heating Engineer",
+    "trade": "Plumber",
+    "trade_plural": "Plumbing",
+    "town": "Knaresborough",
+    "county": "North Yorkshire",
+    "coverage": "Knaresborough and nearby",
+    "phone": "07305 075647",
+    "whatsapp": "447305075647",
+    "rating": 5,
+    "review_count": 64,
+    "google_url": "https://maps.google.com/?cid=5792782084348581841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hours": "Mon to Sun 8:30am to 6pm",
+    "accent": "#2F5F8A",
+    "photos": [
+      "img/w1.jpg",
+      "img/w2.jpg"
+    ],
+    "headline": "Plumbing in Knaresborough, done properly.",
+    "subline": "Nicholls Plumbing & Heating Engineer: rated 5.0 from 64 Google reviews. Call, WhatsApp or send the form for a free quote.",
+    "promises": [
+      "Rated 5.0 on Google",
+      "64 Google reviews",
+      "Based in Knaresborough",
+      "Free quotes"
+    ],
+    "services": [
+      {
+        "name": "Leaks & repairs",
+        "text": "Dripping taps, burst pipes and leaks fixed."
+      },
+      {
+        "name": "Bathrooms",
+        "text": "New bathrooms and showers fitted."
+      },
+      {
+        "name": "Boilers & heating",
+        "text": "Radiators, heating and boiler work."
+      },
+      {
+        "name": "Drains & blockages",
+        "text": "Sinks, toilets and drains unblocked."
+      },
+      {
+        "name": "Emergency call-outs",
+        "text": "Water where it shouldn't be? Call us."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Carl",
+        "text": "Michael was an absolute lifesaver when we had a burst pipe. He came out super fast, was able to figure out the issue quickly, and then isolated and fixed the pipe."
+      },
+      {
+        "name": "Tom",
+        "text": "Michael really helped us on a very last minute basis. Our boiler was losing flame, after calling us back on the morning he came out as soon as he could. Fantastic service, always recommend to anyone in our area."
+      },
+      {
+        "name": "Kirsty",
+        "text": "Michael did 'a little' job (on behalf of my landlord) that turned into problem after problem - yet it still wasn't to much for him. Michael was professional & friendly, reassurance constantly given that things would be okay and amended."
+      }
+    ],
+    "areas": [
+      "Knaresborough",
+      "Harrogate",
+      "Boroughbridge",
+      "Ripon",
+      "Wetherby"
+    ],
+    "built_by": "Aryadev",
+    "place_id": "ChIJ0T65owuDfkgR0RfYPp0YZFA",
+    "_auto": true
+  },
+  {
+    "slug": "temple-installations-cheltenham",
+    "business": "Temple Installations",
+    "trade": "Roofer",
+    "trade_plural": "Roof windows & roofing",
+    "town": "Cheltenham",
+    "county": "Gloucestershire",
+    "coverage": "Cheltenham and nearby",
+    "phone": "07584 033661",
+    "whatsapp": "447584033661",
+    "rating": 5,
+    "review_count": 51,
+    "google_url": "https://maps.google.com/?cid=13374530644267149047&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hours": "Mon to Fri 7:30am to 7pm, Sat 7:30am to 4pm",
+    "accent": "#9A4A2E",
+    "photos": [
+      "img/hero.jpg",
+      "img/w1.jpg",
+      "img/w2.jpg",
+      "img/w3.jpg"
+    ],
+    "headline": "Velux and roof windows in Cheltenham, done properly.",
+    "subline": "Temple Installations: rated 5.0 from 51 Google reviews. Call, WhatsApp or send the form for a free quote.",
+    "promises": [
+      "Rated 5.0 on Google",
+      "51 Google reviews",
+      "Based in Cheltenham",
+      "Free quotes"
+    ],
+    "services": [
+      {
+        "name": "Velux replacement",
+        "text": "Old or leaking roof windows swapped for new, inside and out."
+      },
+      {
+        "name": "New roof windows",
+        "text": "Extra light for lofts, extensions and kitchens."
+      },
+      {
+        "name": "Leak repairs",
+        "text": "Leaking roof windows and flashing found and fixed."
+      },
+      {
+        "name": "Blinds & accessories",
+        "text": "Blackout and solar blinds fitted to match."
+      },
+      {
+        "name": "Roof repairs",
+        "text": "Tiles, flashing and small roof jobs around the window."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Gabrielle",
+        "text": "John and Sam have been fantastic from start to finish with my velux window. It was occasionally leaking and they provided options for repair or replace."
+      },
+      {
+        "name": "Mike",
+        "text": "We needed two Velux windows replaced and the guys did a brilliant job. Not the easiest job due to the windows locations combined with it being the middle of a heat wave, but they just got on with it."
+      },
+      {
+        "name": "Jeremy",
+        "text": "Sam and John could not have been more professional or helpful. The replacement of our Velux window was done efficiently and skilfully despite it being a very narrow space through which they had to work."
+      }
+    ],
+    "areas": [
+      "Cheltenham",
+      "Bishop's Cleeve",
+      "Winchcombe",
+      "Prestbury",
+      "Charlton Kings",
+      "Cirencester"
+    ],
+    "built_by": "Aryadev",
+    "place_id": "ChIJV54XWT2AN0MR96YeecLgm7k",
+    "_auto": true
+  },
+  {
+    "slug": "tom-petty-plumbing-and-heating-ilkley",
+    "business": "Tom Petty Plumbing and Heating",
+    "trade": "Plumber",
+    "trade_plural": "Plumbing",
+    "town": "Ilkley",
+    "county": "West Yorkshire",
+    "coverage": "Ilkley and nearby",
+    "phone": "07794 183528",
+    "whatsapp": "447794183528",
+    "rating": 5,
+    "review_count": 44,
+    "google_url": "https://maps.google.com/?cid=11785648076523950394&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hours": "Open 24 hours, 7 days",
+    "accent": "#2F5F8A",
+    "photos": [
+      "img/hero.jpg",
+      "img/w1.jpg",
+      "img/w2.jpg",
+      "img/w3.jpg",
+      "img/w4.jpg"
+    ],
+    "headline": "Plumbing in Ilkley, done properly.",
+    "subline": "Tom Petty Plumbing and Heating: rated 5.0 from 44 Google reviews. Call, WhatsApp or send the form for a free quote.",
+    "promises": [
+      "Rated 5.0 on Google",
+      "44 Google reviews",
+      "Based in Ilkley",
+      "Free quotes"
+    ],
+    "services": [
+      {
+        "name": "Leaks & repairs",
+        "text": "Dripping taps, burst pipes and leaks fixed."
+      },
+      {
+        "name": "Bathrooms",
+        "text": "New bathrooms and showers fitted."
+      },
+      {
+        "name": "Boilers & heating",
+        "text": "Radiators, heating and boiler work."
+      },
+      {
+        "name": "Drains & blockages",
+        "text": "Sinks, toilets and drains unblocked."
+      },
+      {
+        "name": "Emergency call-outs",
+        "text": "Water where it shouldn't be? Call us."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Caraline",
+        "text": "Absolutely amazing service. Friendly, punctual and explains everything in a simple way. Tom has serviced our boiler and came out on the day to fix a leaking toilet and didn't even charge. He's a star."
+      },
+      {
+        "name": "Adele",
+        "text": "Really great experience – I messaged with an issue and he called me back almost straight away. He gave genuinely helpful advice over the phone, which looks to have solved the problem without needing a visit."
+      },
+      {
+        "name": "Andrew",
+        "text": "Tom has fitted a new boiler and cylinder in the last 18 months including updating 12 radiators. His service is excellent. He is friendly and reliable and will do anything to help, even if just a bit of helpful advice."
+      }
+    ],
+    "areas": [
+      "Ilkley",
+      "Ben Rhydding",
+      "Burley-in-Wharfedale",
+      "Addingham",
+      "Otley",
+      "Menston"
+    ],
+    "built_by": "Aryadev",
+    "place_id": "ChIJW7mA6lD7e0gROtH5iHsIj6M",
+    "_auto": true
+  },
+  {
+    "slug": "reliable-roofing-harrogate",
+    "business": "Reliable Roofing",
+    "trade": "Roofer",
+    "trade_plural": "Roofing",
+    "town": "Harrogate",
+    "county": "North Yorkshire",
+    "coverage": "Harrogate and nearby",
+    "phone": "07827 547095",
+    "whatsapp": "447827547095",
+    "rating": 5,
+    "review_count": 26,
+    "google_url": "https://maps.google.com/?cid=17996662684462100815&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hours": "Mon to Sun 7am to 7pm",
+    "accent": "#9A4A2E",
+    "photos": [
+      "img/hero.jpg",
+      "img/w1.jpg",
+      "img/w2.jpg",
+      "img/w3.jpg",
+      "img/w4.jpg"
+    ],
+    "headline": "Roofing in Harrogate, done properly.",
+    "subline": "Reliable Roofing: rated 5.0 from 26 Google reviews. Call, WhatsApp or send the form for a free quote.",
+    "promises": [
+      "Rated 5.0 on Google",
+      "26 Google reviews",
+      "Based in Harrogate",
+      "Free quotes"
+    ],
+    "services": [
+      {
+        "name": "Roof repairs",
+        "text": "Slipped tiles, leaks and storm damage found and fixed."
+      },
+      {
+        "name": "Flat roofs",
+        "text": "Felt, rubber and GRP flat roofs repaired or replaced."
+      },
+      {
+        "name": "Gutters & fascias",
+        "text": "Gutters, soffits and fascias cleared, repaired or renewed."
+      },
+      {
+        "name": "Chimney work",
+        "text": "Flashing, pointing and chimney repairs."
+      },
+      {
+        "name": "New roofs",
+        "text": "Strip and re-roof with a clear plan and price."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah",
+        "text": "Bill had already done some remedial work on our property so we knew Bill and his team were our number 1 choice and they absolutely did not disappoint. Every aspect of their work was without fault."
+      },
+      {
+        "name": "Rob",
+        "text": "Bill and his team have just replaced the slate roof on our house. Excellent work throughout: good communications, polite and friendly workers and a great job done. Bill clearly takes pride in his work and we are very happy with the result."
+      },
+      {
+        "name": "John",
+        "text": "Bill and team delivered a fantastic job replacing all fascias’s and guttering on our home. The guys turned up on time each day, workmanship was very impressive and completed the work to schedule."
+      }
+    ],
+    "areas": [
+      "Harrogate",
+      "Knaresborough",
+      "Ripon",
+      "Pannal",
+      "Killinghall",
+      "Boroughbridge",
+      "Wetherby",
+      "Pateley Bridge"
+    ],
+    "built_by": "Aryadev",
+    "place_id": "ChIJ9xbzVIJTeUgRTzHkcVz9wPk",
+    "_auto": true
   }
 ]

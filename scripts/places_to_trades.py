@@ -91,8 +91,27 @@ NEARBY = {  # town -> areas listed on the page
     "St Helens": ["St Helens", "Rainford", "Haydock", "Newton-le-Willows", "Eccleston", "Billinge", "Prescot"],
     "Warrington": ["Warrington", "Great Sankey", "Penketh", "Birchwood", "Lymm", "Culcheth", "Stockton Heath"],
     "Widnes": ["Widnes", "Runcorn", "Halebank", "Hough Green", "Cronton", "Warrington", "St Helens"],
+    "Harrogate": ["Harrogate", "Knaresborough", "Ripon", "Pannal", "Killinghall", "Boroughbridge", "Wetherby", "Pateley Bridge"],
+    "Keighley": ["Keighley", "Silsden", "Haworth", "Bingley", "Skipton", "Cross Hills", "Oxenhope"],
+    "Ilkley": ["Ilkley", "Ben Rhydding", "Burley-in-Wharfedale", "Addingham", "Otley", "Menston"],
+    "Skipton": ["Skipton", "Gargrave", "Embsay", "Grassington", "Settle", "Cononley"],
+    "Wetherby": ["Wetherby", "Boston Spa", "Collingham", "Harrogate", "Tadcaster"],
+    "Tetbury": ["Tetbury", "Malmesbury", "Cirencester", "Nailsworth", "Avening"],
+    "Knaresborough": ["Knaresborough", "Harrogate", "Boroughbridge", "Ripon", "Wetherby"],
+    "Ripon": ["Ripon", "Harrogate", "Masham", "Boroughbridge", "Knaresborough", "Pateley Bridge"],
+    "Cirencester": ["Cirencester", "Tetbury", "Fairford", "Stroud", "Bourton-on-the-Water", "Lechlade", "Malmesbury"],
+    "Stroud": ["Stroud", "Nailsworth", "Painswick", "Minchinhampton", "Cirencester", "Stonehouse"],
+    "Chipping Norton": ["Chipping Norton", "Stow-on-the-Wold", "Moreton-in-Marsh", "Burford", "Charlbury", "Woodstock"],
+    "Cheltenham": ["Cheltenham", "Bishop's Cleeve", "Winchcombe", "Prestbury", "Charlton Kings", "Cirencester"],
     "Skelmersdale": ["Skelmersdale", "Ormskirk", "Up Holland", "Parbold", "Burscough", "Aughton"],
 }
+
+
+COUNTY = {"Keighley": "West Yorkshire", "Ilkley": "West Yorkshire", "Skipton": "North Yorkshire", "Otley": "West Yorkshire", "Harrogate": "North Yorkshire", "Knaresborough": "North Yorkshire", "Ripon": "North Yorkshire",
+          "Wetherby": "West Yorkshire", "Cirencester": "Gloucestershire", "Stroud": "Gloucestershire",
+          "Tetbury": "Gloucestershire", "Cheltenham": "Gloucestershire", "Chipping Norton": "Oxfordshire",
+          "Burford": "Oxfordshire", "Moreton-in-Marsh": "Gloucestershire", "Chorley": "Lancashire",
+          "Widnes": "Cheshire", "St Helens": "Merseyside", "Skelmersdale": "Lancashire"}
 
 
 # ---------------------------------------------------------------- small helpers
@@ -201,6 +220,9 @@ def why_not(p, cfg, taken):
     name = p["displayName"]["text"]
     if p.get("businessStatus", "OPERATIONAL") != "OPERATIONAL":
         return "not operating"
+    country = next((c.get("shortText") for c in p.get("addressComponents") or [] if "country" in c.get("types", [])), None)
+    if country and country != "GB":
+        return "other country"
     if p["id"] in taken or slugify(tidy_name(name)) in taken:
         return "already a lead"
     if any(c in name.lower() for c in CHAINS):
@@ -331,7 +353,7 @@ def make_lead(p, slug, cfg, photos):
     reviews = good_reviews(p)
     return {
         "slug": slug, "business": name, "trade": t["trade"], "trade_plural": t["plural"],
-        "town": town, "county": cfg.get("county", "Greater Manchester"), "coverage": f"{town} and nearby",
+        "town": town, "county": COUNTY.get(town, cfg.get("county", "Greater Manchester")), "coverage": f"{town} and nearby",
         "phone": phone, "whatsapp": wa, "rating": rating, "review_count": count,
         "google_url": p.get("googleMapsUri", ""), "hours": hours_text(p), "accent": t["accent"],
         "photos": photos,
@@ -353,17 +375,18 @@ def sheet(rows_leads, cfg):
     rows = []
     for l in rows_leads:
         demo = f"{cfg['base_url'].rstrip('/')}/{l['slug']}/"
-        msg = (f"Hi, I'm {cfg['your_name']}. Saw {l['business']} on Google: {l['rating']:.1f} from {l['review_count']} reviews "
-               f"is brilliant, but there's no website on your listing, so anyone who Googles you after a recommendation has "
-               f"nothing to click, and every quote request goes through the phone.\n\nSo I built you a site from your own "
-               f"reviews, with a free-quote form that sends jobs straight to your WhatsApp: {demo}\n\n"
-               f"If you like it, it's £{cfg['price']} one-off and I'll put it live on your Google listing this week. "
-               f"If not, no worries.")
+        opener = (f"Hi, is this {l['business']}? I'm {cfg['your_name']}. I built a free website preview for you "
+                  f"from your Google reviews ({l['rating']:.1f} from {l['review_count']}!), with a quote form that sends "
+                  f"jobs straight to your WhatsApp. Can I send you the link to have a look?")
+        followup = (f"Here it is: {demo}\n\nThere's no website on your Google listing right now, so anyone who looks you up "
+                    f"after a recommendation has nothing to click, and every quote goes through the phone. This fixes both.\n\n"
+                    f"If you like it, it's £{cfg['price']} one-off and I'll put it live on your Google listing this week. "
+                    f"If not, no worries.")
         rows.append({"business": l["business"], "trade": l["trade"], "town": l["town"], "rating": l["rating"],
                      "reviews": l["review_count"], "phone": l["phone"],
                      "channel": "WhatsApp" if l["whatsapp"] else "Call / text",
-                     "whatsapp_link": f"https://wa.me/{l['whatsapp']}?text={urllib.parse.quote(msg)}" if l["whatsapp"] else "",
-                     "demo": demo, "message": msg, "status": "", "notes": ""})
+                     "whatsapp_link": f"https://wa.me/{l['whatsapp']}?text={urllib.parse.quote(opener)}" if l["whatsapp"] else "",
+                     "demo": demo, "1_opener": opener, "2_after_they_say_yes": followup, "status": "", "notes": ""})
     path = OUT / "outreach.csv"
     with path.open("w", newline="", encoding="utf-8-sig") as f:  # BOM so Excel/Numbers read UTF-8 (£, names)
         w = csv.DictWriter(f, fieldnames=list(rows[0]) if rows else ["business"])
@@ -374,12 +397,13 @@ def sheet(rows_leads, cfg):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--config", default=str(CONFIG))
     ap.add_argument("--limit", type=int)
     ap.add_argument("--max-requests", type=int, default=150)
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--rebuild-sheet", action="store_true")
     a = ap.parse_args()
-    cfg = json.loads(CONFIG.read_text())
+    cfg = json.loads(Path(a.config).read_text())
     cfg.setdefault("min_rating", 4.7)
     cfg.setdefault("min_reviews", 20)
     cfg.setdefault("photos", 5)
